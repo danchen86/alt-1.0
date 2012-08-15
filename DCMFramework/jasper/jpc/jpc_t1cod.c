@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -62,7 +62,7 @@
  */
 
 /*
- * $Id: jpc_t1cod.c,v 1.3 2005/07/06 18:57:13 lpysher Exp $
+ * $Id$
  */
 
 /******************************************************************************\
@@ -74,8 +74,8 @@
 #include <assert.h>
 #include <math.h>
 
-#include "jasper/jas_types.h"
-#include "jasper/jas_math.h"
+#include "jas_types.h"
+#include "jas_math.h"
 
 #include "jpc_bs.h"
 #include "jpc_dec.h"

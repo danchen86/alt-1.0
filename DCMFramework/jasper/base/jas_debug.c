@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -66,8 +66,8 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-#include "jasper/jas_types.h"
-#include "jasper/jas_debug.h"
+#include "jas_types.h"
+#include "jas_debug.h"
 
 /******************************************************************************\
 * Local data.
@@ -125,7 +125,7 @@ int jas_memdump(FILE *out, void *data, size_t len)
 	uchar *dp;
 	dp = data;
 	for (i = 0; i < len; i += 16) {
-		fprintf(out, "%04x:", i);
+//		fprintf(out, "%04x:", i);
 		for (j = 0; j < 16; ++j) {
 			if (i + j < len) {
 				fprintf(out, " %02x", dp[i + j]);

@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //self.contentSizeForViewInPopover = CGSizeMake(150.0, 140.0);
-    self.names = [[NSMutableArray array] init];
+    self.names = [NSMutableArray array];
     [_names addObject:@"Abdomen"];
     [_names addObject:@"Test"];
 

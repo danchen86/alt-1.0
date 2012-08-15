@@ -83,6 +83,7 @@ enum photometricmode{DCM_UNKNOWN_PHOTOMETRIC, DCM_MONOCHROME1,  DCM_MONOCHROME2,
 - (void)convertHostToLittleEndian;
 - (void)convertHostToBigEndian;
 - (NSData *)convertJPEG8ToHost:(NSData *)jpegData;
+//- (NSData *)getSubData;
 //- (NSData *)convertJPEG2000ToHost:(NSData *)jpegData;
 - (NSData *)convertRLEToHost:(NSData *)rleData;
 - (void)createOffsetTable;
@@ -99,7 +100,7 @@ enum photometricmode{DCM_UNKNOWN_PHOTOMETRIC, DCM_MONOCHROME1,  DCM_MONOCHROME2,
 - (NSData *)convertPaletteToRGB:(NSData *)data;
 - (NSData *) convertYBrToRGB:(NSData *)ybrData kind:(NSString *)theKind isPlanar:(BOOL)isPlanar;
 - (NSData *)convertToFloat:(NSData *)data;
-- (NSMutableData *)decodeFrameAtIndex:(int)index;
+- (NSData *)decodeFrameAtIndex:(int)index;
 //- (NSImage *)imageAtIndex:(int)index ww:(float)ww  wl:(float)wl;
 
 @end

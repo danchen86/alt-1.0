@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -62,10 +62,11 @@
 /*
  * Color Management
  *
- * $Id: jas_cm.c,v 1.1 2005/07/05 17:41:31 lpysher Exp $
+ * $Id$
  */
 
 #include "jas_config.h"
+#include "jas_math.h"
 #include <math.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -74,7 +75,7 @@
 #include "jas_init.h"
 #include "jas_stream.h"
 #include "jas_malloc.h"
-#include "jas_math.h"
+#include "jas_types.h"
 
 static jas_cmprof_t *jas_cmprof_create(void);
 static void jas_cmshapmatlut_cleanup(jas_cmshapmatlut_t *);
@@ -158,11 +159,8 @@ jas_cmprof_t *jas_cmprof_createfromclrspc(int clrspc)
 			goto error;
 		if (!(prof = jas_cmprof_createfromiccprof(iccprof)))
 			goto error;
-#if 0
 		jas_iccprof_destroy(iccprof);
-#else
-		prof->iccprof = iccprof;
-#endif
+		iccprof = 0;
 		if (!jas_clrspc_isgeneric(clrspc))
 			prof->clrspc = clrspc;
 		break;
@@ -250,6 +248,10 @@ jas_cmprof_t *jas_cmprof_createfromiccprof(jas_iccprof_t *iccprof)
 	jas_cmpxformseq_t *fwdpxformseq;
 	jas_cmpxformseq_t *revpxformseq;
 
+	prof = 0;
+	fwdpxformseq = 0;
+	revpxformseq = 0;
+
 	if (!(prof = jas_cmprof_create()))
 		goto error;
 	jas_iccprof_gethdr(iccprof, &icchdr);
@@ -292,7 +294,18 @@ jas_cmprof_t *jas_cmprof_createfromiccprof(jas_iccprof_t *iccprof)
 #endif
 
 	return prof;
+
 error:
+	if (fwdpxformseq) {
+		jas_cmpxformseq_destroy(fwdpxformseq);
+	}
+	if (revpxformseq) {
+		jas_cmpxformseq_destroy(revpxformseq);
+	}
+	if (prof) {
+		jas_cmprof_destroy(prof);
+	}
+
 	return 0;
 }
 
@@ -981,9 +994,9 @@ assert(0);
 	}
 #if 0
 for (i=0;i<lut->size;++i)
-	fprintf(stderr, "lut[%d]=%f ", i, lut->data[i]);
+	jas_eprintf("lut[%d]=%f ", i, lut->data[i]);
 for (i=0;i<invlut->size;++i)
-	fprintf(stderr, "invlut[%d]=%f ", i, invlut->data[i]);
+	jas_eprintf("invlut[%d]=%f ", i, invlut->data[i]);
 #endif
 	return 0;
 }
@@ -995,7 +1008,7 @@ static int jas_cmshapmat_invmat(jas_cmreal_t out[3][4], jas_cmreal_t in[3][4])
 	  - in[0][1] * (in[1][0] * in[2][2] - in[1][2] * in[2][0])
 	  + in[0][2] * (in[1][0] * in[2][1] - in[1][1] * in[2][0]);
 #if 0
-fprintf(stderr, "delta=%f\n", d);
+jas_eprintf("delta=%f\n", d);
 #endif
 	if (JAS_ABS(d) < 1e-6)
 		return -1;
@@ -1012,11 +1025,11 @@ fprintf(stderr, "delta=%f\n", d);
 	out[1][3] = -in[1][3];
 	out[2][3] = -in[2][3];
 #if 0
-fprintf(stderr, "[ %f %f %f %f ]\n[ %f %f %f %f ]\n[ %f %f %f %f ]\n",
+jas_eprintf("[ %f %f %f %f ]\n[ %f %f %f %f ]\n[ %f %f %f %f ]\n",
 in[0][0], in[0][1], in[0][2], in[0][3],
 in[1][0], in[1][1], in[1][2], in[1][3],
 in[2][0], in[2][1], in[2][2], in[2][3]);
-fprintf(stderr, "[ %f %f %f %f ]\n[ %f %f %f %f ]\n[ %f %f %f %f ]\n",
+jas_eprintf("[ %f %f %f %f ]\n[ %f %f %f %f ]\n[ %f %f %f %f ]\n",
 out[0][0], out[0][1], out[0][2], out[0][3],
 out[1][0], out[1][1], out[1][2], out[1][3],
 out[2][0], out[2][1], out[2][2], out[2][3]);
@@ -1118,11 +1131,15 @@ static int triclr(jas_iccprof_t *iccprof, int op, jas_cmpxformseq_t **retpxforms
 	jas_cmpxformseq_t *pxformseq;
 	jas_cmreal_t mat[3][4];
 	jas_cmshapmatlut_t lut;
-	jas_cmshapmatlut_init(&lut);
+
+	pxform = 0;
+	pxformseq = 0;
 	for (i = 0; i < 3; ++i) {
 		trcs[i] = 0;
 		cols[i] = 0;
 	}
+	jas_cmshapmatlut_init(&lut);
+
 	if (!(trcs[0] = jas_iccprof_getattr(iccprof, JAS_ICC_TAG_REDTRC)) ||
 	  !(trcs[1] = jas_iccprof_getattr(iccprof, JAS_ICC_TAG_GRNTRC)) ||
 	  !(trcs[2] = jas_iccprof_getattr(iccprof, JAS_ICC_TAG_BLUTRC)) ||
@@ -1187,7 +1204,24 @@ static int triclr(jas_iccprof_t *iccprof, int op, jas_cmpxformseq_t **retpxforms
 	jas_cmpxform_destroy(pxform);
 	*retpxformseq = pxformseq;
 	return 0;
+
 error:
+
+	for (i = 0; i < 3; ++i) {
+		if (trcs[i]) {
+			jas_iccattrval_destroy(trcs[i]);
+		}
+		if (cols[i]) {
+			jas_iccattrval_destroy(cols[i]);
+		}
+	}
+	if (pxformseq) {
+		jas_cmpxformseq_destroy(pxformseq);
+	}
+	if (pxform) {
+		jas_cmpxform_destroy(pxform);
+	}
+
 	return -1;
 }
 

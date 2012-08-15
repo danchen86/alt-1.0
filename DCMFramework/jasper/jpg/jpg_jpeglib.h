@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -67,10 +67,10 @@
 \******************************************************************************/
 
 #include <stdio.h>
-#include "jasper/jas_types.h"
+#include "jas_types.h"
 
 /* Note: The jpeglib.h header file does not include definitions of
   FILE, size_t, etc. */
-#include <jpeglib.h>
+#include "jpeglib.h"
 
 #endif

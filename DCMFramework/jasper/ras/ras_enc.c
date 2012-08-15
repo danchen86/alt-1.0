@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,7 +64,7 @@
 /*
  * Sun Rasterfile Library
  *
- * $Id: ras_enc.c,v 1.3 2005/07/06 18:57:14 lpysher Exp $
+ * $Id$
  */
 
 /******************************************************************************\
@@ -74,9 +74,9 @@
 #include <assert.h>
 #include <stdlib.h>
 
-#include "jasper/jas_image.h"
-#include "jasper/jas_stream.h"
-#include "jasper/jas_debug.h"
+#include "jas_image.h"
+#include "jas_stream.h"
+#include "jas_debug.h"
 
 #include "ras_cod.h"
 #include "ras_enc.h"
@@ -111,7 +111,7 @@ int ras_encode(jas_image_t *image, jas_stream_t *out, char *optstr)
 	ras_enc_t *enc = &encbuf;
 
 	if (optstr) {
-		fprintf(stderr, "warning: ignoring RAS encoder options\n");
+		jas_eprintf("warning: ignoring RAS encoder options\n");
 	}
 
 	switch (jas_clrspc_fam(jas_image_clrspc(image))) {
@@ -156,7 +156,7 @@ int ras_encode(jas_image_t *image, jas_stream_t *out, char *optstr)
 		  jas_image_cmptsgnd(image, enc->cmpts[cmptno]) != false ||
 		  jas_image_cmpttlx(image, enc->cmpts[cmptno]) != 0 ||
 		  jas_image_cmpttly(image, enc->cmpts[cmptno]) != 0) {
-			fprintf(stderr, "The RAS format cannot be used to represent an image with this geometry.\n");
+			jas_eprintf("The RAS format cannot be used to represent an image with this geometry.\n");
 			return -1;
 		}
 	}

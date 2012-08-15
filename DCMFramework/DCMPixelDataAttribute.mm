@@ -12,6 +12,7 @@
      PURPOSE.
 =========================================================================*/
 
+#import "jasper.h"
 
 #import "DCMPixelDataAttribute.h"
 #import "DCM.h"
@@ -24,10 +25,12 @@
 #import "Accelerate/Accelerate.h"
 
 
-//#import "jasper.h"
 
 
-static int Use_kdu_IfAvailable = 1;
+
+static int Use_kdu_IfAvailable = 0;
+bool jasperInitialized = NO;
+//NSData *out_subdata;
 
 // KDU support
 #include "kdu_OsiriXSupport.h"
@@ -1021,11 +1024,11 @@ static inline int int_ceildivpow2(int a, int b) {
 	//jpeg2000
 	if ([[DCMTransferSyntax JPEG2000LosslessTransferSyntax] isEqualToTransferSyntax:ts] || [[DCMTransferSyntax JPEG2000LossyTransferSyntax] isEqualToTransferSyntax:ts])
 	{
-//		if( JasperInitialized == NO)
-//		{
-//			JasperInitialized = YES;
-//			jas_init();
-//		}
+		if( jasperInitialized == NO)
+		{
+			jasperInitialized = YES;
+			jas_init();
+		}
 			
 		NSMutableArray *array = [NSMutableArray array];
 		for ( NSMutableData *data in _values )
@@ -1249,35 +1252,40 @@ static inline int int_ceildivpow2(int a, int b) {
 	return [self convertJPEG8LosslessToHost:jpegData];
 }
 
+#define	vctocc(i, co, cs, vo, vs) \
+(((vo) + (i) * (vs) - (co)) / (cs))
+
+
 - (NSData *)convertJPEG2000ToHost:(NSData *)jpegData
 {
 	NSMutableData *pixelData = nil;
 	
+	
 	BOOL succeed = NO;
 	
-	if( Use_kdu_IfAvailable && kdu_available())
-	{
-		long decompressedLength = 0;
-		
-		int processors = 1;
-		//given iPad, making processors = 1. 
-		
-//		if( [jpegData length] > 512*1024)
-//
-//			processors = MPProcessors()/2;
-		
-		int colorModel;
-		
-		void *p = kdu_decompressJPEG2K( (void*) [jpegData bytes], [jpegData length], &decompressedLength, &colorModel, processors);
-		if( p)
-		{
-			pixelData = [NSMutableData dataWithBytesNoCopy: p length:decompressedLength freeWhenDone: YES];
-			succeed = YES;
-		}
-	}
-	
-//	if( succeed == NO)
+//	if( Use_kdu_IfAvailable && kdu_available())
 //	{
+//		long decompressedLength = 0;
+//		
+//		int processors = 1;
+//		//given iPad, making processors = 1. 
+//		
+////		if( [jpegData length] > 512*1024)
+////
+////			processors = MPProcessors()/2;
+//		
+//		int colorModel;
+//		
+//		void *p = kdu_decompressJPEG2K( (void*) [jpegData bytes], [jpegData length], &decompressedLength, &colorModel, processors);
+//		if( p)
+//		{
+//			pixelData = [NSMutableData dataWithBytesNoCopy: p length:decompressedLength freeWhenDone: YES];
+//			succeed = YES;
+//		}
+//	}
+	
+////	if( succeed == NO)
+////	{
 //		unsigned char *newPixelData;
 //		
 ////		[[NSData dataWithBytesNoCopy: (void*) [jpegData bytes] length: [jpegData length] freeWhenDone: NO] writeToFile: @"/tmp/test.jp2" atomically: YES];
@@ -1290,60 +1298,100 @@ static inline int int_ceildivpow2(int a, int b) {
 //			pixelData = [NSMutableData dataWithBytesNoCopy:newPixelData length:decompressedLength freeWhenDone: YES];
 //			succeed = YES;
 //		}
-//	}
+////	}
 	
-//	if( succeed == NO)
-//	{
-//		int fmtid;
-//		unsigned long i,  theLength,  x, y, decompressedLength;
-//		unsigned char *theCompressedP;
-//		
-//		
-//		jas_image_t *jasImage;
-//		jas_matrix_t *pixels[4];
-//		char *fmtname;
-//		
-//		theCompressedP = (unsigned char*)[jpegData bytes];
-//		theLength = [jpegData length];
-//		
-//		jas_stream_t *jasStream = jas_stream_memopen((char *)theCompressedP, theLength);
-//			
-//		if ((fmtid = jas_image_getfmt(jasStream)) < 0)
-//		{
-//			//RETURN( -32);
-//			NSLog(@"JPEG2000 stream failure");
+	if( succeed == NO)
+	{
+		int fmtid;
+		//unsigned long /*i, x, y,*/ theLength, decompressedLength;
+		unsigned long theLength, length, decompressedLength;
+		unsigned char *theCompressedP;
+		int i,j,x,y,v,vh,vw, cmptno;
+		short *dataArray;
+		short *dataPtr;
+		
+		
+		jas_image_t *jasImage;
+		//jas_matrix_t *pixels[4];
+		char *fmtname;
+		
+		theCompressedP = (unsigned char*)[jpegData bytes];
+		theLength = [jpegData length];
+		
+		jas_stream_t *jasStream = jas_stream_memopen((char *)theCompressedP, theLength);
+			
+		if ((fmtid = jas_image_getfmt(jasStream)) < 0)
+		{
+			//RETURN( -32);
+			NSLog(@"JPEG2000 stream failure");
 //			return nil;
-//		}
-//			// Decode the image. 
-//		if (!(jasImage = jas_image_decode(jasStream, fmtid, 0)))
-//		{
-//			//RETURN( -35);
-//			NSLog(@"JPEG2000 decode failed");
+		}
+			// Decode the image. 
+		if (!(jasImage = jas_image_decode(jasStream, fmtid, 0)))
+		{
+			//RETURN( -35);
+			NSLog(@"JPEG2000 decode failed");
 //			return nil;
-//		}
-//		
-//		// Close the image file. 
-//		jas_stream_close(jasStream);
-//		int numcmpts = jas_image_numcmpts(jasImage);
+		}
+		
+		// Close the image file. 
+		jas_stream_close(jasStream);
+		int numcmpts = jas_image_numcmpts(jasImage);
 //		int width = jas_image_cmptwidth(jasImage, 0);
 //		int height = jas_image_cmptheight(jasImage, 0);
-//		int depth = jas_image_cmptprec(jasImage, 0);
+		int depth = jas_image_cmptprec(jasImage, 0);
 //		int sign = jas_image_cmptsgnd(jasImage, 0);
-//		
-//		//int j;
-//		//int k = 0;
-//		fmtname = jas_image_fmttostr(fmtid);
-//		
-//		int bitDepth = 0;
-//		if (depth == 8)
-//			bitDepth = 1;
-//		else if (depth <= 16)
-//			bitDepth = 2;
-//		else if (depth > 16)
-//			bitDepth = 4;
-//		
-//		decompressedLength =  width * height * bitDepth * numcmpts;
+		
+		//int j;
+		//int k = 0;
+		fmtname = jas_image_fmttostr(fmtid);
+		cmptno = 0;
+
+		vw = jas_image_width(jasImage);
+		vh = jas_image_height(jasImage);
+		//NSLog(@"short is %d", sizeof(short));
+		length = vw * vh * 4 * sizeof(short);
+		
+		dataArray = (short*)malloc(length);
+		
+		for (i = 0; i < vh; ++i) {
+			dataPtr = &dataArray[(vh - 1 - i) * (4 * vw)];
+			for (j = 0; j < vw; ++j) {
+				//NSLog(@"x = %d", jas_image_cmpttlx(jasImage, cmptno));
+				x = vctocc(j, jas_image_cmpttlx(jasImage, cmptno), jas_image_cmpthstep(jasImage, cmptno), 0.0, 1.0);
+				y = vctocc(i, jas_image_cmpttly(jasImage, cmptno), jas_image_cmptvstep(jasImage, cmptno), 0.0, 1.0);
+				v = (x >= 0 && x < jas_image_cmptwidth(jasImage, cmptno) && y >=0 && 
+					 y < jas_image_cmptheight(jasImage, cmptno)) ? 
+					jas_image_readcmptsample(jasImage, cmptno, x, y) : 0;
+				v <<= 16 - jas_image_cmptprec(jasImage, cmptno);
+				//NSLog(@"v = %d\n", v);
+				if (v < 0) {
+					v = 0;
+				} else if (v > 65535) {
+					v = 65535;
+				}
+				*dataPtr++ = v;
+				*dataPtr++ = v;
+				*dataPtr++ = v;
+				*dataPtr++ = 0;
+			}
+		}
+		
+		
+		//Legacy osirix code. using jasper example instead (above)
+		int bitDepth = 0;
+		//int numcmpts = 1;
+		if (depth == 8)
+			bitDepth = 1;
+		else if (depth <= 16)
+			bitDepth = 2;
+		else if (depth > 16)
+			bitDepth = 4;
+		
+		decompressedLength =  vw * vh * bitDepth * numcmpts;
 //		unsigned char *newPixelData = (unsigned char*) malloc(decompressedLength);
+//		
+//		
 //		
 //		for (i=0; i < numcmpts; i++)
 //			pixels[ i] = jas_matrix_create( height, width);
@@ -1403,12 +1451,17 @@ static inline int int_ceildivpow2(int a, int b) {
 //		for (i=0; i < numcmpts; i++)
 //			jas_matrix_destroy( pixels[ i]);
 //	
-//	
-//		jas_image_destroy(jasImage);
-//	//	jas_image_clearfmts();
-//		
-//		pixelData = [NSMutableData dataWithBytesNoCopy:newPixelData length:decompressedLength freeWhenDone: YES];
-//	}
+	
+		jas_image_destroy(jasImage);
+	//	jas_image_clearfmts();
+		
+		//pixelData = [NSMutableData dataWithBytesNoCopy:newPixelData length:decompressedLength freeWhenDone: YES];
+		pixelData = [NSMutableData dataWithBytesNoCopy:dataArray length:decompressedLength freeWhenDone:YES];
+		
+
+
+		
+	}
 	
 	return pixelData;
 }
@@ -1535,54 +1588,56 @@ static inline int int_ceildivpow2(int a, int b) {
 
 - (NSMutableData *)encodeJPEG2000:(NSMutableData *)data quality:(int)quality
 {
-	if( Use_kdu_IfAvailable && kdu_available())
-	{
-		int precision = [[_dcmObject attributeValueWithName:@"BitsStored"] intValue];
-		int rate = 0;
-		
-		switch( quality)
-		{
-			case DCMLosslessQuality:
-				rate = 0;
-			break;
-				
-			case DCMHighQuality:
-				rate = 5;
-			break;
-				
-			case DCMMediumQuality:
-				if( _columns <= 600 || _rows <= 600) rate = 6;
-				else rate = 8;
-			break;
-				
-			case DCMLowQuality:
-				rate = 16;
-			break;
-				
-			default:
-				NSLog( @"****** warning unknown compression rate -> lossless : %d", quality);
-				rate = 0;
-			break;
-		}
-		
-		long compressedLength = 0;
-		
-		int processors = 1;
-		//1 processor for iPad 1st gen
-		
-//		if( _rows*_columns > 256*1024) // 512 * 512
-//			processors = MPProcessors()/2;
-		
-		void *outBuffer = kdu_compressJPEG2K( (void*) [data bytes], _samplesPerPixel, _rows, _columns, precision, false, rate, &compressedLength, processors);
-		
-		NSMutableData *jpeg2000Data = [NSMutableData dataWithBytesNoCopy: outBuffer length: compressedLength freeWhenDone: YES];
-		
-		char zero = 0;
-		if ([jpeg2000Data length] % 2) 
-			[jpeg2000Data appendBytes:&zero length:1];
-		
-		return jpeg2000Data;
-	}
+//	if( Use_kdu_IfAvailable && kdu_available())
+//	{
+//		int precision = [[_dcmObject attributeValueWithName:@"BitsStored"] intValue];
+//		int rate = 0;
+//		
+//		switch( quality)
+//		{
+//			case DCMLosslessQuality:
+//				rate = 0;
+//			break;
+//				
+//			case DCMHighQuality:
+//				rate = 5;
+//			break;
+//				
+//			case DCMMediumQuality:
+//				if( _columns <= 600 || _rows <= 600) rate = 6;
+//				else rate = 8;
+//			break;
+//				
+//			case DCMLowQuality:
+//				rate = 16;
+//			break;
+//				
+//			default:
+//				NSLog( @"****** warning unknown compression rate -> lossless : %d", quality);
+//				rate = 0;
+//			break;
+//		}
+//		
+//		long compressedLength = 0;
+//		
+//		int processors = 1;
+//		//1 processor for iPad 1st gen
+//		
+////		if( _rows*_columns > 256*1024) // 512 * 512
+////			processors = MPProcessors()/2;
+//		
+//		void *outBuffer = kdu_compressJPEG2K( (void*) [data bytes], _samplesPerPixel, _rows, _columns, precision, false, rate, &compressedLength, processors);
+//		
+//		NSMutableData *jpeg2000Data = [NSMutableData dataWithBytesNoCopy: outBuffer length: compressedLength freeWhenDone: YES];
+//		
+//		char zero = 0;
+//		if ([jpeg2000Data length] % 2) 
+//			[jpeg2000Data appendBytes:&zero length:1];
+//		
+//		return jpeg2000Data;
+//	}
+	
+	//EDIT THIS
 ////	else
 ////	{
 ////		opj_cparameters_t parameters;
@@ -1996,7 +2051,7 @@ static inline int int_ceildivpow2(int a, int b) {
 	{
 		for (i = 0; i < [_values count] ;i++)
 		{
-			[self replaceFrameAtIndex:i withFrame:[self decodeFrameAtIndex:i]];
+//			[self replaceFrameAtIndex:i withFrame:[self decodeFrameAtIndex:i]];
 		}
 	}
 	self.transferSyntax = [DCMTransferSyntax ExplicitVRLittleEndianTransferSyntax];
@@ -3670,9 +3725,15 @@ NS_ENDHANDLER
 	}
 }
 
+//- (NSData *) getSubData {
+//	return out_subdata;
+//}
+
 - (NSData *)decodeFrameAtIndex:(int)index
+//- (UIImage *)decodeFrameAtIndex:(int)index
 {
 	[singleThread lock];
+
 	
 	BOOL colorspaceIsConverted = NO;
 	NSMutableData *subData = nil;
@@ -3712,16 +3773,17 @@ NS_ENDHANDLER
 		
 		// data to decoders
 		NSData *data = subData;
+//		out_subdata = [NSData dataWithData:subData];
 		
 		if( transferSyntax.isEncapsulated == YES)
 		{
 			short depth = 0;
 			
-//			if( JasperInitialized == NO)
-//			{
-//				JasperInitialized = YES;
-//				jas_init();
-//			}
+			if( jasperInitialized == NO)
+			{
+				jasperInitialized = YES;
+				jas_init();
+			}
 			
 			[singleThread unlock];
 			
@@ -3859,7 +3921,7 @@ NS_ENDHANDLER
 				else data = [self interleavePlanesInData:data];
 			}
 		}
-		
+			
 		return data;
 	}
 	else

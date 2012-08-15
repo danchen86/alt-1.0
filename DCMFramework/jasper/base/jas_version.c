@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -59,7 +59,7 @@
  * __END_OF_JASPER_LICENSE__
  */
 
-#include "jasper/jas_version.h"
+#include "jas_version.h"
 
 const char *jas_getversion()
 {

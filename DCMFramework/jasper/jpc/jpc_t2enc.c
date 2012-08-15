@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,7 +64,7 @@
 /*
  * Tier 2 Encoder
  *
- * $Id: jpc_t2enc.c,v 1.3 2005/07/06 18:57:13 lpysher Exp $
+ * $Id$
  */
 
 /******************************************************************************\
@@ -75,10 +75,10 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "jasper/jas_fix.h"
-#include "jasper/jas_malloc.h"
-#include "jasper/jas_math.h"
-#include "jasper/jas_debug.h"
+#include "jas_fix.h"
+#include "jas_malloc.h"
+#include "jas_math.h"
+#include "jas_debug.h"
 
 #include "jpc_flt.h"
 #include "jpc_t2enc.h"

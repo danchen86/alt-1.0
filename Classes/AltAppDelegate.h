@@ -8,15 +8,28 @@
 
 #import <UIKit/UIKit.h>
 
-@class AltViewController;
+
+//@class AltTabBarViewController;
+//@class AltViewController;
+//#import "AltViewController.h"
+@class AltTabViewController;
 
 @interface AltAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    AltViewController *viewController;
+    UITabBarController *tabBarController;
+    //AltViewController *viewController;
+    AltTabViewController *viewController;
+    IBOutlet UITabBar *tabBar;
+    
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet AltViewController *viewController;
+//@property (nonatomic, retain) IBOutlet AltViewController *viewController;
+//@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+//@property (nonatomic, retain) IBOutlet AltViewController *viewer;
+//@property (nonatomic, retain) IBOutlet UITabBar *tabBar;
+@property (nonatomic, retain) IBOutlet AltTabViewController *viewController;
 
 @end
 

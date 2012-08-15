@@ -134,7 +134,7 @@
 @property(retain) NSString *frameofReferenceUID;
 
 - (id) initWithContentsOfFile: (NSString *)file; 
-- (NSData*) getNSData;
+- (UIImage*) image;
 
 
 @end

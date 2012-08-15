@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "NavigationController.h"
 #import "ImageTableController.h"
-#import "DCMPix.h"
+#import "GDCMWrapper.h"
 
 @interface AltViewController : UIViewController <UIGestureRecognizerDelegate, UIPopoverControllerDelegate, 
 												NavigationControllerDelegate, ImageTableDelegate>{
@@ -18,7 +18,11 @@
 	UIPopoverController *_navigationPopoverController;
 	
 	IBOutlet UINavigationBar *topNavBar;
-	IBOutlet UITabBar *bottomTabBar;
+	//IBOutlet UITabBar *bottomTabBar;
+													
+	GDCMWrapper* _wrapper;
+	NSMutableArray *_dcmStudy;
+	NSInteger _studyIndex;
 	
 	NSString *_type;
 }

@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -65,10 +65,11 @@
 
 #include <assert.h>
 
-#include "jasper/jas_tvp.h"
-#include "jasper/jas_stream.h"
-#include "jasper/jas_image.h"
-#include "jasper/jas_string.h"
+#include "jas_tvp.h"
+#include "jas_stream.h"
+#include "jas_image.h"
+#include "jas_string.h"
+#include "jas_debug.h"
 
 #include "jpg_cod.h"
 
@@ -88,10 +89,9 @@
 
 jas_image_t *jpg_decode(jas_stream_t *in, char *optstr)
 {
-	fprintf(stderr, "error: JPEG decoder not available\n");
-	fprintf(stderr,
-	  "The IJG JPEG library is required for JPEG decoding support.\n");
-	fprintf(stderr, "%s", JPG_IJGINFO);
+	jas_eprintf("error: JPEG decoder not available\n");
+	jas_eprintf("The IJG JPEG library is required for JPEG decoding support.\n");
+	jas_eprintf("%s", JPG_IJGINFO);
 	return 0;
 }
 
@@ -103,9 +103,8 @@ jas_image_t *jpg_decode(jas_stream_t *in, char *optstr)
 
 int jpg_encode(jas_image_t *image, jas_stream_t *out, char *optstr)
 {
-	fprintf(stderr, "error: JPEG encoder not available\n");
-	fprintf(stderr,
-	  "The IJG JPEG library is required for JPEG encoding support.\n");
-	fprintf(stderr, "%s", JPG_IJGINFO);
+	jas_eprintf("error: JPEG encoder not available\n");
+	jas_eprintf("The IJG JPEG library is required for JPEG encoding support.\n");
+	jas_eprintf("%s", JPG_IJGINFO);
 	return -1;
 }

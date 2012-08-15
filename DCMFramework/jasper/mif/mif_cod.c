@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -65,11 +65,12 @@
 
 #include <assert.h>
 
-#include "jasper/jas_tvp.h"
-#include "jasper/jas_stream.h"
-#include "jasper/jas_image.h"
-#include "jasper/jas_string.h"
-#include "jasper/jas_malloc.h"
+#include "jas_tvp.h"
+#include "jas_stream.h"
+#include "jas_image.h"
+#include "jas_string.h"
+#include "jas_malloc.h"
+#include "jas_debug.h"
 
 #include "mif_cod.h"
 
@@ -279,11 +280,11 @@ int mif_encode(jas_image_t *image, jas_stream_t *out, char *optstr)
 	data = 0;
 
 	if (optstr && *optstr != '\0') {
-		fprintf(stderr, "warning: ignoring unsupported options\n");
+		jas_eprintf("warning: ignoring unsupported options\n");
 	}
 
 	if ((fmt = jas_image_strtofmt("pnm")) < 0) {
-		fprintf(stderr, "error: PNM support required\n");
+		jas_eprintf("error: PNM support required\n");
 		goto error;
 	}
 
@@ -468,7 +469,7 @@ static mif_hdr_t *mif_hdr_get(jas_stream_t *in)
 	if (magicbuf[0] != (MIF_MAGIC >> 24) || magicbuf[1] != ((MIF_MAGIC >> 16) &
 	  0xff) || magicbuf[2] != ((MIF_MAGIC >> 8) & 0xff) || magicbuf[3] !=
 	  (MIF_MAGIC & 0xff)) {
-		fprintf(stderr, "error: bad signature\n");
+		jas_eprintf("error: bad signature\n");
 		goto error;
 	}
 

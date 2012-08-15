@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -67,12 +67,13 @@
 #include <assert.h>
 #include <ctype.h>
 
-#include "jasper/jas_tvp.h"
-#include "jasper/jas_stream.h"
-#include "jasper/jas_image.h"
-#include "jasper/jas_string.h"
+#include "jas_tvp.h"
+#include "jas_stream.h"
+#include "jas_image.h"
+#include "jas_string.h"
 
 #include "jpg_jpeglib.h"
+#include "jpeglib.h"
 #include "jpg_cod.h"
 
 /******************************************************************************\

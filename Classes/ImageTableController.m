@@ -182,7 +182,7 @@
 
 - (void)dealloc {
     [super dealloc];
-	[self.images release];
+	//[self.images release];
 	//[self.delegate release];
 }
 

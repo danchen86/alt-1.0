@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,7 +64,7 @@
 /*
  * JPEG-2000 Decoder
  *
- * $Id: jpc_dec.h,v 1.3 2005/07/06 18:57:13 lpysher Exp $
+ * $Id$
  */
 
 #ifndef JPC_DEC_H
@@ -74,7 +74,7 @@
 * Includes.
 \******************************************************************************/
 
-#include "jasper/jas_stream.h"
+#include "jas_stream.h"
 
 #include "jpc_tsfb.h"
 #include "jpc_bs.h"

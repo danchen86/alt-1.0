@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GDCMMessage.h"
 
-@interface AltSearchViewController : UIViewController
+@interface AltSearchViewController : UIViewController {
+    IBOutlet UIButton *test;
+}
+
+- (IBAction)setTestButtonTapped:(id)sender;
+
 
 @end

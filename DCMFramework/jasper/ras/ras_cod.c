@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,7 +64,7 @@
 /*
  * Sun Rasterfile Library
  *
- * $Id: ras_cod.c,v 1.1 2005/07/05 17:41:35 lpysher Exp $
+ * $Id$
  */
 
 /* Note: There is not currently any code common to both the encoder and

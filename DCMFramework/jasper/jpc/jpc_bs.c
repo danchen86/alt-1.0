@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,7 +64,7 @@
 /*
  * Bit Stream Class
  *
- * $Id: jpc_bs.c,v 1.3 2005/07/06 18:57:13 lpysher Exp $
+ * $Id$
  */
 
 /******************************************************************************\
@@ -75,9 +75,9 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-#include "jasper/jas_malloc.h"
-#include "jasper/jas_math.h"
-#include "jasper/jas_debug.h"
+#include "jas_malloc.h"
+#include "jas_math.h"
+#include "jas_debug.h"
 
 #include "jpc_bs.h"
 
@@ -97,8 +97,11 @@ jpc_bitstream_t *jpc_bitstream_sopen(jas_stream_t *stream, char *mode)
 	jpc_bitstream_t *bitstream;
 
 	/* Ensure that the open mode is valid. */
+#if 1
+/* This causes a string literal too long error (with c99 pedantic mode). */
 	assert(!strcmp(mode, "r") || !strcmp(mode, "w") || !strcmp(mode, "r+")
 	  || !strcmp(mode, "w+"));
+#endif
 
 	if (!(bitstream = jpc_bitstream_alloc())) {
 		return 0;

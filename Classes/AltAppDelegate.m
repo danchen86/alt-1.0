@@ -7,7 +7,9 @@
 //
 
 #import "AltAppDelegate.h"
-#import "AltViewController.h"
+#import "AltTabViewController.h"
+//#import "AltViewController.h"
+//#import "AltTabBarViewController.h"
 
 @implementation AltAppDelegate
 
@@ -22,9 +24,19 @@
     
     // Override point for customization after app launch.
 	
+    // Default to first view.
+//    AltViewController *viewController = [[AltViewController alloc] init];
+//    self.viewer = viewController;
+//    [viewController release];
+//    [self.window addSubview:self.viewer.view];
+//    [self.window makeKeyAndVisible];
+    
+    
 	// Set the view controller as the window's root view controller and display.
+
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
 
 	return YES;
 }
@@ -53,6 +65,9 @@
 }
 
 
+
+
+
 #pragma mark -
 #pragma mark Memory management
 
@@ -64,10 +79,13 @@
 
 
 - (void)dealloc {
-    [viewController release];
-    [window release];
+	//Uncomment for debug
+//    [viewController release];
+//    [window release];
     [super dealloc];
 }
+
+
 
 
 @end

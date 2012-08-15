@@ -12,12 +12,14 @@
 #import "DCM.h"
 
 
+
 @implementation DCMPix
 static NSMutableDictionary *cachedPapyGroups = nil;
 static NSMutableDictionary *cachedDCMFrameworkFiles = nil;
 static NSConditionLock *purgeCacheLock = nil;
 BOOL gUseShutter = NO;
 BOOL gDisplayDICOMOverlays = YES;
+NSData* gblPicData = nil;
 
 
 @synthesize laterality;
@@ -1000,317 +1002,323 @@ BOOL gDisplayDICOMOverlays = YES;
 			}
 			
 			//get PixelData
-			short *oImage = nil;
-			NSData *pixData = [pixelAttr decodeFrameAtIndex:imageNb];
-			if( [pixData length] > 0)
-			{
-				oImage =  malloc( [pixData length]);	//pointer to a memory zone where each pixel of the data has a short value reserved
-				if( oImage)
-					[pixData getBytes:oImage];
-                else
-                    NSLog( @"----- Major memory problems 1...");
-			}
+			//short *oImage = nil;
+//			picData = [pixelAttr getSubData];
+			//NSData *pixData = [pixelAttr decodeFrameAtIndex:imageNb];
+			gblPicData = [pixelAttr decodeFrameAtIndex:imageNb];
+//			if( [pixData length] > 0)
+//			{
+//				oImage =  malloc( [pixData length]);	//pointer to a memory zone where each pixel of the data has a short value reserved
+//				if( oImage)
+//					[pixData getBytes:oImage];
+//                else
+//                    NSLog( @"----- Major memory problems 1...");
+//			}
+//			
+//			if( oImage == nil) //there was no data for this frame -> create empty image
+//			{
+//				//NSLog(@"image size: %d", ( height * width * 2));
+//				oImage = malloc( height * width * 2);
+//				if( oImage)
+//				{
+//                    long yo = 0;
+//                    for( unsigned long i = 0 ; i < height * width; i++)
+//                    {
+//                        oImage[ i] = yo++;
+//                        if( yo>= width) yo = 0;
+//                    }
+//                }
+//                else
+//                    NSLog( @"----- Major memory problems 2...");
+//			}
+//			
+//
+//			
+//			//-----------------------frame data already loaded in (short) oImage --------------
+//			
+//			isRGB = NO;
+//			inverseVal = NO;
 			
-			if( oImage == nil) //there was no data for this frame -> create empty image
-			{
-				//NSLog(@"image size: %d", ( height * width * 2));
-				oImage = malloc( height * width * 2);
-				if( oImage)
-				{
-                    long yo = 0;
-                    for( unsigned long i = 0 ; i < height * width; i++)
-                    {
-                        oImage[ i] = yo++;
-                        if( yo>= width) yo = 0;
-                    }
-                }
-                else
-                    NSLog( @"----- Major memory problems 2...");
-			}
-			
-			//-----------------------frame data already loaded in (short) oImage --------------
-			
-			isRGB = NO;
-			inverseVal = NO;
-			
-			NSString *colorspace = [dcmObject attributeValueWithName:@"PhotometricInterpretation"];		
-			if ([colorspace rangeOfString:@"MONOCHROME1"].location != NSNotFound)
-			{
-				if( [[dcmObject attributeValueWithName:@"Modality"] isEqualToString:@"PT"] == YES || ([[NSUserDefaults standardUserDefaults] boolForKey:@"OpacityTableNM"] == YES && [[dcmObject attributeValueWithName:@"Modality"] isEqualToString:@"NM"] == YES))
-				{
-					
-				}
-				else
-					inverseVal = YES; savedWL = -savedWL;
-			}
-			/*else if ( [colorspace hasPrefix:@"MONOCHROME2"])	{inverseVal = NO; savedWL = savedWL;} */
-			if ( [colorspace hasPrefix:@"YBR"]) isRGB = YES;		
-			if ( [colorspace hasPrefix:@"PALETTE"])	{ bitsAllocated = 8; isRGB = YES; NSLog(@"Palette depth conveted to 8 bit");}
-			if ([colorspace rangeOfString:@"RGB"].location != NSNotFound) isRGB = YES;			
-			/******** dcm Object will do this *******convertYbrToRgb -> planar is converted***/		
-			if ([colorspace rangeOfString:@"YBR"].location != NSNotFound)
-			{
-				fPlanarConf = 0;
-				isRGB = YES;
-			}
-			
-			if (isRGB == YES)
-			{
-				unsigned char   *ptr, *tmpImage;
-				int loop = (int) height * (int) width;
-				tmpImage = malloc (loop * 4L);
-				ptr = tmpImage;
-				
-				if( bitsAllocated > 8)
-				{
-					if( [pixData length] < height*width*2*3)
-					{
-						NSLog( @"************* [pixData length] < height*width*2*3");
-						loop = [pixData length]/6;
-					}
-					
-					// RGB_FFF
-					unsigned short   *bufPtr;
-					bufPtr = (unsigned short*) oImage;
-					while( loop-- > 0)
-					{		//unsigned short=16 bit, then I suppose A should be 65535
-						*ptr++	= 255;			//ptr++;
-						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
-						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
-						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
-					}
-				}
-				else
-				{
-					if( [pixData length] < height*width*3)
-					{
-						NSLog( @"************* [pixData length] < height*width*3");
-						loop = [pixData length]/3;
-					}
-					
-					// RGB_888
-					unsigned char   *bufPtr;
-					bufPtr = (unsigned char*) oImage;
-					
-					while( loop-- > 0)
-					{
-						*ptr++	= 255;			//ptr++;
-						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
-						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
-						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
-					}
-					
-				}
-				free(oImage);
-				oImage = (short*) tmpImage;
-			}
-			else if( bitsAllocated == 8)
-			{
-				// Planar 8
-				//-> 16 bits image
-				unsigned char   *bufPtr;
-				short			*ptr, *tmpImage;
-				int			loop, totSize;
-				
-				totSize = (int) ((int) height * (int) width * 2L);
-				tmpImage = malloc( totSize);
-				
-				bufPtr = (unsigned char*) oImage;
-				ptr    = tmpImage;
-				
-				loop = totSize/2;
-				
-				if( [pixData length] < loop)
-				{
-					NSLog( @"************* [pixData length] < height * width");
-					loop = [pixData length];
-				}
-				
-				while( loop-- > 0)
-				{
-					*ptr++ = *bufPtr++;
-				}
-				free(oImage);
-				oImage =  (short*) tmpImage;
-			}
-			
-			//***********
-			
-			if( isRGB)
-			{
-				if( fExternalOwnedImage)
-				{
-					fImage = fExternalOwnedImage;
-					memcpy( fImage, oImage, width*height*sizeof(float));
-					free(oImage);
-				}
-				else fImage = (float*) oImage;
-				oImage = nil;
-				
-				if( oData && gDisplayDICOMOverlays)
-				{
-					unsigned char	*rgbData = (unsigned char*) fImage;
-					
-					for( int y = 0; y < oRows; y++)
-					{
-						for( int x = 0; x < oColumns; x++)
-						{
-							if( oData[ y * oColumns + x])
-							{
-								rgbData[ y * width*4 + x*4 + 1] = 0xFF;
-								rgbData[ y * width*4 + x*4 + 2] = 0xFF;
-								rgbData[ y * width*4 + x*4 + 3] = 0xFF;
-							}
-						}
-					}
-				}
-			}
-			else
-			{
-				if( bitsAllocated == 32) // 32-bit float or 32-bit integers
-				{
-					if( fExternalOwnedImage)
-						fImage = fExternalOwnedImage;
-					else
-						fImage = malloc(width*height*sizeof(float) + 100);
-					
-					if( fImage)
-					{
-						memcpy( fImage, oImage, height * width * sizeof( float));
-						
-						if( slope != 1.0 || offset != 0 || [[NSUserDefaults standardUserDefaults] boolForKey: @"32bitDICOMAreAlwaysIntegers"]) 
-						{
-							unsigned int *usint = (unsigned int*) oImage;
-							int *sint = (int*) oImage;
-							float *tDestF = fImage;
-							double dOffset = offset, dSlope = slope;
-							
-							if( fIsSigned > 0)
-							{
-								unsigned long x = height * width;
-								while( x-- > 0)
-									*tDestF++ = ((double) (*sint++)) * dSlope + dOffset;
-							}
-							else
-							{
-								unsigned long x = height * width;
-								while( x-- > 0)
-									*tDestF++ = ((double) (*usint++)) * dSlope + dOffset;
-							}
-						}
-					}
-					else
-						NSLog( @"*** Not enough memory - malloc failed");
-                    
-					free(oImage);
-					oImage = nil;
-				}
-				else
-				{
-					vImage_Buffer src16, dstf;
-					dstf.height = src16.height = height;
-					dstf.width = src16.width = width;
-					src16.rowBytes = width*2;
-					dstf.rowBytes = width*sizeof(float);
-					
-					src16.data = oImage;
-					
-					if( fExternalOwnedImage)
-						fImage = fExternalOwnedImage;
-					else
-						fImage = malloc(width*height*sizeof(float) + 100);
-					
-					dstf.data = fImage;
-					
-					if( dstf.data)
-					{
-						if( bitsAllocated == 16 && [pixData length] < height*width*2)
-						{
-							NSLog( @"************* [pixData length] < height * width");
-							
-							if( [pixData length] == height*width) // 8 bits??
-							{
-								NSLog( @"************* [[pixData length] == height*width : 8 bits? but declared as 16 bits...");
-								
-								unsigned long x = height * width;
-								float *tDestF = (float*) dstf.data;
-								unsigned char *oChar = (unsigned char*) oImage;
-								while( x-- > 0)
-									*tDestF++ = *oChar++;
-							}
-							else
-								memset( dstf.data, 0, width*height*sizeof(float));
-						}
-						else
-						{
-							if( fIsSigned > 0)
-								vImageConvert_16SToF( &src16, &dstf, offset, slope, 0);
-							else
-								vImageConvert_16UToF( &src16, &dstf, offset, slope, 0);
-						}
-						
-						if( inverseVal)
-						{
-							float neg = -1;
-							vDSP_vsmul( fImage, 1, &neg, fImage, 1, height * width);
-						}
-					}
-					else NSLog( @"*** Not enough memory - malloc failed");
-					
-					free(oImage);
-					oImage = nil;
-				}
-				
-				if( oData && gDisplayDICOMOverlays)
-				{
-					float maxValue = 0;
-					
-					if( inverseVal)
-						maxValue = -offset;
-					else
-					{
-						maxValue = pow( 2, bitsStored);
-						maxValue *= slope;
-						maxValue += offset;
-					}
-					
-					if( oColumns == width)
-					{
-						register unsigned long x = oRows * oColumns;
-						register unsigned char *d = oData;
-						register float *ffI = fImage;
-						
-						while( x-- > 0)
-						{
-							if( *d++)
-								*ffI = maxValue;
-							ffI++;
-						}
-					}
-					else
-					{
-						NSLog( @"-- oColumns != width");
-						
-						for( int y = 0; y < oRows; y++)
-						{
-							for( int x = 0; x < oColumns; x++)
-							{
-								if( oData[ y * oColumns + x]) fImage[ y * width + x] = maxValue;
-							}
-						}
-						
-					}
-				}
-			}
-			
-			wl = 0;
-			ww = 0; //Computed later, only if needed
-			
-			if( savedWW != 0)
-			{
-				wl = savedWL;
-				ww = savedWW;
-			}
+			//Commented out section, image parsing done at DCMPixelDataAttribute level with jasper
+//			NSString *colorspace = [dcmObject attributeValueWithName:@"PhotometricInterpretation"];		
+//			if ([colorspace rangeOfString:@"MONOCHROME1"].location != NSNotFound)
+//			{
+//				if( [[dcmObject attributeValueWithName:@"Modality"] isEqualToString:@"PT"] == YES || ([[NSUserDefaults standardUserDefaults] boolForKey:@"OpacityTableNM"] == YES && [[dcmObject attributeValueWithName:@"Modality"] isEqualToString:@"NM"] == YES))
+//				{
+//					
+//				}
+//				else
+//					inverseVal = YES; savedWL = -savedWL;
+//			}
+//			/*else if ( [colorspace hasPrefix:@"MONOCHROME2"])	{inverseVal = NO; savedWL = savedWL;} */
+//			if ( [colorspace hasPrefix:@"YBR"]) isRGB = YES;		
+//			if ( [colorspace hasPrefix:@"PALETTE"])	{ bitsAllocated = 8; isRGB = YES; NSLog(@"Palette depth conveted to 8 bit");}
+//			if ([colorspace rangeOfString:@"RGB"].location != NSNotFound) isRGB = YES;			
+//			/******** dcm Object will do this *******convertYbrToRgb -> planar is converted***/		
+//			if ([colorspace rangeOfString:@"YBR"].location != NSNotFound)
+//			{
+//				fPlanarConf = 0;
+//				isRGB = YES;
+//			}
+//			
+//			if (isRGB == YES)
+//			{
+//				unsigned char   *ptr, *tmpImage;
+//				int loop = (int) height * (int) width;
+//				tmpImage = malloc (loop * 4L);
+//				ptr = tmpImage;
+//				
+//				if( bitsAllocated > 8)
+//				{
+//					if( [pixData length] < height*width*2*3)
+//					{
+//						NSLog( @"************* [pixData length] < height*width*2*3");
+//						loop = [pixData length]/6;
+//					}
+//					
+//					// RGB_FFF
+//					unsigned short   *bufPtr;
+//					bufPtr = (unsigned short*) oImage;
+//					while( loop-- > 0)
+//					{		//unsigned short=16 bit, then I suppose A should be 65535
+//						*ptr++	= 255;			//ptr++;
+//						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
+//						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
+//						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
+//					}
+//				}
+//				else
+//				{
+//					if( [pixData length] < height*width*3)
+//					{
+//						NSLog( @"************* [pixData length] < height*width*3");
+//						loop = [pixData length]/3;
+//					}
+//					
+//					// RGB_888
+//					unsigned char   *bufPtr;
+//					bufPtr = (unsigned char*) oImage;
+//					
+//					while( loop-- > 0)
+//					{
+//						*ptr++	= 255;			//ptr++;
+//						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
+//						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
+//						*ptr++	= *bufPtr++;		//ptr++;  bufPtr++;
+//					}
+//					
+//				}
+//				free(oImage);
+//				oImage = (short*) tmpImage;
+//			}
+//			else if( bitsAllocated == 8)
+//			{
+//				// Planar 8
+//				//-> 16 bits image
+//				unsigned char   *bufPtr;
+//				short			*ptr, *tmpImage;
+//				int			loop, totSize;
+//				
+//				totSize = (int) ((int) height * (int) width * 2L);
+//				tmpImage = malloc( totSize);
+//				
+//				bufPtr = (unsigned char*) oImage;
+//				ptr    = tmpImage;
+//				
+//				loop = totSize/2;
+//				
+//				if( [pixData length] < loop)
+//				{
+//					NSLog( @"************* [pixData length] < height * width");
+//					loop = [pixData length];
+//				}
+//				
+//				while( loop-- > 0)
+//				{
+//					*ptr++ = *bufPtr++;
+//				}
+//				free(oImage);
+//				oImage =  (short*) tmpImage;
+//			}
+//			
+//			//***********
+//			
+//			if( isRGB)
+//			{
+//				if( fExternalOwnedImage)
+//				{
+//					fImage = fExternalOwnedImage;
+//					memcpy( fImage, oImage, width*height*sizeof(float));
+//					free(oImage);
+//				}
+//				else fImage = (float*) oImage;
+//				oImage = nil;
+//				
+//				if( oData && gDisplayDICOMOverlays)
+//				{
+//					unsigned char	*rgbData = (unsigned char*) fImage;
+//					
+//					for( int y = 0; y < oRows; y++)
+//					{
+//						for( int x = 0; x < oColumns; x++)
+//						{
+//							if( oData[ y * oColumns + x])
+//							{
+//								rgbData[ y * width*4 + x*4 + 1] = 0xFF;
+//								rgbData[ y * width*4 + x*4 + 2] = 0xFF;
+//								rgbData[ y * width*4 + x*4 + 3] = 0xFF;
+//							}
+//						}
+//					}
+//				}
+//			}
+//			else
+//			{
+//				if( bitsAllocated == 32) // 32-bit float or 32-bit integers
+//				{
+//					if( fExternalOwnedImage)
+//						fImage = fExternalOwnedImage;
+//					else
+//						fImage = malloc(width*height*sizeof(float) + 100);
+//					
+//					if( fImage)
+//					{
+//						memcpy( fImage, oImage, height * width * sizeof( float));
+//						
+//						if( slope != 1.0 || offset != 0 || [[NSUserDefaults standardUserDefaults] boolForKey: @"32bitDICOMAreAlwaysIntegers"]) 
+//						{
+//							unsigned int *usint = (unsigned int*) oImage;
+//							int *sint = (int*) oImage;
+//							float *tDestF = fImage;
+//							double dOffset = offset, dSlope = slope;
+//							
+//							if( fIsSigned > 0)
+//							{
+//								unsigned long x = height * width;
+//								while( x-- > 0)
+//									*tDestF++ = ((double) (*sint++)) * dSlope + dOffset;
+//							}
+//							else
+//							{
+//								unsigned long x = height * width;
+//								while( x-- > 0)
+//									*tDestF++ = ((double) (*usint++)) * dSlope + dOffset;
+//							}
+//						}
+//					}
+//					else
+//						NSLog( @"*** Not enough memory - malloc failed");
+//                    
+//					free(oImage);
+//					oImage = nil;
+//				}
+//				else
+//				{
+//					vImage_Buffer src16, dstf;
+//					dstf.height = src16.height = height;
+//					dstf.width = src16.width = width;
+//					src16.rowBytes = width*2;
+//					dstf.rowBytes = width*sizeof(float);
+//					
+//					src16.data = oImage;
+//					
+//					if( fExternalOwnedImage)
+//						fImage = fExternalOwnedImage;
+//					else
+//						fImage = malloc(width*height*sizeof(float) + 100);
+//					
+//					dstf.data = fImage;
+//					
+//					if( dstf.data)
+//					{
+//						if( bitsAllocated == 16 && [pixData length] < height*width*2)
+//						{
+//							NSLog( @"************* [pixData length] < height * width");
+//							
+//							if( [pixData length] == height*width) // 8 bits??
+//							{
+//								NSLog( @"************* [[pixData length] == height*width : 8 bits? but declared as 16 bits...");
+//								
+//								unsigned long x = height * width;
+//								float *tDestF = (float*) dstf.data;
+//								unsigned char *oChar = (unsigned char*) oImage;
+//								while( x-- > 0)
+//									*tDestF++ = *oChar++;
+//							}
+//							else
+//								memset( dstf.data, 0, width*height*sizeof(float));
+//						}
+//						else
+//						{
+//							if( fIsSigned > 0)
+//								vImageConvert_16SToF( &src16, &dstf, offset, slope, 0);
+//							else
+//								vImageConvert_16UToF( &src16, &dstf, offset, slope, 0);
+//						}
+//						
+//						if( inverseVal)
+//						{
+//							float neg = -1;
+//							vDSP_vsmul( fImage, 1, &neg, fImage, 1, height * width);
+//						}
+//					}
+//					else NSLog( @"*** Not enough memory - malloc failed");
+//					
+//					free(oImage);
+//					oImage = nil;
+//				}
+//				
+//				if( oData && gDisplayDICOMOverlays)
+//				{
+//					float maxValue = 0;
+//					
+//					if( inverseVal)
+//						maxValue = -offset;
+//					else
+//					{
+//						maxValue = pow( 2, bitsStored);
+//						maxValue *= slope;
+//						maxValue += offset;
+//					}
+//					
+//					if( oColumns == width)
+//					{
+//						register unsigned long x = oRows * oColumns;
+//						register unsigned char *d = oData;
+//						register float *ffI = fImage;
+//						
+//						while( x-- > 0)
+//						{
+//							if( *d++)
+//								*ffI = maxValue;
+//							ffI++;
+//						}
+//					}
+//					else
+//					{
+//						NSLog( @"-- oColumns != width");
+//						
+//						for( int y = 0; y < oRows; y++)
+//						{
+//							for( int x = 0; x < oColumns; x++)
+//							{
+//								if( oData[ y * oColumns + x]) fImage[ y * width + x] = maxValue;
+//							}
+//						}
+//						
+//					}
+//				}
+//			}
+//			
+//			wl = 0;
+//			ww = 0; //Computed later, only if needed
+//			
+//			if( savedWW != 0)
+//			{
+//				wl = savedWL;
+//				ww = savedWW;
+//			}
+			// end Pixel Data manipulation. This code is now being handled at DCMPIxelDataAttribute level
 			
 #pragma mark *after loading a frame
 			
@@ -1432,33 +1440,33 @@ BOOL gDisplayDICOMOverlays = YES;
 
 			
 		
-		if( fImage == nil)
-		{
-			NSLog(@"not able to load the image : %@", srcFile);
-			
-            fImage = malloc( 128 * 128 * 4);
-			
-			height = 128;
-			width = 128;
-			oImage = nil;
-			isRGB = NO;
-			notAbleToLoadImage = YES;
-			
-			for( int i = 0; i < 128*128; i++)
-				fImage[ i ] = i;
-		}
-		
-		if( isRGB)	// COMPUTE ALPHA MASK = ALPHA = R+G+B/3
-		{
-			unsigned char *argbPtr = (unsigned char*) fImage;
-			long ss = width * height;
-			
-			while( ss-->0)
-			{
-				*argbPtr = (*(argbPtr+1) + *(argbPtr+2) + *(argbPtr+3)) / 3;
-				argbPtr+=4;
-			}
-		}
+//		if( fImage == nil)
+//		{
+//			NSLog(@"not able to load the image : %@", srcFile);
+//			
+//            fImage = malloc( 128 * 128 * 4);
+//			
+//			height = 128;
+//			width = 128;
+//			oImage = nil;
+//			isRGB = NO;
+//			notAbleToLoadImage = YES;
+//			
+//			for( int i = 0; i < 128*128; i++)
+//				fImage[ i ] = i;
+//		}
+//		
+//		if( isRGB)	// COMPUTE ALPHA MASK = ALPHA = R+G+B/3
+//		{
+//			unsigned char *argbPtr = (unsigned char*) fImage;
+//			long ss = width * height;
+//			
+//			while( ss-->0)
+//			{
+//				*argbPtr = (*(argbPtr+1) + *(argbPtr+2) + *(argbPtr+3)) / 3;
+//				argbPtr+=4;
+//			}
+//		}
 	}
 }
 #pragma GCC diagnostic warning "-Wdeprecated-declarations"
@@ -1631,14 +1639,123 @@ BOOL gDisplayDICOMOverlays = YES;
 //    return image;
 //}
 
-- (NSData*) getNSData {
+- (UIImage*) image {
 	[self CheckLoad];
 	
-	NSMutableData * data = [NSMutableData dataWithCapacity:0];
-	[data appendBytes:&fImage length:sizeof(float*)];
-	return data;
+	//grayscale pictures
+	short* imageArray;
+	if (gblPicData != nil) {
+		[gblPicData getBytes:imageArray];
+
+		CGDataProviderRef provider = 
+			CGDataProviderCreateWithData(nil, 
+										 imageArray, 
+										 [gblPicData length], 
+										 nil);
+		
+		CGImageRef imageRef = 
+			CGImageCreate(width, 
+						  height, 
+						  8, 
+						  8, 
+						  width*3, 
+						  CGColorSpaceCreateDeviceGray(),
+						  kCGImageAlphaNone, 
+						  provider, 
+						  nil, 
+						  false, 
+						  kCGRenderingIntentDefault);
+//      CGImageCreate(
+//		<#size_t width#>, 
+//		<#size_t height#>, 
+//		<#size_t bitsPerComponent#>, 
+//		<#size_t bitsPerPixel#>, 
+//		<#size_t bytesPerRow#>, 
+//		<#CGColorSpaceRef space#>, 
+//		<#CGBitmapInfo bitmapInfo#>, 
+//		<#CGDataProviderRef provider#>, 
+//		<#const CGFloat *decode#>, 
+//		<#bool shouldInterpolate#>, 
+//		<#CGColorRenderingIntent intent#>)
+		
+
+		
+		return [UIImage imageWithCGImage:imageRef];
+	}
+	
+	return nil;
 }
 
+//- (NSImage*) image
+//{
+//	unsigned char		*buf = nil;
+//	long				i;
+//	NSImage				*imageRep = nil;
+//
+//	NSBitmapImageRep	*rep;
+//	
+//	[self compute8bitRepresentation];
+//	
+//	if( [self isRGB] == YES)
+//	{
+//		i = width * height * 3;
+//		buf = malloc( i);
+//		if( buf)
+//		{
+//			unsigned char *dst = buf, *src = (unsigned char*) [self baseAddr];
+//			i = width * height;
+//			
+//			// CONVERT ARGB TO RGB
+//			while( i-- > 0)
+//			{
+//				src++;
+//				*dst++ = *src++;
+//				*dst++ = *src++;
+//				*dst++ = *src++;
+//			}
+//		}
+//		
+//		rep = [[[NSBitmapImageRep alloc]
+//				initWithBitmapDataPlanes:nil
+//				pixelsWide:width
+//				pixelsHigh:height
+//				bitsPerSample:8
+//				samplesPerPixel:3
+//				hasAlpha:NO
+//				isPlanar:NO
+//				colorSpaceName:NSCalibratedRGBColorSpace
+//				bytesPerRow:width*3
+//				bitsPerPixel:24] autorelease];
+//		
+//		memcpy( [rep bitmapData], buf, height*width*3);
+//		
+//		imageRep = [[[NSImage alloc] init] autorelease];
+//		[imageRep addRepresentation:rep];
+//		
+//		free( buf);
+//	}
+//	else
+//	{
+//		rep = [[[NSBitmapImageRep alloc]
+//				initWithBitmapDataPlanes:nil
+//				pixelsWide:width
+//				pixelsHigh:height
+//				bitsPerSample:8
+//				samplesPerPixel:1
+//				hasAlpha:NO
+//				isPlanar:NO
+//				colorSpaceName:NSCalibratedWhiteColorSpace
+//				bytesPerRow:width
+//				bitsPerPixel:8] autorelease];
+//		
+//		memcpy( [rep bitmapData], [self baseAddr], height*width);
+//		
+//		imageRep = [[[NSImage alloc] init] autorelease];
+//		[imageRep addRepresentation:rep];
+//	}
+//	
+//	return imageRep;
+//}
 
 
 

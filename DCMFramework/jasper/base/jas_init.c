@@ -7,9 +7,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -63,9 +63,9 @@
 * Includes.
 \******************************************************************************/
 
-#include "jasper/jas_types.h"
-#include "jasper/jas_image.h"
-#include "jasper/jas_init.h"
+#include "jas_types.h"
+#include "jas_image.h"
+#include "jas_init.h"
 
 /******************************************************************************\
 * Code.
@@ -130,14 +130,14 @@ int jas_init()
 	  "JPEG-2000 Code Stream Syntax (ISO/IEC 15444-1)", &fmtops);
 	++fmtid;
 #endif
-#define EXCLUDE_JPG_SUPPORT YES
-#if !defined(EXCLUDE_JPG_SUPPORT)
-	fmtops.decode = jpg_decode;
-	fmtops.encode = jpg_encode;
-	fmtops.validate = jpg_validate;
-	jas_image_addfmt(fmtid, "jpg", "jpg", "JPEG (ISO/IEC 10918-1)", &fmtops);
-	++fmtid;
-#endif
+
+//#if !defined(EXCLUDE_JPG_SUPPORT)
+//	fmtops.decode = jpg_decode;
+//	fmtops.encode = jpg_encode;
+//	fmtops.validate = jpg_validate;
+//	jas_image_addfmt(fmtid, "jpg", "jpg", "JPEG (ISO/IEC 10918-1)", &fmtops);
+//	++fmtid;
+//#endif
 
 #if !defined(EXCLUDE_PGX_SUPPORT)
 	fmtops.decode = pgx_decode;

@@ -22,6 +22,13 @@
     }
     return self;
 }
+- (IBAction)setTestButtonTapped:(id)sender {
+
+    GDCMMessage *message = [[GDCMMessage alloc] init];
+    [message test];
+    
+    NSLog(@"testing");
+}
 
 - (void)viewDidLoad
 {

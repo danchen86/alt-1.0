@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,7 +64,7 @@
 /*
  * JP2 Library
  *
- * $Id: jp2_enc.c,v 1.3 2005/07/06 18:57:13 lpysher Exp $
+ * $Id$
  */
 
 /******************************************************************************\
@@ -72,11 +72,11 @@
 \******************************************************************************/
 
 #include <assert.h>
-#include "jasper/jas_malloc.h"
-#include "jasper/jas_image.h"
-#include "jasper/jas_stream.h"
-#include "jasper/jas_cm.h"
-#include "jasper/jas_icc.h"
+#include "jas_malloc.h"
+#include "jas_image.h"
+#include "jas_stream.h"
+#include "jas_cm.h"
+#include "jas_icc.h"
 #include "jp2_cod.h"
 
 static uint_fast32_t jp2_gettypeasoc(int colorspace, int ctype);
@@ -312,7 +312,7 @@ int sgnd;
 	if (!(box = jp2_box_create(JP2_BOX_JP2H))) {
 		goto error;
 	}
-	box->len = len + JP2_BOX_HDRLEN;
+	box->len = len + JP2_BOX_HDRLEN(false);
 	if (jp2_box_put(box, out)) {
 		goto error;
 	}

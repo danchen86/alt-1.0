@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,14 +64,14 @@
 /*
  * MQ Arithmetic Coder
  *
- * $Id: jpc_mqcod.c,v 1.3 2005/07/06 18:57:13 lpysher Exp $
+ * $Id$
  */
 
 /******************************************************************************\
 * Includes.
 \******************************************************************************/
 
-#include "jasper/jas_malloc.h"
+#include "jas_malloc.h"
 
 #include "jpc_mqcod.h"
 

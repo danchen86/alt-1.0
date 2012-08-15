@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -62,7 +62,7 @@
  */
 
 /*
- * $Id: jpc_enc.h,v 1.3 2005/07/06 18:57:13 lpysher Exp $
+ * $Id$
  */
 
 #ifndef JPC_ENC_H
@@ -72,7 +72,7 @@
 * Includes.
 \******************************************************************************/
 
-#include "jasper/jas_seq.h"
+#include "jas_seq.h"
 
 #include "jpc_t2cod.h"
 #include "jpc_mqenc.h"

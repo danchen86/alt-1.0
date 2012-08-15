@@ -9,9 +9,9 @@
  * 
  * JasPer License Version 2.0
  * 
+ * Copyright (c) 2001-2006 Michael David Adams
  * Copyright (c) 1999-2000 Image Power, Inc.
  * Copyright (c) 1999-2000 The University of British Columbia
- * Copyright (c) 2001-2003 Michael David Adams
  * 
  * All rights reserved.
  * 
@@ -64,7 +64,7 @@
 /*
  * Sun Rasterfile Library
  *
- * $Id: ras_dec.c,v 1.3 2005/07/06 18:57:14 lpysher Exp $
+ * $Id$
  */
 
 /******************************************************************************\
@@ -74,9 +74,9 @@
 #include <assert.h>
 #include <stdlib.h>
 
-#include "jasper/jas_stream.h"
-#include "jasper/jas_image.h"
-#include "jasper/jas_debug.h"
+#include "jas_stream.h"
+#include "jas_image.h"
+#include "jas_debug.h"
 
 #include "ras_cod.h"
 
@@ -109,7 +109,7 @@ jas_image_t *ras_decode(jas_stream_t *in, char *optstr)
 	int i;
 
 	if (optstr) {
-		fprintf(stderr, "warning: ignoring RAS decoder options\n");
+		jas_eprintf("warning: ignoring RAS decoder options\n");
 	}
 
 	/* Read the header. */
@@ -322,7 +322,7 @@ static int ras_getcmap(jas_stream_t *in, ras_hdr_t *hdr, ras_cmap_t *cmap)
 		break;
 	case RAS_MT_EQUALRGB:
 		{
-fprintf(stderr, "warning: palettized images not fully supported\n");
+		jas_eprintf("warning: palettized images not fully supported\n");
 		numcolors = 1 << hdr->depth;
 		assert(numcolors <= RAS_CMAP_MAXSIZ);
 		actualnumcolors = hdr->maplength / 3;

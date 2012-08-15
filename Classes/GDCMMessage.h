@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "gdcmCompositeNetworkFunctions.h"
+#import "gdcmFindPatientRootQuery.h"
+//#import "gdcmGlobal.h"
+//#import	"gdcmDicts.h"
+//#import "gdcmDict.h"
+#import "gdcmStringFilter.h"
 
-@interface GDCMMessage : NSObject
+@interface GDCMMessage : NSObject {
+
+}
+
+-(void)test;
 
 @end
