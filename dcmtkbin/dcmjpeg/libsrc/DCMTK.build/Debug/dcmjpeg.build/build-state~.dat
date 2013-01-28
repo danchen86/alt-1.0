@@ -1,0 +1,484 @@
+Tdcmjpeg
+v5
+r1
+cCheck dependencies
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dcmimage.h
+c000000004CB702A90000000000018113
+t1287062185
+s98579
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h
+c000000004CB702AB000000000000E32C
+t1287062187
+s58156
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include/dcmtk/dcmjpeg/ddpiimpl.h
+c000000004CB702DC0000000000000E45
+t1287062236
+s3653
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc
+c000000004CB7022D000000000000131E
+t1287062061
+s4894
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmjpeg/ddpiimpl.h"
+i"dcmtk/dcmimgle/dcmimage.h"
+i"dcmtk/dcmimgle/discalet.h"
+i"dcmtk/ofstd/ofcast.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc
+c000000004CB7022D000000000000263F
+t1287062061
+s9791
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc
+c000000004CED1D520000000000008942
+t1290607954
+s35138
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc
+c000000004CD145FE000000000000EC4D
+t1288783358
+s60493
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc
+c000000004CB7022D00000000000014CF
+t1287062061
+s5327
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc
+c000000004CB7022D0000000000000663
+t1287062061
+s1635
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc
+c000000004CB7022D00000000000006DB
+t1287062061
+s1755
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc
+c000000004CB7022D0000000000000739
+t1287062061
+s1849
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc
+c000000004CB7022D000000000000120E
+t1287062061
+s4622
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc
+c000000004CB7022D00000000000006E7
+t1287062061
+s1767
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc
+c000000004CB7022D0000000000000701
+t1287062061
+s1793
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc
+c000000004CB7022D0000000000000743
+t1287062061
+s1859
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc
+c000000004CB7022D0000000000004147
+t1287062061
+s16711
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc
+c000000004CB7022D000000000000431C
+t1287062061
+s17180
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc
+c000000004CB7022D0000000000004123
+t1287062061
+s16675
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc
+c000000004CB7022D0000000000004602
+t1287062061
+s17922
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc
+c000000004CB7022D00000000000033A2
+t1287062061
+s13218
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc
+c000000004CB7022E00000000000044AE
+t1287062062
+s17582
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc
+c000000004CB7022E00000000000009B1
+t1287062062
+s2481
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc
+c000000004CB7022E0000000000000B52
+t1287062062
+s2898
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc
+c000000004CD145FE0000000000000D42
+t1288783358
+s3394
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc
+c000000004CB7022E0000000000001888
+t1287062062
+s6280
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc
+c000000004CB7022E0000000000000AEE
+t1287062062
+s2798
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc
+c000000004CB7022E0000000000000B23
+t1287062062
+s2851
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc
+c000000004CD145FE0000000000000CFF
+t1288783358
+s3327
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc
+c000000004CB7022E0000000000000771
+t1287062062
+s1905
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc
+c000000004CB7022E00000000000006FB
+t1287062062
+s1787
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc
+c000000004CCE809C000000000000120F
+t1288601756
+s4623
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcast.h
+c000000004CB702860000000000000643
+t1287062150
+s1603
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/dcmjpeg.LinkFileList
+c00000000509C73850000000000000D1C
+t1352430469
+s3356
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/ddpiimpl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/dipijpeg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djcodecd.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djcodece.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djcparam.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecbas.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecext.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdeclol.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecode.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecpro.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecsps.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecsv1.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdijg12.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdijg16.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdijg8.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djeijg12.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djeijg16.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djeijg8.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencbas.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencext.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djenclol.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencode.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencpro.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencsps.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencsv1.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djrplol.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djrploss.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djutils.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh
+c00000000509C738500000000000000BE
+t1352430469
+s190
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug/libdcmjpeg.a
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1ea34805ab4cb641^2c614905ab4cb641^---0#1#0#--18"Check dependencies36"76187DC8-32EB-4D96-BBA6-25D7E3848624-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/ddpiimpl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/dipijpeg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djcodecd.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djcodece.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djcparam.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecbas.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecext.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdeclol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecode.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecpro.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecsps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdecsv1.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdijg12.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdijg16.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djdijg8.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djeijg12.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djeijg16.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djeijg8.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencbas.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencext.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djenclol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencode.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencpro.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencsps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djencsv1.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djrplol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djrploss.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Objects-normal/x86_64/djutils.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug/libdcmjpeg.a normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh
+r0
+

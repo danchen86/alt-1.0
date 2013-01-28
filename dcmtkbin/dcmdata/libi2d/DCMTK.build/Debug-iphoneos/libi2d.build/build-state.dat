@@ -1,0 +1,272 @@
+Tlibi2d
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/liblibi2d.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Script-C46EF75851E643C495569672.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c0000000050801BEA0000000000000132
+t1350573034
+s306
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdeftag.h
+c000000004CD3CA3D000000000003E290
+t1288948285
+s254608
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcfilefo.h
+c000000004CBF1A000000000000005ECB
+t1287592448
+s24267
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcpath.h
+c000000004CB7027D0000000000005D23
+t1287062141
+s23843
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcpixseq.h
+c000000004CB7027D00000000000045B0
+t1287062141
+s17840
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcpxitem.h
+c000000004CB7027D00000000000027F9
+t1287062141
+s10233
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcuid.h
+c000000004CD3DBC2000000000000DCEE
+t1288952770
+s56558
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/libi2d/i2d.h
+c000000004CB702820000000000003273
+t1287062146
+s12915
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc
+c000000004CCE99A40000000000006A90
+t1288608164
+s27280
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmdata/libi2d/i2d.h"
+i"dcmtk/dcmdata/dcpxitem.h"
+i"dcmtk/dcmdata/dcfilefo.h"
+i"dcmtk/dcmdata/dcdeftag.h"
+i"dcmtk/dcmdata/dcuid.h"
+i"dcmtk/dcmdata/dcpixseq.h"
+i"dcmtk/dcmdata/dcpath.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc
+c000000004CFCB9D20000000000004959
+t1291631058
+s18777
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc
+c000000004CF3A6280000000000007A5F
+t1291036200
+s31327
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc
+c000000004CB7031F0000000000002C80
+t1287062303
+s11392
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc
+c000000004CB703200000000000000A71
+t1287062304
+s2673
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc
+c000000004CB703200000000000000CBD
+t1287062304
+s3261
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/libi2d.LinkFileList
+c00000000509C751400000000000002F2
+t1352430868
+s754
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Script-C46EF75851E643C495569672.sh
+c00000000509C751400000000000000BD
+t1352430868
+s189
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/liblibi2d.a
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesebe00094ac4cb641^09a44894ac4cb641^---0#1#0#--18"Check dependencies36"BB2F50B4-2B6E-4B69-9A2A-F9832DC65442-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.333100
+e374123669.863822
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc446b5594ac4cb641^a359dd95ac4cb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc0000000000000000^3489"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.o dcmdata/libi2d/i2d.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2d.o36"0A018888-156C-46CA-B74B-957DB081B685-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.334709
+e374123669.251812
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc20d45594ac4cb641^58e64195ac4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc0000000000000000^3513"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.o dcmdata/libi2d/i2dbmps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dbmps.o36"2B7092E2-4800-4BDE-8A89-3359EE098B92-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.333884
+e374123669.558331
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc:413:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+o    if ( (marker == E_JPGMARKER_APP0) )
+o          ~~~~~~~^~~~~~~~~~~~~~~~~~~
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc:413:18: note: remove extraneous parentheses around the comparison to silence this warning
+o    if ( (marker == E_JPGMARKER_APP0) )
+o         ~       ^                  ~
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc:413:18: note: use '=' to turn this equality comparison into an assignment
+o    if ( (marker == E_JPGMARKER_APP0) )
+o                 ^~
+o                 =
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cce59b5594ac4cb641^0c06ab95ac4cb641^-716"/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc:413:18: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]    if ( (marker == E_JPGMARKER_APP0) )          ~~~~~~~^~~~~~~~~~~~~~~~~~~/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc:413:18: note: remove extraneous parentheses around the comparison to silence this warning    if ( (marker == E_JPGMARKER_APP0) )         ~       ^                  ~/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc:413:18: note: use '=' to turn this equality comparison into an assignment    if ( (marker == E_JPGMARKER_APP0) )                 ^~                 =1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@47"Equality comparison with extraneous parentheses-374123669#18446744073709551615#0#2(2@75"Remove extraneous parentheses around the comparison to silence this warning-374123669#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^412#17#412#17#13097#0#14"Semantic Issue2(3@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^412#9#412#10#13089#1#3@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^412#36#412#37#13116#1#-2@59"Use '=' to turn this equality comparison into an assignment-374123669#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^412#17#412#17#13097#0#14"Semantic Issue1(3@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^412#17#412#19#13097#2#-1#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^412#17#412#17#13097#0#14"Semantic Issue1(3@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^412#10#412#36#13090#10#-0#0#0#-19%DVTDocumentLocation4@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc0000000000000000^3513"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.o dcmdata/libi2d/i2djpgs.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2djpgs.o36"D83622B4-4335-4017-9209-6C2C66FD4F1F-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.343299
+e374123669.448117
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cca2285894ac4cb641^98688c95ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc0000000000000000^3519"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.o dcmdata/libi2d/i2dplnsc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplnsc.o36"3F12D1B3-17FB-47CF-8499-0E118711395C-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.335446
+e374123669.220976
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.ccc2125794ac4cb641^529b3895ac4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc0000000000000000^3513"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.o dcmdata/libi2d/i2dplsc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplsc.o36"1F85FA12-4989-4851-A486-4F04ED85A5EA-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.333287
+e374123669.229419
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.ccc1715594ac4cb641^e1b33d95ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc0000000000000000^3519"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.o dcmdata/libi2d/i2dplvlp.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/i2dplvlp.o36"F5EA063D-4712-4A2E-81C5-2CB7D3FF422B-
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/liblibi2d.a normal armv7
+s374123669.968826
+e374123669.987804
+r1
+xLibtool
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/liblibi2d.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Libtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/liblibi2d.a normal armv70821f895ac4cb641^3be2fc95ac4cb641^---0#0#0#--924"Libtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/liblibi2d.a normal armv7    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Objects-normal/armv7/libi2d.LinkFileList -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug-iphoneos/liblibi2d.a36"FDBD9A1B-95EE-4A6F-9168-A9D8A32EF843-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Script-C46EF75851E643C495569672.sh
+s374123683.156188
+e374123683.280066
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Script-C46EF75851E643C495569672.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libi2d.Debug
+omake[1]: Nothing to be done for `PostBuild.libi2d.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libi2d.Debug
+omake[1]: Nothing to be done for `PostBuild.libi2d.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'3ba828a3ac4cb641^50e247a3ac4cb641^-642"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libi2d.Debugmake[1]: Nothing to be done for `PostBuild.libi2d.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libi2d.Debugmake[1]: Nothing to be done for `PostBuild.libi2d.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-374123683#0#30#-0#-----2@23"Depend check for xcode-374123683#30#23#-0#-----2@198"cd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libi2d.Debug-374123683#53#198#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.libi2d.Debug'.-374123683#251#58#-0#-----2@30"echo "Depend check for xcode"-374123683#309#30#-0#-----2@23"Depend check for xcode-374123683#339#23#-0#-----2@222"cd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.libi2d.Debug-374123683#362#222#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.libi2d.Debug'.-374123683#584#58#-0#-----0#0#0#--370"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Script-C46EF75851E643C495569672.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug-iphoneos/libi2d.build/Script-C46EF75851E643C495569672.sh36"F5D52935-304F-430F-B727-2D04738D1D4F-
+

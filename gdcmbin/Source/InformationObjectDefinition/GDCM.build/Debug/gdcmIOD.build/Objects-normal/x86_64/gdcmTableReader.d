@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmTableReader.cxx \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmTableReader.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmTypes.h \
+  /Users/dan/Documents/xcode/alt/gdcmbin/Source/Common/gdcmConfigure.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmWin32.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmLegacyMacro.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmException.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmTrace.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmSystem.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmDefs.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmModules.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmModule.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataStructureAndEncodingDefinition/gdcmTag.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmModuleEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmType.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmMacros.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmMacro.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmMacroEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmIODs.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmIOD.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmIODEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmUsage.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmTable.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmTableEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcm_expat.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/expat.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/expat_external.h

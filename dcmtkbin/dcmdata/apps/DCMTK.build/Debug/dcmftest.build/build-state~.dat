@@ -1,0 +1,79 @@
+Tdcmftest
+v5
+r1
+cCheck dependencies
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc
+c000000004CB701FA0000000000001708
+t1287062010
+s5896
+i"dcmtk/config/osconfig.h"
+i"dcmtk/ofstd/ofstdinc.h"
+i"dcmtk/dcmdata/dcmetinf.h"
+i"dcmtk/ofstd/ofconapp.h"
+i"dcmtk/dcmdata/dcuid.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcmetinf.h
+c000000004CB7027D0000000000003CE2
+t1287062141
+s15586
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcuid.h
+c000000004CD3DBC2000000000000DCEE
+t1288952770
+s56558
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofconapp.h
+c000000004CB702860000000000002736
+t1287062150
+s10038
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstdinc.h
+c000000004CB7028600000000000027EF
+t1287062150
+s10223
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.LinkFileList
+c00000000509C73860000000000000077
+t1352430470
+s119
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh
+c00000000509C738600000000000000BB
+t1352430470
+s187
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies80d84606ab4cb641^978c4706ab4cb641^---0#1#0#--18"Check dependencies36"9A51D419-8C36-4E98-8BCD-044AC7D21527-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh
+r0
+

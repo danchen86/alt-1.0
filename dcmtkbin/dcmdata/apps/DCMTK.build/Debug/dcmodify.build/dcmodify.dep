@@ -1,0 +1,4 @@
+ffffffffffffffffffffffffffffffff 9c9abe670056b5aeabb5412925eaf75b ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmodify
+000000004cce99a3000000000000780e f7744e12398177d53d662b7555eb324e ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmodify.build/Objects-normal/x86_64/mdfdsman.o
+000000004cb701fa0000000000008300 794992adf47950ea4db06cf6c3732458 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmodify.build/Objects-normal/x86_64/mdfconen.o
+000000001c2b72bb000000000000130f c04f3d0ef1e1af05804d95b9ed3d525a ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmodify.build/Objects-normal/x86_64/dcmodify.o

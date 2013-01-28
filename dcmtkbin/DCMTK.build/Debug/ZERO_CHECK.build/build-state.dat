@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ZERO_CHECK.build/Script-4A45590A161641E5982495B4.sh
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ZERO_CHECK.build/Script-4A45590A161641E5982495B4.sh
+c00000000509C738500000000000000A9
+t1352430469
+s169
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa740be59ab4cb641^aa81be59ab4cb641^---0#1#0#--18"Check dependencies36"7EFD75BC-CF26-4079-9473-CD24BA06FD97-
+
+CPhaseScriptExecution "CMake Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ZERO_CHECK.build/Script-4A45590A161641E5982495B4.sh
+s374123353.752712
+e374123353.898640
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ZERO_CHECK.build/Script-4A45590A161641E5982495B4.sh
+oecho ""
+o
+omake -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'f452c159ab4cb641^683fe659ab4cb641^-141"echo ""make -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-374123353#0#8#-0#-----2@77"make -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/ReRunCMake.make-374123353#9#77#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-374123353#86#55#-0#-----0#0#0#--320"PhaseScriptExecution "CMake Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ZERO_CHECK.build/Script-4A45590A161641E5982495B4.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ZERO_CHECK.build/Script-4A45590A161641E5982495B4.sh36"B0174F50-EF3C-4162-815D-BCE9BDF984FD-
+

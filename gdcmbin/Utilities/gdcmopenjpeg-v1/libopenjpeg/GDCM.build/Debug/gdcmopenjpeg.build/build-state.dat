@@ -1,0 +1,535 @@
+Tgdcmopenjpeg
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmopenjpeg.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Script-14589C4C1CC54D6083E522BA.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c
+c000000004EFDDAB8000000000000118F
+t1325259448
+s4495
+i"opj_includes.h"
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c
+c000000004EFDDAB8000000000000141C
+t1325259448
+s5148
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c
+c000000004EFDDAB8000000000000600E
+t1325259448
+s24590
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c
+c000000004EFDDAB80000000000000ED3
+t1325259448
+s3795
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c
+c000000004EFDDAB80000000000000C64
+t1325259448
+s3172
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c
+c000000004EFDDAB80000000000010BCC
+t1325259448
+s68556
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c
+c000000004EFDDAB8000000000000099D
+t1325259448
+s2461
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c
+c000000004EFDDAB80000000000006E94
+t1325259448
+s28308
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c
+c000000004EFDDAB80000000000001233
+t1325259448
+s4659
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c
+c000000004EFDDAB80000000000001383
+t1325259448
+s4995
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c
+c000000004EFDDAB80000000000003A80
+t1325259448
+s14976
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c
+c000000004EFDDAB8000000000000260B
+t1325259448
+s9739
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/opj_includes.h
+c000000004EFDDAB80000000000000E1C
+t1325259448
+s3612
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c
+c000000004EFDDAB8000000000000757A
+t1325259448
+s30074
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c
+c000000004EFDDAB80000000000000A61
+t1325259448
+s2657
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c
+c000000004EFDDAB80000000000009906
+t1325259448
+s39174
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c
+c000000004EFDDAB80000000000005A9C
+t1325259448
+s23196
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c
+c000000004EFDDAB8000000000000D4E5
+t1325259448
+s54501
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c
+c000000004EFDDAB8000000000000143A
+t1325259448
+s5178
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/gdcmopenjpeg.LinkFileList
+c000000005012CE6500000000000009F4
+t1343409765
+s2548
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Script-14589C4C1CC54D6083E522BA.sh
+c000000005012CE6500000000000000EF
+t1343409765
+s239
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmopenjpeg.a
+t2
+s0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies29ecc6e405c3b541^867212e505c3b541^---0#1#0#--18"Check dependencies36"EFB24F07-B60A-4FBC-B4FA-B796960AF27D-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.219222
+e365102565.290278
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c713b38e505c3b541^c5544ae505c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.o Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/bio.o36"2C09ED4B-EE0F-4494-BB51-A5E260A8FD80-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.288106
+e365102565.361831
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c3fe449e505c3b541^a83a60e505c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.o Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/cio.o36"7B7FFD94-FA7D-4C68-BBB3-7BCFEFCE344E-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.288903
+e365102565.482722
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c34114ae505c3b541^118d8ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.o Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/dwt.o36"DA9EECA4-8DAA-4933-8884-CB5A27003E18-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.288624
+e365102565.361603
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c:50:1: warning: unused function '_itoa' [-Wunused-function]
+o_itoa(int i, char *a, int r) {
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.ca8fe49e505c3b541^54735de505c3b541^-201"/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c:50:1: warning: unused function '_itoa' [-Wunused-function]_itoa(int i, char *a, int r) {^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"Unused function '_itoa'-365102565#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c0000000000000000^49#0#49#0#2002#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c0000000000000000^2192"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.o Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/event.o36"78D67628-35CC-448E-AB9D-69E769B116BA-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.305520
+e365102565.373755
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c7a564ee505c3b541^c42761e505c3b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c0000000000000000^2192"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.o Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/image.o36"3B41AE44-BC66-43D1-80A7-11DDBDFD4B3C-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.359729
+e365102565.585993
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c01515ce505c3b541^83852fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.o Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k.o36"FBFA5CD6-A6CE-4C3E-B8DF-BA5C86DB4A1C-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.364493
+e365102565.455836
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c556b5de505c3b541^77818ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c0000000000000000^2204"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.o Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/j2k_lib.o36"821CB0AB-C1DE-4252-8D9F-2D36466B8DAD-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.364568
+e365102565.543132
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c766b5de505c3b541^cba08ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.o Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jp2.o36"D8D91EDD-AFAA-4150-A0D0-0863194A0512-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.373153
+e365102565.487004
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c1ea45fe505c3b541^e8868ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.o Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/jpt.o36"311E6AB3-13E3-48C3-A693-0F05AAB71A25-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.410019
+e365102565.525173
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.ca11469e505c3b541^e2938ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.o Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mct.o36"92399C66-6488-49C1-B9CA-0E5D96701682-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.410261
+e365102565.533612
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c861e69e505c3b541^4e9a8ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.o Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/mqc.o36"8670C806-3B50-4E5B-93F4-7DAC3848715B-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.473762
+e365102565.547930
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.cba6779e505c3b541^336d2fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c0000000000000000^2210"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.o Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/openjpeg.o36"8625F232-3F48-4BB9-AAC4-647C016B498C-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.486267
+e365102565.643528
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.cbb9a7ce505c3b541^dba32fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c0000000000000000^2174"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.o Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/pi.o36"783BAA1F-FDC4-452F-83DF-D38C90D30A74-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.488364
+e365102565.556135
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c14217de505c3b541^d07b2fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.o Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/raw.o36"3E6F12F3-7CFD-4EBD-A3EE-C9F1D59AC1B1-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.527196
+e365102565.686058
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c761887e505c3b541^a4c72fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c0000000000000000^2174"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.o Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t1.o36"63A1F386-CABF-41AA-8374-FA718BCA7492-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.534948
+e365102565.667450
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c821b89e505c3b541^c3bc2fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c0000000000000000^2174"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.o Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/t2.o36"6E99A6E0-C08D-4AAE-B936-93D4559813EB-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.544434
+e365102565.728220
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.cfe7c8be505c3b541^6fd72fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.o Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tcd.o36"519E6986-D6D5-43E2-BCF0-7D038A4A2A48-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.549664
+e365102565.618486
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c7d208de505c3b541^828d2fe605c3b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c0000000000000000^2180"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.o Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/tgt.o36"E0514BED-C4C9-4829-8354-7D4AB6C3C8DA-
+
+CLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmopenjpeg.a normal x86_64
+s365102566.026760
+e365102566.048088
+r1
+xLibtool
+x/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmopenjpeg.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmopenjpeg.a normal x86_64e9ee06e605c3b541^920530e605c3b541^---0#0#0#--707"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmopenjpeg.a normal x86_64    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -filelist /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Objects-normal/x86_64/gdcmopenjpeg.LinkFileList -o /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmopenjpeg.a36"9AD4E346-F3A9-4E7D-B538-3AABA97156AB-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Script-14589C4C1CC54D6083E522BA.sh
+s365102566.943140
+e365102567.031673
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Script-14589C4C1CC54D6083E522BA.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmopenjpeg.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmopenjpeg.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmopenjpeg.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmopenjpeg.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'2524f2e605c3b541^ac3908e705c3b541^-714"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmopenjpeg.Debugmake[1]: Nothing to be done for `PostBuild.gdcmopenjpeg.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmopenjpeg.Debugmake[1]: Nothing to be done for `PostBuild.gdcmopenjpeg.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-365102567#0#30#-0#-----2@23"Depend check for xcode-365102567#30#23#-0#-----2@201"cd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmopenjpeg.Debug-365102567#53#201#-0#-----2@64"make[1]: Nothing to be done for `PostBuild.gdcmopenjpeg.Debug'.-365102567#254#64#-0#-----2@30"echo "Depend check for xcode"-365102567#318#30#-0#-----2@23"Depend check for xcode-365102567#348#23#-0#-----2@279"cd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmopenjpeg.Debug-365102567#371#279#-0#-----2@64"make[1]: Nothing to be done for `PostBuild.gdcmopenjpeg.Debug'.-365102567#650#64#-0#-----0#0#0#--405"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Script-14589C4C1CC54D6083E522BA.sh    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    /bin/sh -c /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/GDCM.build/Debug/gdcmopenjpeg.build/Script-14589C4C1CC54D6083E522BA.sh36"40A552ED-606B-4528-BD9F-9C3B4AB277FB-
+

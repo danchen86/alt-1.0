@@ -1,0 +1,130 @@
+Tdcmdspfn
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/dcmdspfn normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Script-718E2CBA4AED45D5BD05706F.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/cmdlnarg.h
+c000000004CB7027C0000000000000AE1
+t1287062140
+s2785
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dctk.h
+c000000004CB7027E0000000000001193
+t1287062142
+s4499
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.cc
+c000000004CB702000000000000004149
+t1287062016
+s16713
+i"dcmtk/config/osconfig.h"
+i<GUSI.h>
+i"dcmtk/dcmdata/dctk.h"
+i"dcmtk/dcmdata/cmdlnarg.h"
+i"dcmtk/ofstd/ofconapp.h"
+i"dcmtk/ofstd/ofcmdln.h"
+i"dcmtk/dcmimgle/digsdfn.h"
+i"dcmtk/dcmimgle/diciefn.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diciefn.h
+c000000004CB702A90000000000001CE0
+t1287062185
+s7392
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/digsdfn.h
+c000000004CB702AA000000000000294A
+t1287062186
+s10570
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcmdln.h
+c000000004CB70286000000000000A75C
+t1287062150
+s42844
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofconapp.h
+c000000004CB702860000000000002736
+t1287062150
+s10038
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.LinkFileList
+c00000000509C73E10000000000000078
+t1352430561
+s120
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Script-718E2CBA4AED45D5BD05706F.sh
+c00000000509C73E100000000000000BD
+t1352430561
+s189
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/dcmdspfn
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies77bbae61ab4cb641^906baf61ab4cb641^---0#1#0#--18"Check dependencies36"59A9AAEB-E54B-4CA0-88AB-0109820C2C48-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123361.686961
+e374123362.376112
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.ccb804b061ab4cb641^44a86262ab4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.cc0000000000000000^3268"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.o dcmimgle/apps/dcmdspfn.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/apps/dcmdspfn.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.o36"DEA2FB22-E59C-4AB4-9342-141C02076AD1-
+
+CLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/dcmdspfn normal x86_64
+s374123362.383009
+e374123362.530260
+r1
+xLd
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/dcmdspfn
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Link /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/dcmdspfn2d266262ab4cb641^828b9d62ab4cb641^-405"ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'4(21%IDEActivityLogMessage2@89"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/Debug'-374123362#0#103#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'-374123362#103#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'-374123362#203#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@88"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'-374123362#303#102#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1546"Ld /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/dcmdspfn normal x86_64    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Objects-normal/x86_64/dcmdspfn.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/libsrc/Debug/libdcmimgle.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Debug/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Debug/libdcmdata.a -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/Debug/dcmdspfn36"7798DD51-1707-4EC6-AF22-E78235B70AC0-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Script-718E2CBA4AED45D5BD05706F.sh
+s374123362.537874
+e374123362.616236
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Script-718E2CBA4AED45D5BD05706F.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmdspfn.Debug
+omake[1]: Nothing to be done for `PostBuild.dcmdspfn.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmdspfn.Debug
+omake[1]: Nothing to be done for `PostBuild.dcmdspfn.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'd7508a62ab4cb641^9869a762ab4cb641^-653"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmdspfn.Debugmake[1]: Nothing to be done for `PostBuild.dcmdspfn.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmdspfn.Debugmake[1]: Nothing to be done for `PostBuild.dcmdspfn.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-374123362#0#30#-0#-----2@23"Depend check for xcode-374123362#30#23#-0#-----2@200"cd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmdspfn.Debug-374123362#53#200#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.dcmdspfn.Debug'.-374123362#253#60#-0#-----2@30"echo "Depend check for xcode"-374123362#313#30#-0#-----2@23"Depend check for xcode-374123362#343#23#-0#-----2@227"cd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmdspfn.Debug-374123362#366#227#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.dcmdspfn.Debug'.-374123362#593#60#-0#-----0#0#0#--354"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Script-718E2CBA4AED45D5BD05706F.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimgle/apps/DCMTK.build/Debug/dcmdspfn.build/Script-718E2CBA4AED45D5BD05706F.sh36"AB4E70FD-D853-4B21-925D-23D4CB43EC44-
+

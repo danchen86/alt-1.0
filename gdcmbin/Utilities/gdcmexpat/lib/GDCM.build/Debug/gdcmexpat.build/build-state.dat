@@ -1,0 +1,183 @@
+Tgdcmexpat
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Script-8BA7A9DF4BFC43339AB6E8B1.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/assert.h
+c00000000500180FF0000000000000F6E
+t1342275839
+s3950
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/string.h
+c00000000500180FF0000000000001A3A
+t1342275839
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/3.1/include/stddef.h
+c00000000500181000000000000000838
+t1342275840
+s2104
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/expat.h
+c000000004EFDDAB80000000000009D79
+t1325259448
+s40313
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/internal.h
+c000000004EFDDAB800000000000007D3
+t1325259448
+s2003
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c
+c000000004EFDDAB8000000000002EF3C
+t1325259448
+s192316
+i<stddef.h>
+i<string.h>
+i<assert.h>
+i"expat_config.h"
+i"expat.h"
+i"internal.h"
+i"xmltok.h"
+i"xmlrole.h"
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.c
+c000000004EFDDAB80000000000007E7B
+t1325259448
+s32379
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.h
+c000000004EFDDAB80000000000000BCF
+t1325259448
+s3023
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c
+c000000004EFDDAB8000000000000A0B2
+t1325259448
+s41138
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.h
+c000000004EFDDAB80000000000002BB0
+t1325259448
+s11184
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/expat_config.h
+c00000000500F4B6900000000000009A1
+t1343179625
+s2465
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/gdcmexpat.LinkFileList
+c000000005012CE660000000000000180
+t1343409766
+s384
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Script-8BA7A9DF4BFC43339AB6E8B1.sh
+c000000005012CE6600000000000000D0
+t1343409766
+s208
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a
+t2
+s0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfd6b39e605c3b541^bbb445e605c3b541^---0#1#0#--18"Check dependencies36"9AC7AB8A-EFBC-4729-BEF2-18B05BA92A66-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102568.462640
+e365102568.698240
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c2e9276e805c3b541^79ceb2e805c3b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c0000000000000000^2074"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.o Utilities/gdcmexpat/lib/xmlparse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlparse.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.o36"B4712AFF-541B-4D1F-A7AD-87D85DB61195-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102568.481962
+e365102568.563679
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.ca9847be805c3b541^f04c90e805c3b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.c0000000000000000^2068"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.o Utilities/gdcmexpat/lib/xmlrole.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmlrole.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.o36"37538807-BEE6-4D93-9060-34C2F0DA6D68-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102568.469796
+e365102568.796018
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c676478e805c3b541^42d2cbe805c3b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c0000000000000000^2062"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.o Utilities/gdcmexpat/lib/xmltok.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmexpat/lib/xmltok.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.o36"F53B015B-EFCC-4935-9361-AB2DB90517B3-
+
+CLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a normal x86_64
+s365102569.004450
+e365102569.012971
+r1
+xLibtool
+x/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a normal x86_649b3801e905c3b541^535e03e905c3b541^---0#0#0#--681"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a normal x86_64    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -filelist /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/gdcmexpat.LinkFileList -o /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a36"C08EFD58-985B-468B-BFEB-2AFFA021FCD2-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Script-8BA7A9DF4BFC43339AB6E8B1.sh
+s365102571.153287
+e365102571.203490
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Script-8BA7A9DF4BFC43339AB6E8B1.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmexpat.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmexpat.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmexpat.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmexpat.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'abe827eb05c3b541^0d1c34eb05c3b541^-684"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmexpat.Debugmake[1]: Nothing to be done for `PostBuild.gdcmexpat.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmexpat.Debugmake[1]: Nothing to be done for `PostBuild.gdcmexpat.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-365102571#0#30#-0#-----2@23"Depend check for xcode-365102571#30#23#-0#-----2@198"cd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmexpat.Debug-365102571#53#198#-0#-----2@61"make[1]: Nothing to be done for `PostBuild.gdcmexpat.Debug'.-365102571#251#61#-0#-----2@30"echo "Depend check for xcode"-365102571#312#30#-0#-----2@23"Depend check for xcode-365102571#342#23#-0#-----2@258"cd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmexpat.Debug-365102571#365#258#-0#-----2@61"make[1]: Nothing to be done for `PostBuild.gdcmexpat.Debug'.-365102571#623#61#-0#-----0#0#0#--371"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Script-8BA7A9DF4BFC43339AB6E8B1.sh    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    /bin/sh -c /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Script-8BA7A9DF4BFC43339AB6E8B1.sh36"3185F506-A0BA-4148-9A33-096C44DC9F1B-
+

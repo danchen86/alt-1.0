@@ -1,0 +1,172 @@
+Tlibi2d
+v5
+r1
+cCheck dependencies
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdeftag.h
+c000000004CD3CA3D000000000003E290
+t1288948285
+s254608
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcfilefo.h
+c000000004CBF1A000000000000005ECB
+t1287592448
+s24267
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcpath.h
+c000000004CB7027D0000000000005D23
+t1287062141
+s23843
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcpixseq.h
+c000000004CB7027D00000000000045B0
+t1287062141
+s17840
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcpxitem.h
+c000000004CB7027D00000000000027F9
+t1287062141
+s10233
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcuid.h
+c000000004CD3DBC2000000000000DCEE
+t1288952770
+s56558
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/libi2d/i2d.h
+c000000004CB702820000000000003273
+t1287062146
+s12915
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc
+c000000004CCE99A40000000000006A90
+t1288608164
+s27280
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmdata/libi2d/i2d.h"
+i"dcmtk/dcmdata/dcpxitem.h"
+i"dcmtk/dcmdata/dcfilefo.h"
+i"dcmtk/dcmdata/dcdeftag.h"
+i"dcmtk/dcmdata/dcuid.h"
+i"dcmtk/dcmdata/dcpixseq.h"
+i"dcmtk/dcmdata/dcpath.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc
+c000000004CFCB9D20000000000004959
+t1291631058
+s18777
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc
+c000000004CF3A6280000000000007A5F
+t1291036200
+s31327
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc
+c000000004CB7031F0000000000002C80
+t1287062303
+s11392
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc
+c000000004CB703200000000000000A71
+t1287062304
+s2673
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc
+c000000004CB703200000000000000CBD
+t1287062304
+s3261
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2d.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dbmps.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2djpgs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dplnsc.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dplsc.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dplvlp.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/libi2d.LinkFileList
+c00000000509C738500000000000002C2
+t1352430469
+s706
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Script-C46EF75851E643C495569672.sh
+c00000000509C738500000000000000BD
+t1352430469
+s189
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug/liblibi2d.a
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies60ae4505ab4cb641^abe94605ab4cb641^---0#1#0#--18"Check dependencies36"BB75E663-7874-4A72-B839-25A8DAACECE1-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2d.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2d.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dbmps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dbmps.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2djpgs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2djpgs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dplnsc.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplnsc.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dplsc.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplsc.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Objects-normal/x86_64/i2dplvlp.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/libi2d/i2dplvlp.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/Debug/liblibi2d.a normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libi2d/DCMTK.build/Debug/libi2d.build/Script-C46EF75851E643C495569672.sh
+r0
+

@@ -1,0 +1,169 @@
+Twlmscpfs
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/wlmscpfs normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Script-F8B6ACF793A141A1853BACF0.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcxfer.h
+c000000004CB7027F0000000000002E59
+t1287062143
+s11865
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include/dcmtk/dcmnet/dicom.h
+c000000004CF606A20000000000001C1D
+t1291191970
+s7197
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc
+c000000004CCEC29C0000000000005599
+t1288618652
+s21913
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.h
+c000000004CB70381000000000000128C
+t1287062401
+s4748
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.cc
+c000000004CB702110000000000000989
+t1287062033
+s2441
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmnet/dicom.h"
+i"dcmtk/ofstd/ofcmdln.h"
+i"dcmtk/dcmwlm/wltypdef.h"
+i"dcmtk/dcmdata/dcxfer.h"
+i"dcmtk/ofstd/ofconapp.h"
+i"wlcefs.h"
+i"dcmtk/dcmwlm/wlds.h"
+i"dcmtk/dcmwlm/wldsfs.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include/dcmtk/dcmwlm/wlds.h
+c000000004CB702B60000000000008E12
+t1287062198
+s36370
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include/dcmtk/dcmwlm/wldsfs.h
+c000000004CB702B70000000000003640
+t1287062199
+s13888
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include/dcmtk/dcmwlm/wltypdef.h
+c000000004CB702B7000000000000199D
+t1287062199
+s6557
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcmdln.h
+c000000004CB70286000000000000A75C
+t1287062150
+s42844
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofconapp.h
+c000000004CB702860000000000002736
+t1287062150
+s10038
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.LinkFileList
+c00000000509C73DC00000000000000EA
+t1352430556
+s234
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Script-F8B6ACF793A141A1853BACF0.sh
+c00000000509C73DC00000000000000B9
+t1352430556
+s185
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/wlmscpfs
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9a23f35cab4cb641^a299f35cab4cb641^---0#1#0#--18"Check dependencies36"169126D3-C418-4E9C-AA2D-C06DC33A76AF-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123356.985908
+e374123357.631480
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc3f8cfc5cab4cb641^90d9a15dab4cb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc0000000000000000^3236"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.o dcmwlm/apps/wlcefs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlcefs.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlcefs.o36"85AF5E13-718A-4216-BA6A-77A1B2E80416-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123356.971470
+e374123357.515862
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.ccf1d7f85cab4cb641^8120845dab4cb641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.cc0000000000000000^3248"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.o dcmwlm/apps/wlmscpfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/apps/wlmscpfs.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.o36"A734B6DD-BE42-4AB5-95C9-2DF783F922E8-
+
+CLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/wlmscpfs normal x86_64
+s374123357.656297
+e374123357.951807
+r1
+xLd
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/wlmscpfs
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/Debug'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Link /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/wlmscpfsd524a85dab4cb641^47aaf35dab4cb641^-605"ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/Debug'6(21%IDEActivityLogMessage2@87"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/Debug'-374123357#0#101#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'-374123357#101#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'-374123357#201#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@88"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'-374123357#301#102#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@87"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/Debug'-374123357#403#101#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@87"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/Debug'-374123357#504#101#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1880"Ld /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/wlmscpfs normal x86_64    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Objects-normal/x86_64/wlmscpfs.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug/libdcmwlm.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/Debug/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/Debug/libdcmtls.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Debug/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Debug/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/Debug/wlmscpfs36"2954872D-4F90-4111-B704-332615F7C6E6-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Script-F8B6ACF793A141A1853BACF0.sh
+s374123357.959920
+e374123358.176070
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Script-F8B6ACF793A141A1853BACF0.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.wlmscpfs.Debug
+omake[1]: Nothing to be done for `PostBuild.wlmscpfs.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.wlmscpfs.Debug
+omake[1]: Nothing to be done for `PostBuild.wlmscpfs.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'a168f65dab4cb641^4c182d5eab4cb641^-647"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.wlmscpfs.Debugmake[1]: Nothing to be done for `PostBuild.wlmscpfs.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.wlmscpfs.Debugmake[1]: Nothing to be done for `PostBuild.wlmscpfs.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-374123357#0#30#-0#-----2@23"Depend check for xcode-374123358#30#23#-0#-----2@200"cd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.wlmscpfs.Debug-374123358#53#200#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.wlmscpfs.Debug'.-374123358#253#60#-0#-----2@30"echo "Depend check for xcode"-374123358#313#30#-0#-----2@23"Depend check for xcode-374123358#343#23#-0#-----2@221"cd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.wlmscpfs.Debug-374123358#366#221#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.wlmscpfs.Debug'.-374123358#587#60#-0#-----0#0#0#--350"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Script-F8B6ACF793A141A1853BACF0.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/apps/DCMTK.build/Debug/wlmscpfs.build/Script-F8B6ACF793A141A1853BACF0.sh36"EA7677DA-4CD3-4213-98D2-9EEC61843291-
+

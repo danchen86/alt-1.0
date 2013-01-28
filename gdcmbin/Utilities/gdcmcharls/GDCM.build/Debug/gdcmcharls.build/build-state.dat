@@ -1,0 +1,193 @@
+Tgdcmcharls
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Script-7562A4D0198047DCAA2C12B6.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/decoderstrategy.h
+c000000004EFDDAB8000000000000154D
+t1325259448
+s5453
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/encoderstrategy.h
+c000000004EFDDAB80000000000000CA2
+t1325259448
+s3234
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp
+c000000004EFDDAB80000000000002CB5
+t1325259448
+s11445
+i"stdafx.h"
+i"header.h"
+i"streams.h"
+i"decoderstrategy.h"
+i"encoderstrategy.h"
+i<memory>
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.h
+c000000004EFDDAB8000000000000037B
+t1325259448
+s891
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp
+c000000004EFDDAB800000000000012FB
+t1325259448
+s4859
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp
+c000000004EFDDAB8000000000000123C
+t1325259448
+s4668
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cpp
+c000000004EFDDAB80000000000000083
+t1325259448
+s131
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.h
+c000000004EFDDAB80000000000000091
+t1325259448
+s145
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/streams.h
+c000000004EFDDAB80000000000000C94
+t1325259448
+s3220
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/gdcmcharls.LinkFileList
+c000000005012CE6400000000000001F7
+t1343409764
+s503
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Script-7562A4D0198047DCAA2C12B6.sh
+c000000005012CE6400000000000000CB
+t1343409764
+s203
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a
+t2
+s0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8507c9e405c3b541^3c2fe9e405c3b541^---0#1#0#--18"Check dependencies36"798410F0-E8E3-4ECE-BB83-81B8C0ED26F4-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.914647
+e365102565.408821
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp3d45eae405c3b541^6e6c8ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp0000000000000000^2096"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.o Utilities/gdcmcharls/header.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DNDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/header.cpp -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.o36"BEE61AB3-EEDD-492D-AA62-B992B4A90540-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.914634
+e365102565.213376
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp868deae405c3b541^b64737e505c3b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp0000000000000000^2114"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.o Utilities/gdcmcharls/interface.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DNDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/interface.cpp -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.o36"6E2F761A-05DD-4093-B551-F20002F3E65B-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.915342
+e365102567.256766
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp3f6feae405c3b541^28bb41e705c3b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp0000000000000000^2096"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.o Utilities/gdcmcharls/jpegls.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DNDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/jpegls.cpp -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.o36"D1EC44A9-4F06-4328-A92F-6CBBF9A390DB-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.916370
+e365102564.971469
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cppd8b8eae405c3b541^30baf8e405c3b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cpp0000000000000000^2096"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o Utilities/gdcmcharls/stdafx.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DNDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmcharls/stdafx.cpp -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o36"8604DD2F-3F6F-4788-AB98-65428351146E-
+
+CLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a normal x86_64
+s365102567.278174
+e365102567.318388
+r1
+xLibtool
+x/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a
+xnormal
+xx86_64
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a normal x86_64f35447e705c3b541^e08151e705c3b541^-242"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o has no symbols-0#0#0#--682"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a normal x86_64    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -filelist /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/gdcmcharls.LinkFileList -o /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a36"B801D59E-BD06-4588-861B-4728E4783D06-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Script-7562A4D0198047DCAA2C12B6.sh
+s365102568.491068
+e365102568.534981
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Script-7562A4D0198047DCAA2C12B6.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmcharls.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmcharls.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmcharls.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmcharls.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'78627ee805c3b541^0ef488e805c3b541^-691"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmcharls.Debugmake[1]: Nothing to be done for `PostBuild.gdcmcharls.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmcharls.Debugmake[1]: Nothing to be done for `PostBuild.gdcmcharls.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-365102568#0#30#-0#-----2@23"Depend check for xcode-365102568#30#23#-0#-----2@199"cd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmcharls.Debug-365102568#53#199#-0#-----2@62"make[1]: Nothing to be done for `PostBuild.gdcmcharls.Debug'.-365102568#252#62#-0#-----2@30"echo "Depend check for xcode"-365102568#314#30#-0#-----2@23"Depend check for xcode-365102568#344#23#-0#-----2@262"cd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmcharls.Debug-365102568#367#262#-0#-----2@62"make[1]: Nothing to be done for `PostBuild.gdcmcharls.Debug'.-365102568#629#62#-0#-----0#0#0#--367"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Script-7562A4D0198047DCAA2C12B6.sh    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    /bin/sh -c /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Script-7562A4D0198047DCAA2C12B6.sh36"B86FA347-1EA6-4C4D-9ACD-C9518409958E-
+

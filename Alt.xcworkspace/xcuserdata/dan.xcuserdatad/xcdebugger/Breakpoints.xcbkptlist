@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltViewController.m"
+         timestampString = "380684152.01192"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "154"
+         endingLineNumber = "154"
+         landmarkName = "-scrollImage:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltViewController.m"
+         timestampString = "369803326.089597"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "134"
+         endingLineNumber = "134"
+         landmarkName = "-panImage:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltSearchViewController.m"
+         timestampString = "372912324.632604"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "92"
+         endingLineNumber = "92"
+         landmarkName = "-setSettingsTapped:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltViewController.h"
+         timestampString = "369812945.576887"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "@interface AltViewController"
+         landmarkType = "2">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltViewController.m"
+         timestampString = "380684152.01192"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "316"
+         endingLineNumber = "316"
+         landmarkName = "-selectedWindowWL:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/GDCMWrapper.mm"
+         timestampString = "380681221.041005"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "37"
+         endingLineNumber = "37"
+         landmarkName = "-setFileName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltViewController.m"
+         timestampString = "380684152.01192"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "221"
+         endingLineNumber = "221"
+         landmarkName = "-imageSelected:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/GDCMWrapper.mm"
+         timestampString = "380681221.041005"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "328"
+         endingLineNumber = "328"
+         landmarkName = "WindowWL(gdcm::File const &amp;gfile, gdcm::Image const &amp; gimage, char *buffer, double wc, double ww)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltViewController.m"
+         timestampString = "380684152.01192"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "215"
+         endingLineNumber = "215"
+         landmarkName = "-imageSelected:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltSearchViewController.m"
+         timestampString = "372912324.632604"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "157"
+         endingLineNumber = "157"
+         landmarkName = "-tableView:didSelectRowAtIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "79"
+         endingLineNumber = "79"
+         landmarkName = "@implementation DCMTKWrapper"
+         landmarkType = "3">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/AltSearchViewController.mm"
+         timestampString = "380739724.88417"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "217"
+         endingLineNumber = "217"
+         landmarkName = "-tableView:didSelectRowAtIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "186"
+         endingLineNumber = "186"
+         landmarkName = "-test"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "978"
+         endingLineNumber = "978"
+         landmarkName = "moveSCU(T_ASC_Association * assoc, const char *fname)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "134"
+         endingLineNumber = "134"
+         landmarkName = "-test"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "140"
+         endingLineNumber = "140"
+         landmarkName = "-test"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "111"
+         endingLineNumber = "111"
+         landmarkName = "-test"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "688"
+         endingLineNumber = "688"
+         landmarkName = "storeSCPCallback( /* in */ void *callbackData, T_DIMSE_StoreProgress *progress, /* progress state */ T_DIMSE_C_StoreRQ *req, /* original store request */ char *imageFileName, DcmDataset **imageDataSet, /* being received into */ /* out */ T_DIMSE_C_StoreRSP *rsp, /* final store response */ DcmDataset **statusDetail)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "695"
+         endingLineNumber = "695"
+         landmarkName = "storeSCPCallback( /* in */ void *callbackData, T_DIMSE_StoreProgress *progress, /* progress state */ T_DIMSE_C_StoreRQ *req, /* original store request */ char *imageFileName, DcmDataset **imageDataSet, /* being received into */ /* out */ T_DIMSE_C_StoreRSP *rsp, /* final store response */ DcmDataset **statusDetail)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "698"
+         endingLineNumber = "698"
+         landmarkName = "storeSCPCallback( /* in */ void *callbackData, T_DIMSE_StoreProgress *progress, /* progress state */ T_DIMSE_C_StoreRQ *req, /* original store request */ char *imageFileName, DcmDataset **imageDataSet, /* being received into */ /* out */ T_DIMSE_C_StoreRSP *rsp, /* final store response */ DcmDataset **statusDetail)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmdata/libsrc/dcfilefo.cc"
+         timestampString = "377575102.688488"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "803"
+         endingLineNumber = "803"
+         landmarkName = "DcmFileFormat::saveFile(const char *fileName, const E_TransferSyntax writeXfer, const E_EncodingType encodingType, const E_GrpLenEncoding groupLength, const E_PaddingEncoding padEncoding, const Uint32 padLength, const Uint32 subPadLength, const E_FileWriteMode writeMode)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmdata/libsrc/dcfilefo.cc"
+         timestampString = "377576347.570526"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "680"
+         endingLineNumber = "680"
+         landmarkName = "DcmFileFormat::write(DcmOutputStream &amp;outStream, const E_TransferSyntax oxfer, const E_EncodingType enctype, DcmWriteCache *wcache, const E_GrpLenEncoding glenc, const E_PaddingEncoding padenc, const Uint32 padlen, const Uint32 subPadlen, Uint32 instanceLength, const E_FileWriteMode writeMode)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "250"
+         endingLineNumber = "250"
+         landmarkName = "-test"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmULConnectionManager.cxx"
+         timestampString = "377895256.265867"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "446"
+         endingLineNumber = "446"
+         landmarkName = "ULConnectionManager::RunMoveEventLoop(ULEvent&amp; currentEvent, ULConnectionCallback* inCallback)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmULWritingCallback.cxx"
+         timestampString = "377895589.154018"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "ULWritingCallback::HandleDataSet(const DataSet&amp; inDataSet)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmServiceClassUser.cxx"
+         timestampString = "377895602.945716"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "576"
+         endingLineNumber = "576"
+         landmarkName = "ServiceClassUser::RunEventLoop(network::ULEvent&amp; currentEvent, network::ULConnection* inWhichConnection, network::ULConnectionCallback* inCallback, const bool&amp; startWaiting = false)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmServiceClassUser.cxx"
+         timestampString = "377895640.215016"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "574"
+         endingLineNumber = "574"
+         landmarkName = "ServiceClassUser::RunEventLoop(network::ULEvent&amp; currentEvent, network::ULConnection* inWhichConnection, network::ULConnectionCallback* inCallback, const bool&amp; startWaiting = false)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmServiceClassUser.cxx"
+         timestampString = "377895649.872886"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "356"
+         endingLineNumber = "356"
+         landmarkName = "ServiceClassUser::RunEventLoop(network::ULEvent&amp; currentEvent, network::ULConnection* inWhichConnection, network::ULConnectionCallback* inCallback, const bool&amp; startWaiting = false)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmULConnectionManager.cxx"
+         timestampString = "377895782.866295"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "642"
+         endingLineNumber = "642"
+         landmarkName = "ULConnectionManager::RunMoveEventLoop(ULEvent&amp; currentEvent, ULConnectionCallback* inCallback)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmULConnectionManager.cxx"
+         timestampString = "377895820.368261"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "633"
+         endingLineNumber = "633"
+         landmarkName = "ULConnectionManager::RunMoveEventLoop(ULEvent&amp; currentEvent, ULConnectionCallback* inCallback)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmULConnection.cxx"
+         timestampString = "377911782.025577"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "193"
+         endingLineNumber = "193"
+         landmarkName = "ULConnection::InitializeIncomingConnection()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "gdcm-2.2.0/Source/MessageExchangeDefinition/gdcmULConnection.cxx"
+         timestampString = "377911921.023809"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "206"
+         endingLineNumber = "206"
+         landmarkName = "ULConnection::InitializeIncomingConnection()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "984"
+         endingLineNumber = "984"
+         landmarkName = "moveSCU(T_ASC_Association * assoc, const char *fname)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "975"
+         endingLineNumber = "975"
+         landmarkName = "moveSCU(T_ASC_Association * assoc, const char *fname)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380350609.98856"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "253"
+         endingLineNumber = "253"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimse.cc"
+         timestampString = "380350620.002938"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1555"
+         endingLineNumber = "1555"
+         landmarkName = "DIMSE_receiveDataSetInMemory( T_ASC_Association *assoc, T_DIMSE_BlockingMode blocking, int timeout, T_ASC_PresentationContextID *presID, DcmDataset **dataObject, DIMSE_ProgressCallback callback, void *callbackData)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "841"
+         endingLineNumber = "841"
+         landmarkName = "subOpSCP(T_ASC_Association **subAssoc)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "838"
+         endingLineNumber = "838"
+         landmarkName = "subOpSCP(T_ASC_Association **subAssoc)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "884"
+         endingLineNumber = "884"
+         landmarkName = "subOpCallback(void * /*subOpCallbackData*/ , T_ASC_Network *aNet, T_ASC_Association **subAssoc)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380494435.521215"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "194"
+         endingLineNumber = "194"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimse.cc"
+         timestampString = "380495188.43166"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1763"
+         endingLineNumber = "1763"
+         landmarkName = "DIMSE_receiveDataSetInMemory( T_ASC_Association *assoc, T_DIMSE_BlockingMode blocking, int timeout, T_ASC_PresentationContextID *presID, DcmDataset **dataObject, DIMSE_ProgressCallback callback, void *callbackData)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380502052.436961"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "216"
+         endingLineNumber = "216"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380502055.514726"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "295"
+         endingLineNumber = "295"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380502180.160627"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "199"
+         endingLineNumber = "199"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "82"
+         endingLineNumber = "82"
+         landmarkName = "-test"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380509247.01199"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "254"
+         endingLineNumber = "254"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380509248.488725"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "249"
+         endingLineNumber = "249"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380509252.678548"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "270"
+         endingLineNumber = "270"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380509259.493782"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "276"
+         endingLineNumber = "276"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "344"
+         endingLineNumber = "344"
+         landmarkName = "moveCallback(void *callbackData, T_DIMSE_C_MoveRQ *request, int responseCount, T_DIMSE_C_MoveRSP *response)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimse.cc"
+         timestampString = "380513163.924658"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1612"
+         endingLineNumber = "1612"
+         landmarkName = "DIMSE_receiveDataSetInMemory( T_ASC_Association *assoc, T_DIMSE_BlockingMode blocking, int timeout, T_ASC_PresentationContextID *presID, DcmDataset **dataObject, DIMSE_ProgressCallback callback, void *callbackData)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380513794.346065"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "281"
+         endingLineNumber = "281"
+         landmarkName = "DIMSE_moveUser( /* in */ T_ASC_Association *assoc, T_ASC_PresentationContextID presID, T_DIMSE_C_MoveRQ *request, DcmDataset *requestIdentifiers, DIMSE_MoveUserCallback callback, void *callbackData, /* blocking info for response */ T_DIMSE_BlockingMode blockMode, int timeout, /* sub-operation provider callback */ T_ASC_Network *net, DIMSE_SubOpProviderCallback subOpCallback, void *subOpCallbackData, /* out */ T_DIMSE_C_MoveRSP *response, DcmDataset **statusDetail, DcmDataset **rspIds, OFBool ignorePendingDatasets)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Alt/Classes/DCMTKWrapper.mm"
+         timestampString = "380521188.837728"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "988"
+         endingLineNumber = "988"
+         landmarkName = "moveSCU(T_ASC_Association * assoc, const char *fname)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380519443.286395"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "137"
+         endingLineNumber = "137"
+         landmarkName = "selectReadable( T_ASC_Association *assoc, T_ASC_Network *net, T_ASC_Association *subAssoc, T_DIMSE_BlockingMode blockMode, int timeout)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380519445.359841"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "141"
+         endingLineNumber = "141"
+         landmarkName = "selectReadable( T_ASC_Association *assoc, T_ASC_Network *net, T_ASC_Association *subAssoc, T_DIMSE_BlockingMode blockMode, int timeout)"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "dcmtk-3.6.0/dcmnet/libsrc/dimmove.cc"
+         timestampString = "380519447.154191"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "145"
+         endingLineNumber = "145"
+         landmarkName = "selectReadable( T_ASC_Association *assoc, T_ASC_Network *net, T_ASC_Association *subAssoc, T_DIMSE_BlockingMode blockMode, int timeout)"
+         landmarkType = "7">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>

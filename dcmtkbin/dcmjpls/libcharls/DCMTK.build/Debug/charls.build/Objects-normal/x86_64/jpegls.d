@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/jpegls.cc \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/config.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstdinc.h \
+  /Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/util.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/pubtypes.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/streams.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofvector.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/oftypes.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofbmanip.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcast.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofdefine.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/header.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofaptr.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/decodstr.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/procline.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/clrtrans.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/encodstr.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/context.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/ctxtrmod.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/lokuptbl.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/lltraits.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/deftrait.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/scan.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofmap.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/oflist.h

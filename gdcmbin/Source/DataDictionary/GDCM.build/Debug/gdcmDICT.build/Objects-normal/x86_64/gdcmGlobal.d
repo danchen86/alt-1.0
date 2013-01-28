@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataDictionary/gdcmGlobal.cxx \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataDictionary/gdcmGlobal.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmTypes.h \
+  /Users/dan/Documents/xcode/alt/gdcmbin/Source/Common/gdcmConfigure.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmWin32.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmLegacyMacro.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmException.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmTrace.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmSystem.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataDictionary/gdcmDicts.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataDictionary/gdcmDict.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataStructureAndEncodingDefinition/gdcmTag.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataStructureAndEncodingDefinition/gdcmPrivateTag.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataDictionary/gdcmDictEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataStructureAndEncodingDefinition/gdcmVR.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmString.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmStaticAssert.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataStructureAndEncodingDefinition/gdcmVM.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataDictionary/gdcmCSAHeaderDict.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/DataDictionary/gdcmCSAHeaderDictEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmDefs.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmModules.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmModule.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmModuleEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmType.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmMacros.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmMacro.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmMacroEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmIODs.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmIOD.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmIODEntry.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/InformationObjectDefinition/gdcmUsage.h \
+  /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Source/Common/gdcmFilename.h

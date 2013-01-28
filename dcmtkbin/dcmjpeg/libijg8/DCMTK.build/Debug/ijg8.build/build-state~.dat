@@ -1,0 +1,1006 @@
+Tijg8
+v5
+r1
+cCheck dependencies
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jaricom.c
+c000000003F043B31000000000000017E
+t1057241905
+s382
+i"jinclude8.h"
+i"jpeglib8.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcapimin.c
+c000000003BF142FB00000000000023A4
+t1005667067
+s9124
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcapistd.c
+c000000003BF142FB0000000000001705
+t1005667067
+s5893
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcarith.c
+c000000003BF142FC0000000000000208
+t1005667068
+s520
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jccoefct.c
+c000000003BF142FC00000000000041B8
+t1005667068
+s16824
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jccolor.c
+c000000003F043B310000000000003A2E
+t1057241905
+s14894
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcdctmgr.c
+c000000003F043B3100000000000031B5
+t1057241905
+s12725
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcdiffct.c
+c000000004CD156460000000000003759
+t1288787526
+s14169
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jchuff.c
+c000000003F043B310000000000002427
+t1057241905
+s9255
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcinit.c
+c000000003BF142FF0000000000000741
+t1005667071
+s1857
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclhuff.c
+c000000003F043B310000000000004979
+t1057241905
+s18809
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclossls.c
+c000000003BF1430000000000000007A1
+t1005667072
+s1953
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclossy.c
+c000000003BF1430000000000000007AB
+t1005667072
+s1963
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmainct.c
+c000000003BF1430000000000000024F2
+t1005667072
+s9458
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmarker.c
+c000000004CD15646000000000000461A
+t1288787526
+s17946
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmaster.c
+c000000003BF1430100000000000056B9
+t1005667073
+s22201
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcodec.c
+c000000003BF143020000000000000441
+t1005667074
+s1089
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcomapi.c
+c000000003BF143020000000000000C28
+t1005667074
+s3112
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcparam.c
+c000000003BF143030000000000005C3B
+t1005667075
+s23611
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcphuff.c
+c000000003F043B31000000000000651C
+t1057241905
+s25884
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcpred.c
+c000000003BF14304000000000000204F
+t1005667076
+s8271
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcprepct.c
+c000000003BF143050000000000002F52
+t1005667077
+s12114
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcsample.c
+c000000003F043B310000000000004A0B
+t1057241905
+s18955
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcscale.c
+c000000003BF1430600000000000005C3
+t1005667078
+s1475
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcshuff.c
+c000000003F043B310000000000004E54
+t1057241905
+s20052
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jctrans.c
+c000000003BF143060000000000003ADD
+t1005667078
+s15069
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdapimin.c
+c000000003BF143070000000000003237
+t1005667079
+s12855
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdapistd.c
+c000000003BF143070000000000002487
+t1005667079
+s9351
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdarith.c
+c000000003BF14308000000000000020A
+t1005667080
+s522
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdatadst.c
+c000000003BF143080000000000001402
+t1005667080
+s5122
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdatasrc.c
+c000000003BF143090000000000001DB7
+t1005667081
+s7607
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdcoefct.c
+c000000003F043B310000000000006448
+t1057241905
+s25672
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdcolor.c
+c000000003F043B3100000000000034D8
+t1057241905
+s13528
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jddctmgr.c
+c000000003F043B3100000000000020D7
+t1057241905
+s8407
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jddiffct.c
+c000000003BF1430B000000000000331D
+t1005667083
+s13085
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdhuff.c
+c000000003F043B3100000000000028BA
+t1057241905
+s10426
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdinput.c
+c000000003BF1430C0000000000002F8E
+t1005667084
+s12174
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlhuff.c
+c000000003BF1430D00000000000025BA
+t1005667085
+s9658
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlossls.c
+c000000003BF1430D0000000000000968
+t1005667085
+s2408
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlossy.c
+c000000003BF1430E0000000000001CFC
+t1005667086
+s7420
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmainct.c
+c000000003BF1430E000000000000501F
+t1005667086
+s20511
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmarker.c
+c000000004CD15646000000000000A1F7
+t1288787526
+s41463
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmaster.c
+c000000003BF1430F0000000000003EFF
+t1005667087
+s16127
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmerge.c
+c000000003F043B310000000000003692
+t1057241905
+s13970
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdphuff.c
+c000000003BF143100000000000005214
+t1005667088
+s21012
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdpostct.c
+c000000003BF1431100000000000025FD
+t1005667089
+s9725
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdpred.c
+c000000003BF143110000000000001C74
+t1005667089
+s7284
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdsample.c
+c000000003F043B310000000000004003
+t1057241905
+s16387
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdscale.c
+c000000004CD156460000000000000C1B
+t1288787526
+s3099
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdshuff.c
+c000000003BF143120000000000002D3E
+t1005667090
+s11582
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdtrans.c
+c000000003BF143130000000000001361
+t1005667091
+s4961
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jerror.c
+c000000003BF143130000000000001E8D
+t1005667091
+s7821
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctflt.c
+c000000003BF143140000000000001571
+t1005667092
+s5489
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctfst.c
+c000000003F043B310000000000001DB1
+t1057241905
+s7601
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctint.c
+c000000003F043B310000000000002B89
+t1057241905
+s11145
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctflt.c
+c000000003F043B310000000000002126
+t1057241905
+s8486
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctfst.c
+c000000003F043B310000000000003391
+t1057241905
+s13201
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctint.c
+c000000003F043B310000000000003A5A
+t1057241905
+s14938
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctred.c
+c000000003F043B310000000000003567
+t1057241905
+s13671
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jinclude8.h
+c000000003BF143170000000000000CB3
+t1005667095
+s3251
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jmemmgr.c
+c000000003BF14319000000000000A5E2
+t1005667097
+s42466
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jmemnobs.c
+c000000003BF1431A0000000000000AD7
+t1005667098
+s2775
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jpeglib8.h
+c000000003BF1431B000000000000D21D
+t1005667099
+s53789
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jquant1.c
+c000000003F043B310000000000007A5C
+t1057241905
+s31324
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jquant2.c
+c000000003F043B31000000000000BD6B
+t1057241905
+s48491
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jutils.c
+c000000003BF1431D000000000000147A
+t1005667101
+s5242
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/ijg8.LinkFileList
+c00000000509C73B30000000000001D58
+t1352430515
+s7512
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jaricom.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcapimin.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcapistd.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcarith.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jccoefct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jccolor.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcdctmgr.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcdiffct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jchuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcinit.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jclhuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jclossls.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jclossy.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcmainct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcmarker.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcmaster.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcodec.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcomapi.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcparam.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcphuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcpred.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcprepct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcsample.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcscale.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcshuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jctrans.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdapimin.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdapistd.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdarith.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdatadst.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdatasrc.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdcoefct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdcolor.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jddctmgr.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jddiffct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdhuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdinput.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdlhuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdlossls.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdlossy.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmainct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmarker.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmaster.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmerge.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdphuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdpostct.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdpred.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdsample.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdscale.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdshuff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdtrans.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jerror.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jfdctflt.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jfdctfst.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jfdctint.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctflt.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctfst.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctint.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctred.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jmemmgr.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jmemnobs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jquant1.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jquant2.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jutils.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Script-713490D6984F4864B0C90525.sh
+c00000000509C73B300000000000000BD
+t1352430515
+s189
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/Debug/libijg8.a
+t2
+s0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jaricom.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcapimin.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcapistd.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcarith.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jccoefct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jccolor.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcdctmgr.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcdiffct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jchuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcinit.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclhuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclossls.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclossy.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmainct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmarker.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmaster.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcodec.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcomapi.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcparam.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcphuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcpred.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcprepct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcsample.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcscale.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcshuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jctrans.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdapimin.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdapistd.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdarith.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdatadst.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdatasrc.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdcoefct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdcolor.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jddctmgr.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jddiffct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdhuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdinput.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlhuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlossls.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlossy.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmainct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmarker.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmaster.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmerge.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdphuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdpostct.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdpred.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdsample.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdscale.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdshuff.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdtrans.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jerror.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctflt.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctfst.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctint.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctflt.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctfst.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctint.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctred.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jmemmgr.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jmemnobs.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jquant1.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jquant2.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jutils.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesaa64dc33ab4cb641^813edd33ab4cb641^---0#1#0#--18"Check dependencies36"05010FFE-AD22-4FCA-9068-01E492FCC631-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jaricom.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jaricom.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcapimin.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcapimin.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcapistd.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcapistd.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcarith.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcarith.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jccoefct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jccoefct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jccolor.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jccolor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcdctmgr.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcdctmgr.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcdiffct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcdiffct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jchuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jchuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcinit.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcinit.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jclhuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclhuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jclossls.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclossls.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jclossy.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jclossy.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcmainct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmainct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcmarker.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmarker.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcmaster.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcmaster.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcodec.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcodec.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcomapi.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcomapi.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcparam.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcparam.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcphuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcphuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcpred.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcpred.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcprepct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcprepct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcsample.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcsample.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcscale.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcscale.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jcshuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jcshuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jctrans.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jctrans.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdapimin.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdapimin.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdapistd.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdapistd.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdarith.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdarith.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdatadst.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdatadst.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdatasrc.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdatasrc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdcoefct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdcoefct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdcolor.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdcolor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jddctmgr.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jddctmgr.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jddiffct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jddiffct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdhuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdhuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdinput.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdinput.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdlhuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlhuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdlossls.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlossls.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdlossy.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdlossy.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmainct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmainct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmarker.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmarker.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmaster.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmaster.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdmerge.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdmerge.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdphuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdphuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdpostct.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdpostct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdpred.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdpred.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdsample.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdsample.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdscale.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdscale.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdshuff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdshuff.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jdtrans.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jdtrans.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jerror.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jerror.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jfdctflt.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctflt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jfdctfst.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctfst.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jfdctint.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jfdctint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctflt.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctflt.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctfst.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctfst.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctint.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jidctred.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jidctred.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jmemmgr.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jmemmgr.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jmemnobs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jmemnobs.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jquant1.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jquant1.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jquant2.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jquant2.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Objects-normal/x86_64/jutils.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8/jutils.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/Debug/libijg8.a normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libijg8/DCMTK.build/Debug/ijg8.build/Script-713490D6984F4864B0C90525.sh
+r0
+

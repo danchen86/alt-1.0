@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ALL_BUILD.build/Script-E44B510BCFC348EE84D6B387.sh
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ALL_BUILD.build/Script-E44B510BCFC348EE84D6B387.sh
+c00000000509C73EC00000000000000A8
+t1352430572
+s168
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4791b96cab4cb641^3c13ba6cab4cb641^---0#1#0#--18"Check dependencies36"9019D707-2711-42DF-A8D1-D3CB39C885B1-
+
+CPhaseScriptExecution "CMake Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ALL_BUILD.build/Script-E44B510BCFC348EE84D6B387.sh
+s374123372.727321
+e374123372.749023
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ALL_BUILD.build/Script-E44B510BCFC348EE84D6B387.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'a582ba6cab4cb641^9966c26cab4cb641^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-374123372#0#8#-0#-----2@26"echo Build\ all\ projects-374123372#9#26#-0#-----2@19"Build all projects-374123372#35#19#-0#-----0#0#0#--318"PhaseScriptExecution "CMake Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ALL_BUILD.build/Script-E44B510BCFC348EE84D6B387.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/DCMTK.build/Debug/ALL_BUILD.build/Script-E44B510BCFC348EE84D6B387.sh36"585ED8DE-6C2F-451C-8055-FC0705286C96-
+

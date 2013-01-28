@@ -1,0 +1,17 @@
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/CMakeFiles/ALL_BUILD.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/CMakeFiles/ZERO_CHECK.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Source/Common/CMakeFiles/gdcmCommon.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Source/DataDictionary/CMakeFiles/gdcmDICT.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Source/DataStructureAndEncodingDefinition/CMakeFiles/gdcmDSED.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Source/InformationObjectDefinition/CMakeFiles/gdcmIOD.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Source/MessageExchangeDefinition/CMakeFiles/gdcmMEXD.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Source/MediaStorageAndFileFormat/CMakeFiles/gdcmMSFF.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/CMakeFiles/gdcmcharls.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/CMakeFiles/gdcmexpat.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12/CMakeFiles/gdcmjpeg12.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16/CMakeFiles/gdcmjpeg16.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8/CMakeFiles/gdcmjpeg8.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/CMakeFiles/gdcmopenjpeg.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/CMakeFiles/gdcmuuid.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/CMakeFiles/gdcmzlib.dir
+/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++/CMakeFiles/socketxx.dir

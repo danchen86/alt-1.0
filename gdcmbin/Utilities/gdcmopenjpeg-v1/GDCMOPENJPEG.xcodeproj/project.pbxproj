@@ -1,0 +1,1029 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              041185DB5CEB41BD86A40362 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2D6C874FAD274EB285B791C0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            EB909429BD1241E4A595FB34 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            8B026A7B2AFA481A8F5E7CF5 /* PBXTargetDependency */,
+                            E25204533180444DBA291AF6 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5755F2EA557E4E958A509018 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 406C8C9F988346A29E21DFF7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            A11D811C56454E9CBFCCB242 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              B8CC321C124C4C689685979F /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = BB69EC32DB4443C781E0559B /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            3164819A36C845E3A37AA024 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            D5BC984D359A4145A0E77DD3 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              75E0F7E0A7594D5E9AC69F34 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C5A924B22E394D248B1FE877 /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            F9BABA0A1C7E42ECBA0D3A01 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            D5BC984D359A4145A0E77DD3 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+7B6524DF41DE4707ABD4C923 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c */ = {isa = PBXBuildFile; fileRef = 65306ABFABF146B6B06E6BED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c */; settings = { COMPILER_FLAGS = ""; }; };
+21247C36B0754D809B1DFDE3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c */ = {isa = PBXBuildFile; fileRef = 9AC2BC48FB534192AD9747FB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c */; settings = { COMPILER_FLAGS = ""; }; };
+53EF98D4F8DC49ACBF71481A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c */ = {isa = PBXBuildFile; fileRef = CFA0B01068094B1C80A10084 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c */; settings = { COMPILER_FLAGS = ""; }; };
+98187BE8FAF542ADBE2FDF29 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c */ = {isa = PBXBuildFile; fileRef = FC6629F1DFCA465EA3856C21 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c */; settings = { COMPILER_FLAGS = ""; }; };
+1CE41AC6394448C2995B1ED5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c */ = {isa = PBXBuildFile; fileRef = 3BDC8E4D23D14B79B546108F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c */; settings = { COMPILER_FLAGS = ""; }; };
+EE25B11F16AB4A77B2640073 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c */ = {isa = PBXBuildFile; fileRef = A0C071D302544AC282A60636 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c */; settings = { COMPILER_FLAGS = ""; }; };
+0D5C546CA70D427194072593 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c */ = {isa = PBXBuildFile; fileRef = 1ABACE33893B4EA7A98DB277 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c */; settings = { COMPILER_FLAGS = ""; }; };
+63101F60495A41E7BA8FED72 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c */ = {isa = PBXBuildFile; fileRef = 4D491AE3059F43408668CADE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c */; settings = { COMPILER_FLAGS = ""; }; };
+4731B93D48924E0D8102EA82 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c */ = {isa = PBXBuildFile; fileRef = 8B2D9CA19A1B4F7FBC36C926 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c */; settings = { COMPILER_FLAGS = ""; }; };
+5CED37A7B66C4BD297844D24 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c */ = {isa = PBXBuildFile; fileRef = 68D4F26161E24D95B08C43E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c */; settings = { COMPILER_FLAGS = ""; }; };
+AB2394278BBE4E3984A1F26C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c */ = {isa = PBXBuildFile; fileRef = 3AD462DE8014460F8E56A8F1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c */; settings = { COMPILER_FLAGS = ""; }; };
+828D2866C1C34ED0B7345DD9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c */ = {isa = PBXBuildFile; fileRef = 47A46008949B44D2ADF57192 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c */; settings = { COMPILER_FLAGS = ""; }; };
+EFE0D40603AB436A8F530AA9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c */ = {isa = PBXBuildFile; fileRef = F12C2945DAE24943839F7AB5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c */; settings = { COMPILER_FLAGS = ""; }; };
+297F5ACC5E7B41878CB66D96 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c */ = {isa = PBXBuildFile; fileRef = 50E8976F003B426CA1093C94 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c */; settings = { COMPILER_FLAGS = ""; }; };
+496F078E168B42D6A7B7A156 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c */ = {isa = PBXBuildFile; fileRef = 5FBAFF31067E4727921822C9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c */; settings = { COMPILER_FLAGS = ""; }; };
+4B2A04EA7E8A4C4FB7A4BB38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c */ = {isa = PBXBuildFile; fileRef = FF4888AA64AA493B8B5D04B5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c */; settings = { COMPILER_FLAGS = ""; }; };
+16565047B9F745AF94F625AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c */ = {isa = PBXBuildFile; fileRef = CCC5880E5E6A46D9BD390C99 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c */; settings = { COMPILER_FLAGS = ""; }; };
+5292F424DBB74E44BA711465 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c */ = {isa = PBXBuildFile; fileRef = 4B32650A40B74219B2731EAF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c */; settings = { COMPILER_FLAGS = ""; }; };
+8E1542A0DE63453A97178C3A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2A7344BDE4FA4A34A68BF968 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              F481F8C3AAF742F68E67D19D /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              0B98DBEA0E4D46F9857F568D /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              DCD96C6463C0445290F9BC4E /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              7F5D2BE0D13A49B881F61BB9 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              F901AA5AB8E044DA9475971C /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              96AEA9CF42AB422087CA83B8 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 92EE3B03082A4CA0B67A52CE /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D2604A92D1644A1190E768B4;
+                     remoteInfo = gdcmopenjpeg;
+              };
+              4E1B04A7F6354D6A9EA6BB48 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 92EE3B03082A4CA0B67A52CE /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5755F2EA557E4E958A509018;
+                     remoteInfo = ZERO_CHECK;
+              };
+              2323AD5CFF2B48ED999FD7F2 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 92EE3B03082A4CA0B67A52CE /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 041185DB5CEB41BD86A40362;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+A9D8A3347564420BAAB3AF1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+65306ABFABF146B6B06E6BED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "bio.c"; path = "libopenjpeg/bio.c"; sourceTree = SOURCE_ROOT; };
+9AC2BC48FB534192AD9747FB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "cio.c"; path = "libopenjpeg/cio.c"; sourceTree = SOURCE_ROOT; };
+CFA0B01068094B1C80A10084 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "dwt.c"; path = "libopenjpeg/dwt.c"; sourceTree = SOURCE_ROOT; };
+FC6629F1DFCA465EA3856C21 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "event.c"; path = "libopenjpeg/event.c"; sourceTree = SOURCE_ROOT; };
+3BDC8E4D23D14B79B546108F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "image.c"; path = "libopenjpeg/image.c"; sourceTree = SOURCE_ROOT; };
+A0C071D302544AC282A60636 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "j2k.c"; path = "libopenjpeg/j2k.c"; sourceTree = SOURCE_ROOT; };
+1ABACE33893B4EA7A98DB277 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "j2k_lib.c"; path = "libopenjpeg/j2k_lib.c"; sourceTree = SOURCE_ROOT; };
+4D491AE3059F43408668CADE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jp2.c"; path = "libopenjpeg/jp2.c"; sourceTree = SOURCE_ROOT; };
+8B2D9CA19A1B4F7FBC36C926 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jpt.c"; path = "libopenjpeg/jpt.c"; sourceTree = SOURCE_ROOT; };
+68D4F26161E24D95B08C43E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "mct.c"; path = "libopenjpeg/mct.c"; sourceTree = SOURCE_ROOT; };
+3AD462DE8014460F8E56A8F1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "mqc.c"; path = "libopenjpeg/mqc.c"; sourceTree = SOURCE_ROOT; };
+47A46008949B44D2ADF57192 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "openjpeg.c"; path = "libopenjpeg/openjpeg.c"; sourceTree = SOURCE_ROOT; };
+F12C2945DAE24943839F7AB5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "pi.c"; path = "libopenjpeg/pi.c"; sourceTree = SOURCE_ROOT; };
+50E8976F003B426CA1093C94 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "raw.c"; path = "libopenjpeg/raw.c"; sourceTree = SOURCE_ROOT; };
+5FBAFF31067E4727921822C9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "t1.c"; path = "libopenjpeg/t1.c"; sourceTree = SOURCE_ROOT; };
+FF4888AA64AA493B8B5D04B5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "t2.c"; path = "libopenjpeg/t2.c"; sourceTree = SOURCE_ROOT; };
+CCC5880E5E6A46D9BD390C99 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "tcd.c"; path = "libopenjpeg/tcd.c"; sourceTree = SOURCE_ROOT; };
+4B32650A40B74219B2731EAF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "tgt.c"; path = "libopenjpeg/tgt.c"; sourceTree = SOURCE_ROOT; };
+2A7344BDE4FA4A34A68BF968 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "libopenjpeg/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+FBFABE858D5743A8AA80831F /* gdcmopenjpeg */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgdcmopenjpeg.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              E660F1EB472A4382BE0B6F6F  = {
+                     isa = PBXGroup;
+                     children = (
+                            69C73AC1400C4B5B9E43EDB1 /* Sources */,
+                            526F56B3ACDB49D8B8BE4D83 /* Resources */,
+                            0C9D2DDA5B774AA5A2316859 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              69C73AC1400C4B5B9E43EDB1 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            73F12556D27F4A86A5A53110 /* ALL_BUILD */,
+                            E45AC70496BF4B88A73E29B8 /* ZERO_CHECK */,
+                            0E4EF0D4A4B64FAD85116CCC /* gdcmopenjpeg */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              526F56B3ACDB49D8B8BE4D83 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              73F12556D27F4A86A5A53110 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            914D60C5CF3147F8907D9E79 /* CMake Rules */,
+                            A9D8A3347564420BAAB3AF1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              914D60C5CF3147F8907D9E79 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              E45AC70496BF4B88A73E29B8 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            86C92CE65579440A9FDC7E0B /* CMake Rules */,
+                            A9D8A3347564420BAAB3AF1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              86C92CE65579440A9FDC7E0B /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              0E4EF0D4A4B64FAD85116CCC /* gdcmopenjpeg */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A75B728DAB084B7AB8DBD9E7 /* Source Files */,
+                            2A7344BDE4FA4A34A68BF968 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/CMakeLists.txt */,
+                     );
+                     name = gdcmopenjpeg;
+                     sourceTree = "<group>";
+              };
+              A75B728DAB084B7AB8DBD9E7 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            65306ABFABF146B6B06E6BED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c */,
+                            9AC2BC48FB534192AD9747FB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c */,
+                            CFA0B01068094B1C80A10084 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c */,
+                            FC6629F1DFCA465EA3856C21 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c */,
+                            3BDC8E4D23D14B79B546108F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c */,
+                            A0C071D302544AC282A60636 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c */,
+                            1ABACE33893B4EA7A98DB277 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c */,
+                            4D491AE3059F43408668CADE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c */,
+                            8B2D9CA19A1B4F7FBC36C926 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c */,
+                            68D4F26161E24D95B08C43E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c */,
+                            3AD462DE8014460F8E56A8F1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c */,
+                            47A46008949B44D2ADF57192 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c */,
+                            F12C2945DAE24943839F7AB5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c */,
+                            50E8976F003B426CA1093C94 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c */,
+                            5FBAFF31067E4727921822C9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c */,
+                            FF4888AA64AA493B8B5D04B5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c */,
+                            CCC5880E5E6A46D9BD390C99 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c */,
+                            4B32650A40B74219B2731EAF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              0C9D2DDA5B774AA5A2316859 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FBFABE858D5743A8AA80831F /* gdcmopenjpeg */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              D2604A92D1644A1190E768B4 /* gdcmopenjpeg */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 8373DB4FCFE9469B860D2115 /* Build configuration list for PBXNativeTarget "gdcmopenjpeg" */;
+                     buildPhases = (
+                            8E6BCCDCB21F4C89A9E57C10 /* Sources */,
+                            7A9114A77682420680C8F79B /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = gdcmopenjpeg;
+                     productName = gdcmopenjpeg;
+                     productReference = FBFABE858D5743A8AA80831F /* gdcmopenjpeg */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              92EE3B03082A4CA0B67A52CE /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 6ACA220865CD48E1ADE5E7A0 /* Build configuration list for PBXProject  "GDCMOPENJPEG" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            0B98DBEA0E4D46F9857F568D /* Debug */,
+                            DCD96C6463C0445290F9BC4E /* Release */,
+                            7F5D2BE0D13A49B881F61BB9 /* MinSizeRel */,
+                            F901AA5AB8E044DA9475971C /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = E660F1EB472A4382BE0B6F6F;
+                     projectDirPath = "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1";
+                     projectRoot = "";
+                     targets = (
+                            041185DB5CEB41BD86A40362 /* ALL_BUILD */,
+                            5755F2EA557E4E958A509018 /* ZERO_CHECK */,
+                            B8CC321C124C4C689685979F /* install */,
+                            75E0F7E0A7594D5E9AC69F34 /* package */,
+                            D2604A92D1644A1190E768B4 /* gdcmopenjpeg */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              D05DD2D3CCD84C2BA46034B5 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              EB909429BD1241E4A595FB34 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              681DBAD4F6AC408395651B2F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A11D811C56454E9CBFCCB242 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              EDA604F3AA9F496A90D8086F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3164819A36C845E3A37AA024 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              2F6F9D34BEFE4412AC322F8E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              F9BABA0A1C7E42ECBA0D3A01 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7A9114A77682420680C8F79B /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg/CMakeScripts/gdcmopenjpeg_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              8E6BCCDCB21F4C89A9E57C10 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            7B6524DF41DE4707ABD4C923 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/bio.c */,
+                            21247C36B0754D809B1DFDE3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/cio.c */,
+                            53EF98D4F8DC49ACBF71481A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/dwt.c */,
+                            98187BE8FAF542ADBE2FDF29 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/event.c */,
+                            1CE41AC6394448C2995B1ED5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/image.c */,
+                            EE25B11F16AB4A77B2640073 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k.c */,
+                            0D5C546CA70D427194072593 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/j2k_lib.c */,
+                            63101F60495A41E7BA8FED72 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jp2.c */,
+                            4731B93D48924E0D8102EA82 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/jpt.c */,
+                            5CED37A7B66C4BD297844D24 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mct.c */,
+                            AB2394278BBE4E3984A1F26C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/mqc.c */,
+                            828D2866C1C34ED0B7345DD9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/openjpeg.c */,
+                            EFE0D40603AB436A8F530AA9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/pi.c */,
+                            297F5ACC5E7B41878CB66D96 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/raw.c */,
+                            496F078E168B42D6A7B7A156 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t1.c */,
+                            4B2A04EA7E8A4C4FB7A4BB38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/t2.c */,
+                            16565047B9F745AF94F625AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tcd.c */,
+                            5292F424DBB74E44BA711465 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmopenjpeg-v1/libopenjpeg/tgt.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              8B026A7B2AFA481A8F5E7CF5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D2604A92D1644A1190E768B4 /* gdcmopenjpeg */;
+                     targetProxy = 96AEA9CF42AB422087CA83B8 /* PBXContainerItemProxy */;
+              };
+              E25204533180444DBA291AF6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5755F2EA557E4E958A509018 /* ZERO_CHECK */;
+                     targetProxy = 4E1B04A7F6354D6A9EA6BB48 /* PBXContainerItemProxy */;
+              };
+              D5BC984D359A4145A0E77DD3 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 041185DB5CEB41BD86A40362 /* ALL_BUILD */;
+                     targetProxy = 2323AD5CFF2B48ED999FD7F2 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              987C6D398F804C6F80B87A17 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/build";
+                     };
+                     name = Debug;
+              };
+              FE72459BB95E4DBD8C057528 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/build";
+                     };
+                     name = Release;
+              };
+              C3218CD241464E2982F68BDA /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/build";
+                     };
+                     name = MinSizeRel;
+              };
+              BF678DE15BA14D45B57DE4D8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              112665F0792D414F9421BCA3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              22A3B921CE4A47BFAC76BDE3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C0658CAC98A346AD8A9824C7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              0C25396C6A4D4963AC01A435 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              2B99B9D10BC8499383ECA028 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8A8B2D9FA19E407D99D7897F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8E3441D4D600458D9EE9DDC1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              C9C736BA911342BAACA7A2E2 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E609A86EFAF64AED90435601 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5F6427D2D9A74F37944D5C18 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              ECFE8B9D0A4B4831B26E9F64 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              4B5749718D8B4279B2FF9680 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              471F34F95F894382A50ACD28 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8507F71061674895B03991D5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              ABE0BA4CF61F48B0952BF2CE /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3C775872E95140339DE89768 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              C80FE859F438481ABA254A25 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmopenjpeg;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              748691618E344C2CA0DFC6FC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmopenjpeg;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A06F2D8BFFCC4C2BB631A44A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmopenjpeg;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              B824FA7C6C004B5B9C887F9B /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmopenjpeg;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmopenjpeg-v1/libopenjpeg";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              6ACA220865CD48E1ADE5E7A0 /* Build configuration list for PBXProject  "GDCMOPENJPEG" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            987C6D398F804C6F80B87A17 /* Debug */,
+                            FE72459BB95E4DBD8C057528 /* Release */,
+                            C3218CD241464E2982F68BDA /* MinSizeRel */,
+                            BF678DE15BA14D45B57DE4D8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2D6C874FAD274EB285B791C0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            112665F0792D414F9421BCA3 /* Debug */,
+                            22A3B921CE4A47BFAC76BDE3 /* Release */,
+                            C0658CAC98A346AD8A9824C7 /* MinSizeRel */,
+                            0C25396C6A4D4963AC01A435 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              406C8C9F988346A29E21DFF7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2B99B9D10BC8499383ECA028 /* Debug */,
+                            8A8B2D9FA19E407D99D7897F /* Release */,
+                            8E3441D4D600458D9EE9DDC1 /* MinSizeRel */,
+                            C9C736BA911342BAACA7A2E2 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BB69EC32DB4443C781E0559B /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E609A86EFAF64AED90435601 /* Debug */,
+                            5F6427D2D9A74F37944D5C18 /* Release */,
+                            ECFE8B9D0A4B4831B26E9F64 /* MinSizeRel */,
+                            4B5749718D8B4279B2FF9680 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C5A924B22E394D248B1FE877 /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            471F34F95F894382A50ACD28 /* Debug */,
+                            8507F71061674895B03991D5 /* Release */,
+                            ABE0BA4CF61F48B0952BF2CE /* MinSizeRel */,
+                            3C775872E95140339DE89768 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8373DB4FCFE9469B860D2115 /* Build configuration list for PBXNativeTarget "gdcmopenjpeg" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C80FE859F438481ABA254A25 /* Debug */,
+                            748691618E344C2CA0DFC6FC /* Release */,
+                            A06F2D8BFFCC4C2BB631A44A /* MinSizeRel */,
+                            B824FA7C6C004B5B9C887F9B /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 92EE3B03082A4CA0B67A52CE;
+}

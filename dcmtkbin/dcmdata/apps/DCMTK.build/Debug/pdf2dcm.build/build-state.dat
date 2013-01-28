@@ -1,0 +1,165 @@
+Tpdf2dcm
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/pdf2dcm normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Script-A995EBB72BB04E0C8A572E58.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/fcntl.h
+c00000000502171D400000000000003EA
+t1344369108
+s1002
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/stat.h
+c00000000502171D40000000000004B2F
+t1344369108
+s19247
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/types.h
+c00000000502171D40000000000002795
+t1344369108
+s10133
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/zlib.h
+c00000000502171D40000000000013A7F
+t1344369108
+s80511
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.cc
+c000000004CB701FA0000000000005DEF
+t1287062010
+s24047
+i"dcmtk/config/osconfig.h"
+i"dcmtk/ofstd/ofstdinc.h"
+i<GUSI.h>
+i<fcntl.h>
+i<sys/types.h>
+i<sys/stat.h>
+i"dcmtk/dcmdata/dctk.h"
+i"dcmtk/dcmdata/cmdlnarg.h"
+i"dcmtk/ofstd/ofconapp.h"
+i"dcmtk/dcmdata/dcuid.h"
+i"dcmtk/ofstd/ofstd.h"
+i"dcmtk/ofstd/ofdatime.h"
+i"dcmtk/dcmdata/dccodec.h"
+i<zlib.h>
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/cmdlnarg.h
+c000000004CB7027C0000000000000AE1
+t1287062140
+s2785
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dccodec.h
+c000000004CB7027C0000000000006724
+t1287062140
+s26404
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dctk.h
+c000000004CB7027E0000000000001193
+t1287062142
+s4499
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcuid.h
+c000000004CD3DBC2000000000000DCEE
+t1288952770
+s56558
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofconapp.h
+c000000004CB702860000000000002736
+t1287062150
+s10038
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofdatime.h
+c000000004CB702860000000000003058
+t1287062150
+s12376
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstd.h
+c000000004CB702860000000000008C80
+t1287062150
+s35968
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstdinc.h
+c000000004CB7028600000000000027EF
+t1287062150
+s10223
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.LinkFileList
+c00000000509C73DF0000000000000075
+t1352430559
+s117
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Script-A995EBB72BB04E0C8A572E58.sh
+c00000000509C73DF00000000000000BA
+t1352430559
+s186
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/pdf2dcm
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese9b9595fab4cb641^670f645fab4cb641^---0#1#0#--18"Check dependencies36"AB2F17F8-02F2-48E9-BD40-BBFCFFA63300-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123359.355189
+e374123360.207367
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.ccc2165b5fab4cb641^68774060ab4cb641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.cc0000000000000000^3246"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.o dcmdata/apps/pdf2dcm.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/pdf2dcm.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.o36"9F227F2D-1EE2-4C34-A4C7-4004E9C3CBB7-
+
+CLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/pdf2dcm normal x86_64
+s374123360.216259
+e374123360.395251
+r1
+xLd
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/pdf2dcm
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Link /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/pdf2dcm116d3760ab4cb641^babc6560ab4cb641^-302"ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'3(21%IDEActivityLogMessage2@88"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'-374123360#0#102#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'-374123360#102#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'-374123360#202#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1353"Ld /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/pdf2dcm normal x86_64    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Objects-normal/x86_64/pdf2dcm.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Debug/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Debug/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/pdf2dcm36"B2B7AB27-E0E7-4D07-9A1C-10F815E5FDBA-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Script-A995EBB72BB04E0C8A572E58.sh
+s374123360.402566
+e374123360.489395
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Script-A995EBB72BB04E0C8A572E58.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.pdf2dcm.Debug
+omake[1]: Nothing to be done for `PostBuild.pdf2dcm.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.pdf2dcm.Debug
+omake[1]: Nothing to be done for `PostBuild.pdf2dcm.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'3d7e6760ab4cb641^ea777d60ab4cb641^-646"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.pdf2dcm.Debugmake[1]: Nothing to be done for `PostBuild.pdf2dcm.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.pdf2dcm.Debugmake[1]: Nothing to be done for `PostBuild.pdf2dcm.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-374123360#0#30#-0#-----2@23"Depend check for xcode-374123360#30#23#-0#-----2@199"cd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.pdf2dcm.Debug-374123360#53#199#-0#-----2@59"make[1]: Nothing to be done for `PostBuild.pdf2dcm.Debug'.-374123360#252#59#-0#-----2@30"echo "Depend check for xcode"-374123360#311#30#-0#-----2@23"Depend check for xcode-374123360#341#23#-0#-----2@223"cd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.pdf2dcm.Debug-374123360#364#223#-0#-----2@59"make[1]: Nothing to be done for `PostBuild.pdf2dcm.Debug'.-374123360#587#59#-0#-----0#0#0#--350"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Script-A995EBB72BB04E0C8A572E58.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/pdf2dcm.build/Script-A995EBB72BB04E0C8A572E58.sh36"A1599625-4735-4801-A4EB-2D2FD74BDB0A-
+

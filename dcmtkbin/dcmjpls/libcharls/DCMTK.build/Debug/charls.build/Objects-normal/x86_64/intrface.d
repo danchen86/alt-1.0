@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/intrface.cc \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/config.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstdinc.h \
+  /Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/util.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/pubtypes.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/intrface.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstd.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/oflist.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/oftypes.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcast.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstring.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstream.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcond.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/header.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofaptr.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/libcharls/streams.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofvector.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofbmanip.h \
+  /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofdefine.h

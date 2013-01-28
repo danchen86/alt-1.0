@@ -1,0 +1,5 @@
+ffffffffffffffffffffffffffffffff 1cf6bce73cdf8efe5b297267756cb1c0 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmcharls.a
+000000004efddab8000000000000123c 429d3f858326b3b1a4639384986fb233 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/jpegls.o
+00000000000000000000000000003a24 79179f57b2e2ddfb7423c13ed3b7febc ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/header.o
+000000004efddab800000000000012fb 48d7f20b7bb6abd895b3ad040fa1f345 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/interface.o
+000000004efddab80000000000000083 1def911e2e4ca8c2ddebbf2851b8d244 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmcharls/GDCM.build/Debug/gdcmcharls.build/Objects-normal/x86_64/stdafx.o

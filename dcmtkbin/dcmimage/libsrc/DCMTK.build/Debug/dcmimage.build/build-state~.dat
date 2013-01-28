@@ -1,0 +1,798 @@
+Tdcmimage
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdeftag.h
+c000000004CD3CA3D000000000003E290
+t1288948285
+s254608
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dctypes.h
+c000000004CCAA88D00000000000028DB
+t1288349837
+s10459
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/diargimg.h
+c000000004CC000110000000000000C08
+t1287651345
+s3080
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/diargpxt.h
+c000000004CB702AD0000000000002A54
+t1287062189
+s10836
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dilogger.h
+c000000004CB702AD0000000000000587
+t1287062189
+s1415
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/diqttype.h
+c000000004CB702AE0000000000000A82
+t1287062190
+s2690
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc
+c000000004CB702260000000000002305
+t1287062054
+s8965
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmdata/dctypes.h"
+i"dcmtk/dcmdata/dcdeftag.h"
+i"dcmtk/dcmimage/diargimg.h"
+i"dcmtk/dcmimage/diargpxt.h"
+i"dcmtk/dcmimage/diqttype.h"
+i"dcmtk/dcmimage/dilogger.h"
+i"dcmtk/dcmimgle/diluptab.h"
+i"dcmtk/dcmimgle/diinpx.h"
+i"dcmtk/dcmimgle/didocu.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc
+c000000004CB702260000000000001019
+t1287062054
+s4121
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc
+c000000004CB702260000000000007D65
+t1287062054
+s32101
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.cc
+c000000004CB7022600000000000009FA
+t1287062054
+s2554
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc
+c000000004CB70226000000000000155A
+t1287062054
+s5466
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc
+c000000004CB70226000000000000100A
+t1287062054
+s4106
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.cc
+c000000004CB70226000000000000042C
+t1287062054
+s1068
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc
+c000000004CB702260000000000002929
+t1287062054
+s10537
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.cc
+c000000004CB702260000000000001B20
+t1287062054
+s6944
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc
+c000000004CFF87930000000000001E79
+t1291814803
+s7801
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtctab.cc
+c000000004CB702260000000000004D37
+t1287062054
+s19767
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtfs.cc
+c000000004CB702260000000000000C6E
+t1287062054
+s3182
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqthash.cc
+c000000004CB702260000000000000E52
+t1287062054
+s3666
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqthitl.cc
+c000000004CB7022600000000000006E8
+t1287062054
+s1768
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtpbox.cc
+c000000004CB702270000000000000A4C
+t1287062055
+s2636
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diquant.cc
+c000000004CB702270000000000002660
+t1287062055
+s9824
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diregist.cc
+c000000004CB70227000000000000145C
+t1287062055
+s5212
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dirgbimg.cc
+c000000004CB70227000000000000100A
+t1287062055
+s4106
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diybrimg.cc
+c000000004CB7022700000000000010FB
+t1287062055
+s4347
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diyf2img.cc
+c000000004CB702270000000000001021
+t1287062055
+s4129
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diyp2img.cc
+c000000004CB702270000000000000F07
+t1287062055
+s3847
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/didocu.h
+c000000004CB702AA00000000000041E5
+t1287062186
+s16869
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diinpx.h
+c000000004CB702AA0000000000001DF6
+t1287062186
+s7670
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diluptab.h
+c000000004CB702AA00000000000033A2
+t1287062186
+s13218
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dcmimage.LinkFileList
+c00000000509C738500000000000009FA
+t1352430469
+s2554
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqtctab.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqtfs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqthash.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqthitl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqtpbox.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diquant.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diregist.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dirgbimg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diybrimg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diyf2img.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diyp2img.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Script-543368F22E8F4E259F998558.sh
+c00000000509C738500000000000000C1
+t1352430469
+s193
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/libdcmimage.a
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtctab.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtfs.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqthash.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqthitl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtpbox.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diquant.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diregist.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dirgbimg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diybrimg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diyf2img.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diyp2img.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies147b4005ab4cb641^f86c4105ab4cb641^---0#1#0#--18"Check dependencies36"D397434B-D97A-4590-BC9C-4C71759C1858-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.260082
+e374123269.966624
+r0
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc:36:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/diargpxt.h:94:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/diargpxt.h:70:13: note: in instantiation of member function 'DiARGBPixelTemplate<unsigned char, unsigned int, unsigned char>::convert' requested here
+o            convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), palette, planeSize, bits);
+o            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc:108:33: note: in instantiation of member function 'DiARGBPixelTemplate<unsigned char, unsigned int, unsigned char>::DiARGBPixelTemplate' requested here
+o                InterData = new DiARGBPixelTemplate<Uint8, Uint32, Uint8>(Document, InputData, Palette, ImageStatus,
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cce4bd4205ab4cb641^9f02f805ab4cb641^-1268"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc:36:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/diargpxt.h:94:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/diargpxt.h:70:13: note: in instantiation of member function 'DiARGBPixelTemplate<unsigned char, unsigned int, unsigned char>::convert' requested here            convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), palette, planeSize, bits);            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc:108:33: note: in instantiation of member function 'DiARGBPixelTemplate<unsigned char, unsigned int, unsigned char>::DiARGBPixelTemplate' requested here                InterData = new DiARGBPixelTemplate<Uint8, Uint32, Uint8>(Document, InputData, Palette, ImageStatus,                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc0000000000000000^3288"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.o dcmimage/libsrc/diargimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diargimg.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diargimg.o36"71CC2088-0B6F-439E-BAB9-CC2649291243-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.260064
+e374123269.865947
+r0
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc:35:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicmypxt.h:90:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicmypxt.h:68:13: note: in instantiation of member function 'DiCMYKPixelTemplate<unsigned char, unsigned char>::convert' requested here
+o            convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), planeSize, bits);
+o            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc:74:29: note: in instantiation of member function 'DiCMYKPixelTemplate<unsigned char, unsigned char>::DiCMYKPixelTemplate' requested here
+o            InterData = new DiCMYKPixelTemplate<Uint8, Uint8>(Document, InputData, ImageStatus, planeSize, BitsPerSample);
+o                            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc44c34205ab4cb641^70b2dd05ab4cb641^-1232"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc:35:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicmypxt.h:90:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicmypxt.h:68:13: note: in instantiation of member function 'DiCMYKPixelTemplate<unsigned char, unsigned char>::convert' requested here            convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), planeSize, bits);            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc:74:29: note: in instantiation of member function 'DiCMYKPixelTemplate<unsigned char, unsigned char>::DiCMYKPixelTemplate' requested here            InterData = new DiCMYKPixelTemplate<Uint8, Uint8>(Document, InputData, ImageStatus, planeSize, BitsPerSample);                            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@35"Use of undeclared identifier 'Init'-374123269#18446744073709551615#0#4(2@96"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc:35:-374123269#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc0000000000000000^34#9#34#9#700#0#21"Clang LLVM 1.0 Notice--2@111"In instantiation of member function 'DiCMYKPixelTemplate<unsigned char, unsigned char>::convert' requested here-374123269#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicmypxt.h0000000000000000^67#12#67#12#1699#0#14"Semantic Issue--2@123"In instantiation of member function 'DiCMYKPixelTemplate<unsigned char, unsigned char>::DiCMYKPixelTemplate' requested here-374123269#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc0000000000000000^73#28#73#28#1640#0#14"Semantic Issue--2@72"Must qualify identifier to find this declaration in dependent base class-374123269#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h0000000000000000^549#15#549#15#23621#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicmypxt.h0000000000000000^89#12#89#12#2264#0#14"Semantic Issue1(3@101"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicmypxt.h0000000000000000^89#12#89#12#2264#0#-0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc0000000000000000^3288"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.o dcmimage/libsrc/dicmyimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicmyimg.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicmyimg.o36"5C43EC22-8E6A-45EA-879B-C1735DEFC1A2-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.260095
+e374123270.268937
+r0
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:39:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicocpt.h:89:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicocpt.h:68:17: note: in instantiation of member function 'DiColorCopyTemplate<unsigned char>::copy' requested here
+o                copy(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), fstart * fsize);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:79:33: note: in instantiation of member function 'DiColorCopyTemplate<unsigned char>::DiColorCopyTemplate' requested here
+o                InterData = new DiColorCopyTemplate<Uint8>(image->InterData, fstart, fcount, fsize);
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:110:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here
+o                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here
+o                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: error: use of undeclared identifier 'scaleData'
+o            scaleData(pixel, this->Data, interpolate);
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:194:10: note: must qualify identifier to find this declaration in dependent base class
+o    void scaleData(const T *src[],
+o         ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:209:17: error: use of undeclared identifier 'fillPixel'
+o                fillPixel(dest, value);                                               // ... fill bitmap
+o                ^
+o                this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here
+o            scaleData(pixel, this->Data, interpolate);
+o            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here
+o                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here
+o                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:106:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void fillPixel(T *dest[],
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:214:21: error: use of undeclared identifier 'copyPixel'
+o                    copyPixel(src, dest);                                             // copying
+o                    ^
+o                    this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:93:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void copyPixel(const T *src[],
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:570:13: error: use of undeclared identifier 'clearPixel'
+o            clearPixel(dest);
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:222:17: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::interpolatePixel' requested here
+o                interpolatePixel(src, dest);                                          // interpolation (pbmplus)
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here
+o            scaleData(pixel, this->Data, interpolate);
+o            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here
+o                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here
+o                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:118:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void clearPixel(T *dest[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:1032:13: error: use of undeclared identifier 'clearPixel'
+o            clearPixel(dest);
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:225:17: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::bicubicPixel' requested here
+o                bicubicPixel(src, dest);                                              // bicubic magnification
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here
+o            scaleData(pixel, this->Data, interpolate);
+o            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here
+o                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here
+o                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:118:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void clearPixel(T *dest[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:908:13: error: use of undeclared identifier 'clearPixel'
+o            clearPixel(dest);
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:228:17: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::bilinearPixel' requested here
+o                bilinearPixel(src, dest);                                             // bilinear magnification
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here
+o            scaleData(pixel, this->Data, interpolate);
+o            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here
+o                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here
+o                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:118:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void clearPixel(T *dest[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:101:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:75:17: note: in instantiation of member function 'DiColorFlipTemplate<unsigned char>::flip' requested here
+o                flip(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), horz, vert);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:153:33: note: in instantiation of member function 'DiColorFlipTemplate<unsigned char>::DiColorFlipTemplate' requested here
+o                InterData = new DiColorFlipTemplate<Uint8>(image->InterData, Columns, Rows, NumberOfFrames, horz, vert);
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:104:17: error: use of undeclared identifier 'flipHorzVert'
+o                flipHorzVert(pixel, this->Data);
+o                ^
+o                this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:213:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void flipHorzVert(const T *src[],
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:313:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void flipHorzVert(T *data[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:106:17: error: use of undeclared identifier 'flipHorz'
+o                flipHorz(pixel, this->Data);
+o                ^
+o                this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:144:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void flipHorz(const T *src[],
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:243:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void flipHorz(T *data[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:108:17: error: use of undeclared identifier 'flipVert'
+o                flipVert(pixel, this->Data);
+o                ^
+o                this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:177:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void flipVert(const T *src[],
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:276:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void flipVert(T *data[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:101:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:77:17: note: in instantiation of member function 'DiColorRotateTemplate<unsigned char>::rotate' requested here
+o                rotate(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), degree);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:181:33: note: in instantiation of member function 'DiColorRotateTemplate<unsigned char>::DiColorRotateTemplate' requested here
+o                InterData = new DiColorRotateTemplate<Uint8>(image->InterData, image->Columns, image->Rows, Columns, Rows,
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:104:17: error: use of undeclared identifier 'rotateRight'
+o                rotateRight(pixel, this->Data);
+o                ^
+o                this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:183:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void rotateRight(const T *src[],
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:288:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void rotateRight(T *data[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:106:17: error: use of undeclared identifier 'rotateTopDown'
+o                rotateTopDown(pixel, this->Data);
+o                ^
+o                this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:220:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void rotateTopDown(const T *src[],
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:326:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void rotateTopDown(T *data[])
+o                ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:108:17: error: use of undeclared identifier 'rotateLeft'
+o                rotateLeft(pixel, this->Data);
+o                ^
+o                this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:146:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void rotateLeft(const T *src[],
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:250:17: note: must qualify identifier to find this declaration in dependent base class
+o    inline void rotateLeft(T *data[])
+o                ^
+o16 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc13bb4205ab4cb641^03064506ab4cb641^-17895"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:39:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicocpt.h:89:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicocpt.h:68:17: note: in instantiation of member function 'DiColorCopyTemplate<unsigned char>::copy' requested here                copy(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), fstart * fsize);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:79:33: note: in instantiation of member function 'DiColorCopyTemplate<unsigned char>::DiColorCopyTemplate' requested here                InterData = new DiColorCopyTemplate<Uint8>(image->InterData, fstart, fcount, fsize);                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:110:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: error: use of undeclared identifier 'scaleData'            scaleData(pixel, this->Data, interpolate);            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:194:10: note: must qualify identifier to find this declaration in dependent base class    void scaleData(const T *src[],         ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:209:17: error: use of undeclared identifier 'fillPixel'                fillPixel(dest, value);                                               // ... fill bitmap                ^                this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here            scaleData(pixel, this->Data, interpolate);            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:106:17: note: must qualify identifier to find this declaration in dependent base class    inline void fillPixel(T *dest[],                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:214:21: error: use of undeclared identifier 'copyPixel'                    copyPixel(src, dest);                                             // copying                    ^                    this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:93:17: note: must qualify identifier to find this declaration in dependent base class    inline void copyPixel(const T *src[],                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:570:13: error: use of undeclared identifier 'clearPixel'            clearPixel(dest);            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:222:17: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::interpolatePixel' requested here                interpolatePixel(src, dest);                                          // interpolation (pbmplus)                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here            scaleData(pixel, this->Data, interpolate);            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:118:17: note: must qualify identifier to find this declaration in dependent base class    inline void clearPixel(T *dest[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:1032:13: error: use of undeclared identifier 'clearPixel'            clearPixel(dest);            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:225:17: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::bicubicPixel' requested here                bicubicPixel(src, dest);                                              // bicubic magnification                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here            scaleData(pixel, this->Data, interpolate);            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:118:17: note: must qualify identifier to find this declaration in dependent base class    inline void clearPixel(T *dest[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:40:In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:36:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:908:13: error: use of undeclared identifier 'clearPixel'            clearPixel(dest);            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h:228:17: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::bilinearPixel' requested here                bilinearPixel(src, dest);                                             // bilinear magnification                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:111:13: note: in instantiation of member function 'DiScaleTemplate<unsigned char>::scaleData' requested here            scaleData(pixel, this->Data, interpolate);            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicosct.h:86:17: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::scale' requested here                scale(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), interpolate);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:121:33: note: in instantiation of member function 'DiColorScaleTemplate<unsigned char>::DiColorScaleTemplate' requested here                InterData = new DiColorScaleTemplate<Uint8>(image->InterData, image->Columns, image->Rows, left_pos, top_pos,                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/ditranst.h:118:17: note: must qualify identifier to find this declaration in dependent base class    inline void clearPixel(T *dest[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:101:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:75:17: note: in instantiation of member function 'DiColorFlipTemplate<unsigned char>::flip' requested here                flip(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), horz, vert);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:153:33: note: in instantiation of member function 'DiColorFlipTemplate<unsigned char>::DiColorFlipTemplate' requested here                InterData = new DiColorFlipTemplate<Uint8>(image->InterData, Columns, Rows, NumberOfFrames, horz, vert);                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:104:17: error: use of undeclared identifier 'flipHorzVert'                flipHorzVert(pixel, this->Data);                ^                this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:213:17: note: must qualify identifier to find this declaration in dependent base class    inline void flipHorzVert(const T *src[],                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:313:17: note: must qualify identifier to find this declaration in dependent base class    inline void flipHorzVert(T *data[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:106:17: error: use of undeclared identifier 'flipHorz'                flipHorz(pixel, this->Data);                ^                this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:144:17: note: must qualify identifier to find this declaration in dependent base class    inline void flipHorz(const T *src[],                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:243:17: note: must qualify identifier to find this declaration in dependent base class    inline void flipHorz(T *data[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:41:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicoflt.h:108:17: error: use of undeclared identifier 'flipVert'                flipVert(pixel, this->Data);                ^                this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:177:17: note: must qualify identifier to find this declaration in dependent base class    inline void flipVert(const T *src[],                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/diflipt.h:276:17: note: must qualify identifier to find this declaration in dependent base class    inline void flipVert(T *data[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:101:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:77:17: note: in instantiation of member function 'DiColorRotateTemplate<unsigned char>::rotate' requested here                rotate(OFstatic_cast(const T **, OFconst_cast(void *, pixel->getData())), degree);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:181:33: note: in instantiation of member function 'DiColorRotateTemplate<unsigned char>::DiColorRotateTemplate' requested here                InterData = new DiColorRotateTemplate<Uint8>(image->InterData, image->Columns, image->Rows, Columns, Rows,                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:104:17: error: use of undeclared identifier 'rotateRight'                rotateRight(pixel, this->Data);                ^                this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:183:17: note: must qualify identifier to find this declaration in dependent base class    inline void rotateRight(const T *src[],                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:288:17: note: must qualify identifier to find this declaration in dependent base class    inline void rotateRight(T *data[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:106:17: error: use of undeclared identifier 'rotateTopDown'                rotateTopDown(pixel, this->Data);                ^                this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:220:17: note: must qualify identifier to find this declaration in dependent base class    inline void rotateTopDown(const T *src[],                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:326:17: note: must qualify identifier to find this declaration in dependent base class    inline void rotateTopDown(T *data[])                ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc:42:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicorot.h:108:17: error: use of undeclared identifier 'rotateLeft'                rotateLeft(pixel, this->Data);                ^                this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:146:17: note: must qualify identifier to find this declaration in dependent base class    inline void rotateLeft(const T *src[],                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dirotat.h:250:17: note: must qualify identifier to find this declaration in dependent base class    inline void rotateLeft(T *data[])                ^16 errors generated.-0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc0000000000000000^3282"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.o dcmimage/libsrc/dicoimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoimg.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoimg.o36"22DC7284-8B36-49DF-871E-F3E46EDFE27E-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.260154
+e374123269.830734
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.ccf0be4205ab4cb641^0fbad405ab4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.cc0000000000000000^3282"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.o dcmimage/libsrc/dicoopx.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicoopx.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicoopx.o36"E7528480-A648-40DD-9B45-4CD52870A1A9-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.260232
+e374123269.969888
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc2cd44205ab4cb641^6152f805ab4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc0000000000000000^3276"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.o dcmimage/libsrc/dicopx.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dicopx.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dicopx.o36"28B2BAC3-A9CB-4034-9887-804A7CEF4233-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.260593
+e374123269.972726
+r0
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc:35:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dihsvpxt.h:90:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dihsvpxt.h:68:13: note: in instantiation of member function 'DiHSVPixelTemplate<unsigned char, unsigned char>::convert' requested here
+o            convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), planeSize, bits);
+o            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc:74:29: note: in instantiation of member function 'DiHSVPixelTemplate<unsigned char, unsigned char>::DiHSVPixelTemplate' requested here
+o            InterData = new DiHSVPixelTemplate<Uint8, Uint8>(Document, InputData, ImageStatus, planeSize, BitsPerSample);
+o                            ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc3cf74205ab4cb641^020ef905ab4cb641^-1228"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc:35:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dihsvpxt.h:90:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dihsvpxt.h:68:13: note: in instantiation of member function 'DiHSVPixelTemplate<unsigned char, unsigned char>::convert' requested here            convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), planeSize, bits);            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc:74:29: note: in instantiation of member function 'DiHSVPixelTemplate<unsigned char, unsigned char>::DiHSVPixelTemplate' requested here            InterData = new DiHSVPixelTemplate<Uint8, Uint8>(Document, InputData, ImageStatus, planeSize, BitsPerSample);                            ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc0000000000000000^3288"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.o dcmimage/libsrc/dihsvimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dihsvimg.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dihsvimg.o36"9AAB102B-8FAD-4804-BCF7-F50EF36F2DF6-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.260940
+e374123269.809200
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.ccfaf24205ab4cb641^5a2acf05ab4cb641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.cc0000000000000000^3288"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.o dcmimage/libsrc/dilogger.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dilogger.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dilogger.o36"4AF71184-9AF9-47E1-B38A-B035AD07AAA9-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.316855
+e374123269.972708
+r0
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc:38:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dipalpxt.h:95:13: error: use of undeclared identifier 'Init'
+o        if (Init(pixel))
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dipalpxt.h:74:17: note: in instantiation of member function 'DiPalettePixelTemplate<unsigned char, unsigned int, unsigned char>::convert' requested here
+o                convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), palette);
+o                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc:133:33: note: in instantiation of member function 'DiPalettePixelTemplate<unsigned char, unsigned int, unsigned char>::DiPalettePixelTemplate' requested here
+o                InterData = new DiPalettePixelTemplate<Uint8, Uint32, Uint8>(Document, InputData, Palette, ImageStatus);
+o                                ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class
+o    inline int Init(const void *pixel)
+o               ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc98505105ab4cb641^7407f905ab4cb641^-1272"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc:38:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dipalpxt.h:95:13: error: use of undeclared identifier 'Init'        if (Init(pixel))            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dipalpxt.h:74:17: note: in instantiation of member function 'DiPalettePixelTemplate<unsigned char, unsigned int, unsigned char>::convert' requested here                convert(OFstatic_cast(const T1 *, pixel->getData()) + pixel->getPixelStart(), palette);                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc:133:33: note: in instantiation of member function 'DiPalettePixelTemplate<unsigned char, unsigned int, unsigned char>::DiPalettePixelTemplate' requested here                InterData = new DiPalettePixelTemplate<Uint8, Uint32, Uint8>(Document, InputData, Palette, ImageStatus);                                ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include/dcmtk/dcmimage/dicopxt.h:550:16: note: must qualify identifier to find this declaration in dependent base class    inline int Init(const void *pixel)               ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc0000000000000000^3288"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.o dcmimage/libsrc/dipalimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipalimg.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipalimg.o36"6B8AE5DC-A1F4-4FB1-BBA9-BAD59FE20365-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.832110
+e374123269.854275
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.ccbf2cd505ab4cb641^c4b5da05ab4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.cc0000000000000000^3282"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.o dcmimage/libsrc/dipipng.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipipng.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipipng.o36"06BB6892-6C5E-4A7F-9526-D95E9535D933-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123269.855674
+e374123269.972531
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc7a36db05ab4cb641^e604f905ab4cb641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc0000000000000000^3288"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.o dcmimage/libsrc/dipitiff.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dipitiff.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dipitiff.o36"21F20906-7480-4E65-BA22-5127EEC96230-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqtctab.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtctab.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqtfs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqthash.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqthash.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqthitl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqthitl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diqtpbox.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diqtpbox.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diquant.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diquant.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diregist.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diregist.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/dirgbimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/dirgbimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diybrimg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diybrimg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diyf2img.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diyf2img.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Objects-normal/x86_64/diyp2img.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/libsrc/diyp2img.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/Debug/libdcmimage.a normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmimage/libsrc/DCMTK.build/Debug/dcmimage.build/Script-543368F22E8F4E259F998558.sh
+r0
+

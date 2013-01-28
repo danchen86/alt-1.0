@@ -1,0 +1,4 @@
+ffffffffffffffffffffffffffffffff 51ccdf0de588c06e33dec3084ad2f828 ffffffffffffffffffffffffffffffff 7632 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/Debug/libdcmtls.a
+000000004d09cefe00000000000025c7 c5d85f7f81d1f49d548ddb158354617f ffffffffffffffffffffffffffffffff 1908 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/DCMTK.build/Debug/dcmtls.build/Objects-normal/x86_64/tlsscu.o
+000000004cb702460000000000002ce8 3763e80d55bccaf503b8429fa506de54 ffffffffffffffffffffffffffffffff 2652 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/DCMTK.build/Debug/dcmtls.build/Objects-normal/x86_64/tlstrans.o
+000000001c6a745e00000000000004d4 83c26465f856a8dcff1c92ff79a7e649 ffffffffffffffffffffffffffffffff 2652 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/DCMTK.build/Debug/dcmtls.build/Objects-normal/x86_64/tlslayer.o

@@ -1,0 +1,835 @@
+Tdcmpstat
+v5
+r1
+cCheck dependencies
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dcmpstat.h
+c000000004CB702B3000000000000A598
+t1287062195
+s42392
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsal.h
+c000000004CB702B40000000000001326
+t1287062196
+s4902
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpscu.h
+c000000004CB702B40000000000001536
+t1287062196
+s5430
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsda.h
+c000000004CB702B40000000000003170
+t1287062196
+s12656
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsdef.h
+c000000004CB702B40000000000002667
+t1287062196
+s9831
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsga.h
+c000000004CB702B40000000000002073
+t1287062196
+s8307
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsgl.h
+c000000004CB702B40000000000001CE9
+t1287062196
+s7401
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsgr.h
+c000000004CB702B400000000000016B6
+t1287062196
+s5814
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpshlp.h
+c000000004CB702B400000000000017A9
+t1287062196
+s6057
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsov.h
+c000000004CB702B40000000000001C3C
+t1287062196
+s7228
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsri.h
+c000000004CB702B40000000000001F38
+t1287062196
+s7992
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsrs.h
+c000000004CB702B4000000000000251B
+t1287062196
+s9499
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpssv.h
+c000000004CB702B40000000000002770
+t1287062196
+s10096
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpstx.h
+c000000004CB702B5000000000000226D
+t1287062197
+s8813
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsvl.h
+c000000004CB702B50000000000000F64
+t1287062197
+s3940
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include/dcmtk/dcmpstat/dvpsvw.h
+c000000004CB702B50000000000000FA5
+t1287062197
+s4005
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dcmpstat.cc
+c000000004CB702370000000000013770
+t1287062071
+s79728
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmpstat/dcmpstat.h"
+i"dcmtk/ofstd/ofstd.h"
+i"dcmtk/ofstd/ofstream.h"
+i"dcmtk/ofstd/ofstring.h"
+i"dcmtk/dcmpstat/dvpsdef.h"
+i"dcmtk/dcmpstat/dvpscu.h"
+i"dcmtk/dcmpstat/dvpsvl.h"
+i"dcmtk/dcmpstat/dvpsvw.h"
+i"dcmtk/dcmpstat/dvpsov.h"
+i"dcmtk/dcmpstat/dvpsda.h"
+i"dcmtk/dcmpstat/dvpssv.h"
+i"dcmtk/dcmpstat/dvpshlp.h"
+i"dcmtk/dcmpstat/dvpsgl.h"
+i"dcmtk/dcmpstat/dvpsrs.h"
+i"dcmtk/dcmpstat/dvpsal.h"
+i"dcmtk/dcmpstat/dvpsga.h"
+i"dcmtk/dcmpstat/dvpsri.h"
+i"dcmtk/dcmpstat/dvpstx.h"
+i"dcmtk/dcmpstat/dvpsgr.h"
+i"dcmtk/ofstd/ofstdinc.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dviface.cc
+c000000004CB70237000000000002B171
+t1287062071
+s176497
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsab.cc
+c000000004CB7023700000000000017BD
+t1287062071
+s6077
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsabl.cc
+c000000004CB702370000000000001E7B
+t1287062071
+s7803
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsal.cc
+c000000004CB702370000000000001066
+t1287062071
+s4198
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsall.cc
+c000000004CB70237000000000000426D
+t1287062071
+s17005
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscf.cc
+c000000004CBEA3BE000000000000C24D
+t1287562174
+s49741
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscu.cc
+c000000004CB702380000000000002B47
+t1287062072
+s11079
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscul.cc
+c000000004CB702380000000000000F9D
+t1287062072
+s3997
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsda.cc
+c000000004CB7023800000000000045A4
+t1287062072
+s17828
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsdal.cc
+c000000004CB702380000000000001E24
+t1287062072
+s7716
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsfs.cc
+c000000004CB7023800000000000081F0
+t1287062072
+s33264
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsga.cc
+c000000004CB702380000000000001DC2
+t1287062072
+s7618
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgal.cc
+c000000004CB702380000000000003EB3
+t1287062072
+s16051
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgl.cc
+c000000004CB702380000000000002733
+t1287062072
+s10035
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgll.cc
+c000000004CB7023800000000000037CD
+t1287062072
+s14285
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgr.cc
+c000000004CB7023800000000000025B7
+t1287062072
+s9655
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgrl.cc
+c000000004CB70238000000000000160B
+t1287062072
+s5643
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpshlp.cc
+c000000004CB702380000000000002052
+t1287062072
+s8274
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsib.cc
+c000000004CB70238000000000000CCE4
+t1287062072
+s52452
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsibl.cc
+c000000004CB7023800000000000051C5
+t1287062072
+s20933
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsmsg.cc
+c000000004CB7023800000000000036CF
+t1287062072
+s14031
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsov.cc
+c000000004CB702380000000000002824
+t1287062072
+s10276
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsovl.cc
+c000000004CB702380000000000001970
+t1287062072
+s6512
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspl.cc
+c000000004CB7023800000000000043FE
+t1287062072
+s17406
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspl2.cc
+c000000004CB702380000000000001586
+t1287062072
+s5510
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspll.cc
+c000000004CB702380000000000002640
+t1287062072
+s9792
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspr.cc
+c000000004CB702380000000000005AA3
+t1287062072
+s23203
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsprt.cc
+c000000004CB70238000000000000A299
+t1287062072
+s41625
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsri.cc
+c000000004CB70238000000000000260C
+t1287062072
+s9740
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsril.cc
+c000000004CB702380000000000003169
+t1287062072
+s12649
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsrs.cc
+c000000004CB7023800000000000022F1
+t1287062072
+s8945
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsrsl.cc
+c000000004CB70238000000000000283B
+t1287062072
+s10299
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssp.cc
+c000000004CB70239000000000001DA26
+t1287062073
+s121382
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsspl.cc
+c000000004CB702390000000000003633
+t1287062073
+s13875
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssv.cc
+c000000004CB702390000000000002EE7
+t1287062073
+s12007
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssvl.cc
+c000000004CB702390000000000002D29
+t1287062073
+s11561
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstat.cc
+c000000004CB702390000000000014F0D
+t1287062073
+s85773
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstx.cc
+c000000004CB70239000000000000372D
+t1287062073
+s14125
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstxl.cc
+c000000004CB7023900000000000014E8
+t1287062073
+s5352
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvl.cc
+c000000004CB702390000000000000EFF
+t1287062073
+s3839
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvll.cc
+c000000004CB702390000000000000F49
+t1287062073
+s3913
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvw.cc
+c000000004CB702390000000000000F61
+t1287062073
+s3937
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvwl.cc
+c000000004CB70239000000000000128E
+t1287062073
+s4750
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvsighdl.cc
+c000000004CB702390000000000007B70
+t1287062073
+s31600
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstd.h
+c000000004CB702860000000000008C80
+t1287062150
+s35968
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstdinc.h
+c000000004CB7028600000000000027EF
+t1287062150
+s10223
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstream.h
+c000000004CB70286000000000000149D
+t1287062150
+s5277
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstring.h
+c000000004CB70286000000000000BC49
+t1287062150
+s48201
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dcmpstat.LinkFileList
+c00000000509C73B80000000000001533
+t1352430520
+s5427
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dcmpstat.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dviface.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsab.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsabl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsal.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsall.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpscf.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpscu.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpscul.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsda.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsdal.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsfs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsga.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgal.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgll.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgr.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgrl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpshlp.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsib.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsibl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsmsg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsov.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsovl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspl2.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspll.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspr.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsprt.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsri.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsril.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsrs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsrsl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpssp.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsspl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpssv.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpssvl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpstat.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpstx.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpstxl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvll.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvw.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvwl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvsighdl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Script-3C851CE43CFB46BE97FB5C29.sh
+c00000000509C73B800000000000000C1
+t1352430520
+s193
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/Debug/libdcmpstat.a
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dcmpstat.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dviface.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsab.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsabl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsal.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsall.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscf.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscu.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscul.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsda.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsdal.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsfs.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsga.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgal.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgll.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgr.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgrl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpshlp.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsib.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsibl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsmsg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsov.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsovl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspl2.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspll.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspr.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsprt.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsri.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsril.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsrs.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsrsl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssp.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsspl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssv.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssvl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstat.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstx.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstxl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvll.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvw.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvwl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvsighdl.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb439aa38ab4cb641^cdceaa38ab4cb641^---0#1#0#--18"Check dependencies36"3E087DC6-247D-4C68-A6EB-FCF52728E451-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dcmpstat.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dcmpstat.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dviface.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dviface.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsab.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsab.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsabl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsabl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsal.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsal.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsall.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsall.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpscf.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscf.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpscu.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscu.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpscul.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpscul.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsda.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsda.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsdal.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsdal.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsfs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsga.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsga.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgal.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgal.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgll.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgll.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgr.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgr.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsgrl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsgrl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpshlp.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpshlp.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsib.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsib.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsibl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsibl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsmsg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsmsg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsov.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsov.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsovl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsovl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspl2.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspl2.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspll.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspll.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpspr.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpspr.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsprt.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsprt.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsri.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsri.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsril.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsril.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsrs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsrs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsrsl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsrsl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpssp.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssp.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsspl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsspl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpssv.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssv.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpssvl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpssvl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpstat.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstat.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpstx.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstx.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpstxl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpstxl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvll.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvll.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvw.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvw.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvpsvwl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvpsvwl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Objects-normal/x86_64/dvsighdl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/libsrc/dvsighdl.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/Debug/libdcmpstat.a normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmpstat/libsrc/DCMTK.build/Debug/dcmpstat.build/Script-3C851CE43CFB46BE97FB5C29.sh
+r0
+

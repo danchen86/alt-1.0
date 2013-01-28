@@ -1,0 +1,4 @@
+ffffffffffffffffffffffffffffffff a595b072d93c5adde38a25f013f7954c ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmexpat.a
+000000004efddab8000000000000a0b2 5f3f6b6987e65d598b9127356f9d28e7 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmltok.o
+000000004ef310d10000000000024124 b38836c7d3a6671ae2a35ee4cedf5140 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlparse.o
+000000004efddab80000000000007e7b 80c9151fbf70eedb42d8c0631c2ed55f ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmexpat/lib/GDCM.build/Debug/gdcmexpat.build/Objects-normal/x86_64/xmlrole.o

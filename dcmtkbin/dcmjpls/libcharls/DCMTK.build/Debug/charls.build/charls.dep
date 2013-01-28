@@ -1,0 +1,4 @@
+ffffffffffffffffffffffffffffffff 8ebff4fc6afb8507266e8d6f837fcdea ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpls/libcharls/Debug/libcharls.a
+000000004caf1c6a00000000000011f7 cbf41ec7f83d0c2350960abf81c38b56 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpls/libcharls/DCMTK.build/Debug/charls.build/Objects-normal/x86_64/jpegls.o
+000000004caf1c6a0000000000001293 71d0ae41b5bb102cd89c97d0d6542283 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpls/libcharls/DCMTK.build/Debug/charls.build/Objects-normal/x86_64/intrface.o
+000000004d4bcb310000000000003d73 d02da2b1936e6bdeaaf2a801c4307aff ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpls/libcharls/DCMTK.build/Debug/charls.build/Objects-normal/x86_64/header.o

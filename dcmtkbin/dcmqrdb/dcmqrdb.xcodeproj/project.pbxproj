@@ -1,0 +1,1420 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              A552738669A74D4FABFB745B /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = BED76FB97080425C9F734EF5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            71C6DB26A9A74DBBB38C3B42 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            BCD5FE629E9D40ECB75CC9BF /* PBXTargetDependency */,
+                            B69B2A9DBEAB4784990316AA /* PBXTargetDependency */,
+                            84F707F1CE394F07BA2D09E5 /* PBXTargetDependency */,
+                            166AF1CB0CBF4BE1B1ECF315 /* PBXTargetDependency */,
+                            D0BC755682204BB6AEE3B3E3 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              EA75F2EE7C4443289DFAAD7F /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 5A810117D010400DA5E0E23F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            684D5F0D435B4DD4985D2CDB /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              8F3E681A3EAA4E879EC84B8F /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2571F7E74E3B4529B23D096C /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            6F37BBAE372C4BEA861E5312 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            9D67D9C5CA9145F4BC5A4B20 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+856BB92C1C8D452696ACA4E9 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbf.cc */ = {isa = PBXBuildFile; fileRef = 784A23768510443B905DD034 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbf.cc */; settings = { COMPILER_FLAGS = ""; }; };
+AA0AC15E6A2E4377B248C852 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbg.cc */ = {isa = PBXBuildFile; fileRef = 1E34371BADC648479355547E /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbg.cc */; settings = { COMPILER_FLAGS = ""; }; };
+3EC72A434E7248698255E9C4 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbm.cc */ = {isa = PBXBuildFile; fileRef = 78A48169B01A48778AC09B7D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbm.cc */; settings = { COMPILER_FLAGS = ""; }; };
+F24658F2D0DB4F56ABE6B847 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbs.cc */ = {isa = PBXBuildFile; fileRef = 8C7240447F6143C3B22F2046 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbs.cc */; settings = { COMPILER_FLAGS = ""; }; };
+A600BBE07052402B8928D5E8 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcnf.cc */ = {isa = PBXBuildFile; fileRef = F2C1BDD6CD8740DD9EFBED10 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcnf.cc */; settings = { COMPILER_FLAGS = ""; }; };
+1482274AFC944D81B5D3A583 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbi.cc */ = {isa = PBXBuildFile; fileRef = A10DD2ABF54A4E0983EB7202 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbi.cc */; settings = { COMPILER_FLAGS = ""; }; };
+77A2EEFDF8D34307A917FB78 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbs.cc */ = {isa = PBXBuildFile; fileRef = DA1CEDF096D84513B54D8624 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbs.cc */; settings = { COMPILER_FLAGS = ""; }; };
+7446E3C1B6B8476BAC4B4ED2 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqropt.cc */ = {isa = PBXBuildFile; fileRef = 6C10EEA26ADE42D9AE5E5B82 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqropt.cc */; settings = { COMPILER_FLAGS = ""; }; };
+671A7691DCC04810A6C49279 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrptb.cc */ = {isa = PBXBuildFile; fileRef = 95E6AA1F28B74BAABDAE8B55 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrptb.cc */; settings = { COMPILER_FLAGS = ""; }; };
+560F665AFC624C3D972A4E64 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrsrv.cc */ = {isa = PBXBuildFile; fileRef = 376D5010F599445ABC9757C1 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrsrv.cc */; settings = { COMPILER_FLAGS = ""; }; };
+065DD0DC79244692AA866476 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrtis.cc */ = {isa = PBXBuildFile; fileRef = 22A16F9BF36A4A939B76232F /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrtis.cc */; settings = { COMPILER_FLAGS = ""; }; };
+478ADA2AE538415BAB8B527D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3D4F860160794A3AB6535BF7 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+AAF0736A7C404CFEB6CF6F46 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqridx.cc */ = {isa = PBXBuildFile; fileRef = B6627C29ED7F42A9858856B8 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqridx.cc */; settings = { COMPILER_FLAGS = ""; }; };
+0EB58C134EDE4FB6AE037D8C /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F4F438CFE2124EEDBB868F5D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+8880F27AE0434E95B60C5499 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrscp.cc */ = {isa = PBXBuildFile; fileRef = 2B96BC64080C43AEAFC79ABA /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrscp.cc */; settings = { COMPILER_FLAGS = ""; }; };
+FD1E6CBA0DE14135880DCAB2 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F4F438CFE2124EEDBB868F5D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+93AD99F37FD84EF68555818A /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrti.cc */ = {isa = PBXBuildFile; fileRef = E2502E57740548ABA8DE3049 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrti.cc */; settings = { COMPILER_FLAGS = ""; }; };
+44D044D4A0AE45A4B6141B2A /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F4F438CFE2124EEDBB868F5D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              3FEF784B42334D8B8DA4A1C1 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              6780B2B810974192875DC35B /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              C65AD72D5C624F909199F335 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              D4E347F173844FDCB44D6868 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              85A7D3A4F8C9463FAF2177FE /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              DC5F4886A4234D18B739C8A2 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 31F792BCC1D2447EB227BCC2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E01144610E924007B8DFE28B;
+                     remoteInfo = dcmqrti;
+              };
+              21B2BBF1E0AC4E1BA357E7BB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 31F792BCC1D2447EB227BCC2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 8EE1EE45101C4F1F9B0033BE;
+                     remoteInfo = dcmqridx;
+              };
+              60AA434D0EA04733AD0B1886 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 31F792BCC1D2447EB227BCC2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 9C59161FA88A4A93A1EE85F5;
+                     remoteInfo = dcmqrscp;
+              };
+              F7463F862A8E410A9139D10B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 31F792BCC1D2447EB227BCC2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7B601783B2DF47F785BF9AAB;
+                     remoteInfo = dcmqrdb;
+              };
+              579F3C522D77488EAC6DD88A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 31F792BCC1D2447EB227BCC2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EA75F2EE7C4443289DFAAD7F;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A28A893544CF4281A786E603 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 31F792BCC1D2447EB227BCC2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A552738669A74D4FABFB745B;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+EE39CC14813F4A25BC0DB5DE /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+784A23768510443B905DD034 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbf.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrcbf.cc"; path = "libsrc/dcmqrcbf.cc"; sourceTree = SOURCE_ROOT; };
+1E34371BADC648479355547E /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbg.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrcbg.cc"; path = "libsrc/dcmqrcbg.cc"; sourceTree = SOURCE_ROOT; };
+78A48169B01A48778AC09B7D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbm.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrcbm.cc"; path = "libsrc/dcmqrcbm.cc"; sourceTree = SOURCE_ROOT; };
+8C7240447F6143C3B22F2046 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbs.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrcbs.cc"; path = "libsrc/dcmqrcbs.cc"; sourceTree = SOURCE_ROOT; };
+F2C1BDD6CD8740DD9EFBED10 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcnf.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrcnf.cc"; path = "libsrc/dcmqrcnf.cc"; sourceTree = SOURCE_ROOT; };
+A10DD2ABF54A4E0983EB7202 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbi.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrdbi.cc"; path = "libsrc/dcmqrdbi.cc"; sourceTree = SOURCE_ROOT; };
+DA1CEDF096D84513B54D8624 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbs.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrdbs.cc"; path = "libsrc/dcmqrdbs.cc"; sourceTree = SOURCE_ROOT; };
+6C10EEA26ADE42D9AE5E5B82 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqropt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqropt.cc"; path = "libsrc/dcmqropt.cc"; sourceTree = SOURCE_ROOT; };
+95E6AA1F28B74BAABDAE8B55 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrptb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrptb.cc"; path = "libsrc/dcmqrptb.cc"; sourceTree = SOURCE_ROOT; };
+376D5010F599445ABC9757C1 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrsrv.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrsrv.cc"; path = "libsrc/dcmqrsrv.cc"; sourceTree = SOURCE_ROOT; };
+22A16F9BF36A4A939B76232F /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrtis.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrtis.cc"; path = "libsrc/dcmqrtis.cc"; sourceTree = SOURCE_ROOT; };
+3D4F860160794A3AB6535BF7 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "libsrc/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+37631773A5C94E8CADF88375 /* dcmqrdb */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libdcmqrdb.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+B6627C29ED7F42A9858856B8 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqridx.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqridx.cc"; path = "apps/dcmqridx.cc"; sourceTree = SOURCE_ROOT; };
+F4F438CFE2124EEDBB868F5D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "apps/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+C0BF1F2D92CA449DB5D5C8F3 /* dcmqridx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = dcmqridx; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+2B96BC64080C43AEAFC79ABA /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrscp.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrscp.cc"; path = "apps/dcmqrscp.cc"; sourceTree = SOURCE_ROOT; };
+72263F350EDD40758565C64E /* dcmqrscp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = dcmqrscp; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+E2502E57740548ABA8DE3049 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrti.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dcmqrti.cc"; path = "apps/dcmqrti.cc"; sourceTree = SOURCE_ROOT; };
+DAD41D6D096443DE9E08DD9E /* dcmqrti */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = dcmqrti; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              96B322F82BDA43329826FCEC  = {
+                     isa = PBXGroup;
+                     children = (
+                            F41A0A0C03834BE9A3ED99CB /* Sources */,
+                            866E18E5EDA3492C9D6C7A5D /* Resources */,
+                            0343C217D4A444758F853BE8 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              F41A0A0C03834BE9A3ED99CB /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D81F1731353E495BA9946664 /* ALL_BUILD */,
+                            2DB749EB35A84BEB9EA4E24F /* ZERO_CHECK */,
+                            43C08643E2154754A9C1F4AE /* dcmqrdb */,
+                            559AFAFC41A44FEAB0691DED /* dcmqridx */,
+                            36ABB7B25FE84E9D9FE03940 /* dcmqrscp */,
+                            B9A8E87F2DD6433D8EF150C3 /* dcmqrti */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              866E18E5EDA3492C9D6C7A5D /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              D81F1731353E495BA9946664 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C55BAF295BD54B0B88D480B6 /* CMake Rules */,
+                            EE39CC14813F4A25BC0DB5DE /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              C55BAF295BD54B0B88D480B6 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              2DB749EB35A84BEB9EA4E24F /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            838B07EE32FD46DFB208F26E /* CMake Rules */,
+                            EE39CC14813F4A25BC0DB5DE /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              838B07EE32FD46DFB208F26E /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              43C08643E2154754A9C1F4AE /* dcmqrdb */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FD8EAA9351F0419C9DBC262D /* Source Files */,
+                            3D4F860160794A3AB6535BF7 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/CMakeLists.txt */,
+                     );
+                     name = dcmqrdb;
+                     sourceTree = "<group>";
+              };
+              FD8EAA9351F0419C9DBC262D /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            784A23768510443B905DD034 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbf.cc */,
+                            1E34371BADC648479355547E /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbg.cc */,
+                            78A48169B01A48778AC09B7D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbm.cc */,
+                            8C7240447F6143C3B22F2046 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbs.cc */,
+                            F2C1BDD6CD8740DD9EFBED10 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcnf.cc */,
+                            A10DD2ABF54A4E0983EB7202 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbi.cc */,
+                            DA1CEDF096D84513B54D8624 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbs.cc */,
+                            6C10EEA26ADE42D9AE5E5B82 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqropt.cc */,
+                            95E6AA1F28B74BAABDAE8B55 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrptb.cc */,
+                            376D5010F599445ABC9757C1 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrsrv.cc */,
+                            22A16F9BF36A4A939B76232F /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrtis.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              559AFAFC41A44FEAB0691DED /* dcmqridx */ = {
+                     isa = PBXGroup;
+                     children = (
+                            54B87BE231E64B78B964BEA4 /* Source Files */,
+                            F4F438CFE2124EEDBB868F5D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */,
+                     );
+                     name = dcmqridx;
+                     sourceTree = "<group>";
+              };
+              54B87BE231E64B78B964BEA4 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B6627C29ED7F42A9858856B8 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqridx.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              36ABB7B25FE84E9D9FE03940 /* dcmqrscp */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E87A8E861F67433C81D0762A /* Source Files */,
+                            F4F438CFE2124EEDBB868F5D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */,
+                     );
+                     name = dcmqrscp;
+                     sourceTree = "<group>";
+              };
+              E87A8E861F67433C81D0762A /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2B96BC64080C43AEAFC79ABA /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrscp.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              B9A8E87F2DD6433D8EF150C3 /* dcmqrti */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0E72DDB6731C474992B8E3E2 /* Source Files */,
+                            F4F438CFE2124EEDBB868F5D /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/CMakeLists.txt */,
+                     );
+                     name = dcmqrti;
+                     sourceTree = "<group>";
+              };
+              0E72DDB6731C474992B8E3E2 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E2502E57740548ABA8DE3049 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrti.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              0343C217D4A444758F853BE8 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            37631773A5C94E8CADF88375 /* dcmqrdb */,
+                            C0BF1F2D92CA449DB5D5C8F3 /* dcmqridx */,
+                            72263F350EDD40758565C64E /* dcmqrscp */,
+                            DAD41D6D096443DE9E08DD9E /* dcmqrti */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              7B601783B2DF47F785BF9AAB /* dcmqrdb */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 63968E51524649AF9A1144F3 /* Build configuration list for PBXNativeTarget "dcmqrdb" */;
+                     buildPhases = (
+                            FA381FE2BA4241D4BA9E6734 /* Sources */,
+                            5A205504AA8F4A9B9D270E10 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = dcmqrdb;
+                     productName = dcmqrdb;
+                     productReference = 37631773A5C94E8CADF88375 /* dcmqrdb */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              8EE1EE45101C4F1F9B0033BE /* dcmqridx */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E5641CB50F5E4626942B7263 /* Build configuration list for PBXNativeTarget "dcmqridx" */;
+                     buildPhases = (
+                            C624ECABB17C460CAB1BF71A /* Sources */,
+                            751661D2D3B6453183A4715B /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            166AF1CB0CBF4BE1B1ECF315 /* PBXTargetDependency */,
+                     );
+                     name = dcmqridx;
+                     productName = dcmqridx;
+                     productReference = C0BF1F2D92CA449DB5D5C8F3 /* dcmqridx */;
+                     productType = "com.apple.product-type.tool";
+              };
+              9C59161FA88A4A93A1EE85F5 /* dcmqrscp */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 7D07221CC9B947DC98C82853 /* Build configuration list for PBXNativeTarget "dcmqrscp" */;
+                     buildPhases = (
+                            5F17BE65868F454E8A2BF253 /* Sources */,
+                            20D4BCDB89DC468E9EE2964B /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            166AF1CB0CBF4BE1B1ECF315 /* PBXTargetDependency */,
+                     );
+                     name = dcmqrscp;
+                     productName = dcmqrscp;
+                     productReference = 72263F350EDD40758565C64E /* dcmqrscp */;
+                     productType = "com.apple.product-type.tool";
+              };
+              E01144610E924007B8DFE28B /* dcmqrti */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = BFB0200EC23E470EAEA248DE /* Build configuration list for PBXNativeTarget "dcmqrti" */;
+                     buildPhases = (
+                            BB324C531FB44DB1803EA03F /* Sources */,
+                            5383F8D0BD044C27B14894DB /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            166AF1CB0CBF4BE1B1ECF315 /* PBXTargetDependency */,
+                     );
+                     name = dcmqrti;
+                     productName = dcmqrti;
+                     productReference = DAD41D6D096443DE9E08DD9E /* dcmqrti */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              31F792BCC1D2447EB227BCC2 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = C45CDB1C2E3C41E881D8748F /* Build configuration list for PBXProject  "dcmqrdb" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            6780B2B810974192875DC35B /* Debug */,
+                            C65AD72D5C624F909199F335 /* Release */,
+                            D4E347F173844FDCB44D6868 /* MinSizeRel */,
+                            85A7D3A4F8C9463FAF2177FE /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 96B322F82BDA43329826FCEC;
+                     projectDirPath = "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb";
+                     projectRoot = "";
+                     targets = (
+                            A552738669A74D4FABFB745B /* ALL_BUILD */,
+                            EA75F2EE7C4443289DFAAD7F /* ZERO_CHECK */,
+                            8F3E681A3EAA4E879EC84B8F /* install */,
+                            7B601783B2DF47F785BF9AAB /* dcmqrdb */,
+                            8EE1EE45101C4F1F9B0033BE /* dcmqridx */,
+                            9C59161FA88A4A93A1EE85F5 /* dcmqrscp */,
+                            E01144610E924007B8DFE28B /* dcmqrti */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              08C16305237347B8A25DEEF7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              71C6DB26A9A74DBBB38C3B42 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              0EA3DACAAC244D2DBC913D9D /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              684D5F0D435B4DD4985D2CDB /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              32FA95717A254B1ABBDB4AE8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              6F37BBAE372C4BEA861E5312 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              5A205504AA8F4A9B9D270E10 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/CMakeScripts/dcmqrdb_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              751661D2D3B6453183A4715B /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps/CMakeScripts/dcmqridx_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              20D4BCDB89DC468E9EE2964B /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps/CMakeScripts/dcmqrscp_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              5383F8D0BD044C27B14894DB /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps/CMakeScripts/dcmqrti_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              FA381FE2BA4241D4BA9E6734 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            856BB92C1C8D452696ACA4E9 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbf.cc */,
+                            AA0AC15E6A2E4377B248C852 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbg.cc */,
+                            3EC72A434E7248698255E9C4 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbm.cc */,
+                            F24658F2D0DB4F56ABE6B847 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcbs.cc */,
+                            A600BBE07052402B8928D5E8 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrcnf.cc */,
+                            1482274AFC944D81B5D3A583 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbi.cc */,
+                            77A2EEFDF8D34307A917FB78 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrdbs.cc */,
+                            7446E3C1B6B8476BAC4B4ED2 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqropt.cc */,
+                            671A7691DCC04810A6C49279 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrptb.cc */,
+                            560F665AFC624C3D972A4E64 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrsrv.cc */,
+                            065DD0DC79244692AA866476 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/libsrc/dcmqrtis.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              C624ECABB17C460CAB1BF71A /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            AAF0736A7C404CFEB6CF6F46 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqridx.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              5F17BE65868F454E8A2BF253 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            8880F27AE0434E95B60C5499 /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrscp.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              BB324C531FB44DB1803EA03F /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            93AD99F37FD84EF68555818A /* /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/apps/dcmqrti.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              BCD5FE629E9D40ECB75CC9BF /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E01144610E924007B8DFE28B /* dcmqrti */;
+                     targetProxy = DC5F4886A4234D18B739C8A2 /* PBXContainerItemProxy */;
+              };
+              B69B2A9DBEAB4784990316AA /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 8EE1EE45101C4F1F9B0033BE /* dcmqridx */;
+                     targetProxy = 21B2BBF1E0AC4E1BA357E7BB /* PBXContainerItemProxy */;
+              };
+              84F707F1CE394F07BA2D09E5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 9C59161FA88A4A93A1EE85F5 /* dcmqrscp */;
+                     targetProxy = 60AA434D0EA04733AD0B1886 /* PBXContainerItemProxy */;
+              };
+              166AF1CB0CBF4BE1B1ECF315 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7B601783B2DF47F785BF9AAB /* dcmqrdb */;
+                     targetProxy = F7463F862A8E410A9139D10B /* PBXContainerItemProxy */;
+              };
+              D0BC755682204BB6AEE3B3E3 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EA75F2EE7C4443289DFAAD7F /* ZERO_CHECK */;
+                     targetProxy = 579F3C522D77488EAC6DD88A /* PBXContainerItemProxy */;
+              };
+              9D67D9C5CA9145F4BC5A4B20 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A552738669A74D4FABFB745B /* ALL_BUILD */;
+                     targetProxy = A28A893544CF4281A786E603 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              FABCB7F49BB949A2AF7104EC /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/build;
+                     };
+                     name = Debug;
+              };
+              43F3DC87AB7C4DA080731B0A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/build;
+                     };
+                     name = Release;
+              };
+              6EA6FC082DA543F5B80A6648 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/build;
+                     };
+                     name = MinSizeRel;
+              };
+              F2AAF84F351E4A329EBBA2FA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              F34810838F9F4F7EB875A5F1 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              D4E5A306948747C2B1FAA56E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              65ACC5A7D730444695B0A6E1 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3ADF197D36D14A5DB65CA72E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              C46A712B467E4036A6B3CAF8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              1B0691AB7CC34F5EB5325466 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              EC4DF3BB48A940D6ADFAE544 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              23D39342531A4242B29DA2E5 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              C0FB8E265D484C6F9E3C5036 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              7A5218E29F5A4025BC665301 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0B184F2BA6BA44448909F248 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D821E97505C043B1985A92BE /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              855F05EACC34446AA5B3D23E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrdb;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B4D75F6EDB3C477887B8C37E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrdb;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8D50F8A3885E45D28D31AABE /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrdb;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3022EDA882974201A04DA886 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrdb;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              57C78534FA734AF4A4D2427D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/Debug/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/Debug/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Debug/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Debug/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqridx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FDF8AD0E0D0040A7BA1425E2 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/Release/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/Release/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Release/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Release/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Release/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqridx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              7BA269C9787C4E0BA673589B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/MinSizeRel/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/MinSizeRel/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/MinSizeRel/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/MinSizeRel/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/MinSizeRel/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqridx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              729D7226CF64433E93D54F18 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/RelWithDebInfo/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/RelWithDebInfo/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/RelWithDebInfo/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/RelWithDebInfo/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/RelWithDebInfo/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqridx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              DC4417B5A5D549BCBD8F15BA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/Debug/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/Debug/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Debug/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Debug/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrscp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0558DBE464CF4DE39ACFF1AF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/Release/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/Release/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Release/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Release/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Release/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrscp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              DBDB7774045C41A599F97E8B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/MinSizeRel/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/MinSizeRel/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/MinSizeRel/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/MinSizeRel/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/MinSizeRel/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrscp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              B89F4F75B6B3491697DF3270 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/RelWithDebInfo/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/RelWithDebInfo/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/RelWithDebInfo/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/RelWithDebInfo/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/RelWithDebInfo/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrscp;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              F5EBCE42CE3A4996909C5891 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE    -DDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/Debug/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/Debug/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Debug/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Debug/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrti;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              34A0639EFF1C401E93C818AA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/Release/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/Release/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Release/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Release/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Release/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrti;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A5446C4F014D42DEA2DABBC2 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/MinSizeRel/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/MinSizeRel/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/MinSizeRel/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/MinSizeRel/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/MinSizeRel/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrti;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              EC8C866FB30846EEA12ABB2F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_NULL_SAFE_OFSTRING, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/dcmtkbin/include, "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include", "/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/oflog /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet";
+                            OTHER_CFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_CPLUSPLUSFLAGS = " -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE         ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/libsrc/RelWithDebInfo/libdcmqrdb.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmnet/libsrc/RelWithDebInfo/libdcmnet.a /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/RelWithDebInfo/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/RelWithDebInfo/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/RelWithDebInfo/libofstd.a /usr/lib/libz.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = dcmqrti;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/dcmtkbin/dcmqrdb/apps;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              C45CDB1C2E3C41E881D8748F /* Build configuration list for PBXProject  "dcmqrdb" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            FABCB7F49BB949A2AF7104EC /* Debug */,
+                            43F3DC87AB7C4DA080731B0A /* Release */,
+                            6EA6FC082DA543F5B80A6648 /* MinSizeRel */,
+                            F2AAF84F351E4A329EBBA2FA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BED76FB97080425C9F734EF5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F34810838F9F4F7EB875A5F1 /* Debug */,
+                            D4E5A306948747C2B1FAA56E /* Release */,
+                            65ACC5A7D730444695B0A6E1 /* MinSizeRel */,
+                            3ADF197D36D14A5DB65CA72E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5A810117D010400DA5E0E23F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C46A712B467E4036A6B3CAF8 /* Debug */,
+                            1B0691AB7CC34F5EB5325466 /* Release */,
+                            EC4DF3BB48A940D6ADFAE544 /* MinSizeRel */,
+                            23D39342531A4242B29DA2E5 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2571F7E74E3B4529B23D096C /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C0FB8E265D484C6F9E3C5036 /* Debug */,
+                            7A5218E29F5A4025BC665301 /* Release */,
+                            0B184F2BA6BA44448909F248 /* MinSizeRel */,
+                            D821E97505C043B1985A92BE /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              63968E51524649AF9A1144F3 /* Build configuration list for PBXNativeTarget "dcmqrdb" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            855F05EACC34446AA5B3D23E /* Debug */,
+                            B4D75F6EDB3C477887B8C37E /* Release */,
+                            8D50F8A3885E45D28D31AABE /* MinSizeRel */,
+                            3022EDA882974201A04DA886 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E5641CB50F5E4626942B7263 /* Build configuration list for PBXNativeTarget "dcmqridx" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            57C78534FA734AF4A4D2427D /* Debug */,
+                            FDF8AD0E0D0040A7BA1425E2 /* Release */,
+                            7BA269C9787C4E0BA673589B /* MinSizeRel */,
+                            729D7226CF64433E93D54F18 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              7D07221CC9B947DC98C82853 /* Build configuration list for PBXNativeTarget "dcmqrscp" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DC4417B5A5D549BCBD8F15BA /* Debug */,
+                            0558DBE464CF4DE39ACFF1AF /* Release */,
+                            DBDB7774045C41A599F97E8B /* MinSizeRel */,
+                            B89F4F75B6B3491697DF3270 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BFB0200EC23E470EAEA248DE /* Build configuration list for PBXNativeTarget "dcmqrti" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F5EBCE42CE3A4996909C5891 /* Debug */,
+                            34A0639EFF1C401E93C818AA /* Release */,
+                            A5446C4F014D42DEA2DABBC2 /* MinSizeRel */,
+                            EC8C866FB30846EEA12ABB2F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 31F792BCC1D2447EB227BCC2;
+}

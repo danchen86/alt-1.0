@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              041185DB5CEB41BD86A40362 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A61AE8DE5F634E0E94FCEF87 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            40CDDB04181D4466825FBE06 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            7AB360B34B9049CA943BCD09 /* PBXTargetDependency */,
+                            7AB736490CE84C9594686EB6 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5755F2EA557E4E958A509018 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 0E54B57F590C4C3AA6C8F041 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            9D69BF70310441379F97CF58 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              B8CC321C124C4C689685979F /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 7E87E69A920244BE882A2E91 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            CFF9F881976749AF922FEDC6 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            78A4E1A61F5C444CBB3DF288 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              75E0F7E0A7594D5E9AC69F34 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 6A944A54883C48268F4DD5D9 /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            44F090E367954BF1846D11EA /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            78A4E1A61F5C444CBB3DF288 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+B1A5586A9A9444FF98609ED3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.cpp */ = {isa = PBXBuildFile; fileRef = F443BC5492CB4D83A3B1AA38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+16351F2B47D64C648C2714AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.h */ = {isa = PBXBuildFile; fileRef = DC7A33124B994D46AB23AAB7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.h */; settings = { COMPILER_FLAGS = ""; }; };
+56C6A075D68B428680356EEC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.cpp */ = {isa = PBXBuildFile; fileRef = DE47A066291C497F8EBD4631 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5788EEE2891947A6BD306A33 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.h */ = {isa = PBXBuildFile; fileRef = D6E1AE6578EA43E48E55ED38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.h */; settings = { COMPILER_FLAGS = ""; }; };
+AA3DB9E59705432DBC342C6E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.cpp */ = {isa = PBXBuildFile; fileRef = B13CDEC6164C4469A74F22ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FD0F30D8AF55459DA99BEF47 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.h */ = {isa = PBXBuildFile; fileRef = 5F67D696560D4E3FAE3EF5AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.h */; settings = { COMPILER_FLAGS = ""; }; };
+45997EB3247F450CB6B54D8F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.cpp */ = {isa = PBXBuildFile; fileRef = 249D706E972D49E6A7FFBC63 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1A8D978E4AB3432FBE84A936 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.h */ = {isa = PBXBuildFile; fileRef = 046293B478CE4E1188E6A759 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.h */; settings = { COMPILER_FLAGS = ""; }; };
+C7EB2509F3DA4276A60C21DB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.cpp */ = {isa = PBXBuildFile; fileRef = C698AE4F352040DEA780D838 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7A271A2B05A34D0DAD7A9560 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.h */ = {isa = PBXBuildFile; fileRef = D42A2485EC024E7284700EA2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.h */; settings = { COMPILER_FLAGS = ""; }; };
+F22952F99C60495881D78662 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2D1E2D3A34B6464292F1F54A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              C590C863177F4F8E86FD67AE /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              880C5E9CD52842ABBBDB7941 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              56325D43FBC144F3963DE3D4 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              6436689FA62E43A58864E49D /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              D90E43D6815A409595B19B9F /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              78EC2E5436A8435C9C13F6F7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0F9A2DDD36E749689009B049 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E1459F0716E144C7B7155A7A;
+                     remoteInfo = socketxx;
+              };
+              E889F695A9204D12A421BAE6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0F9A2DDD36E749689009B049 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5755F2EA557E4E958A509018;
+                     remoteInfo = ZERO_CHECK;
+              };
+              4BD999A1F12F412A9BA2ABDB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0F9A2DDD36E749689009B049 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 041185DB5CEB41BD86A40362;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+B708BD06A4CF4320AF623818 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+F443BC5492CB4D83A3B1AA38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "sockstream.cpp"; path = "socket++/sockstream.cpp"; sourceTree = SOURCE_ROOT; };
+DC7A33124B994D46AB23AAB7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "sockstream.h"; path = "socket++/sockstream.h"; sourceTree = SOURCE_ROOT; };
+DE47A066291C497F8EBD4631 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "sockinet.cpp"; path = "socket++/sockinet.cpp"; sourceTree = SOURCE_ROOT; };
+D6E1AE6578EA43E48E55ED38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "sockinet.h"; path = "socket++/sockinet.h"; sourceTree = SOURCE_ROOT; };
+B13CDEC6164C4469A74F22ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "fork.cpp"; path = "socket++/fork.cpp"; sourceTree = SOURCE_ROOT; };
+5F67D696560D4E3FAE3EF5AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "fork.h"; path = "socket++/fork.h"; sourceTree = SOURCE_ROOT; };
+249D706E972D49E6A7FFBC63 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "protocol.cpp"; path = "socket++/protocol.cpp"; sourceTree = SOURCE_ROOT; };
+046293B478CE4E1188E6A759 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "protocol.h"; path = "socket++/protocol.h"; sourceTree = SOURCE_ROOT; };
+C698AE4F352040DEA780D838 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "echo.cpp"; path = "socket++/echo.cpp"; sourceTree = SOURCE_ROOT; };
+D42A2485EC024E7284700EA2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "echo.h"; path = "socket++/echo.h"; sourceTree = SOURCE_ROOT; };
+2D1E2D3A34B6464292F1F54A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "socket++/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+BDD99119E3D94843A99847A3 /* socketxx */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libsocketxx.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              2C2318F419804EBC935C6585  = {
+                     isa = PBXGroup;
+                     children = (
+                            9539941A6D6D439BAE928CEC /* Sources */,
+                            45834AF48A384B4786A1B348 /* Resources */,
+                            AE1B808C3C8B458F861EB88A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              9539941A6D6D439BAE928CEC /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B58F2A2FD4A94282B345E4A8 /* ALL_BUILD */,
+                            9B6C829730A349C58475FD31 /* ZERO_CHECK */,
+                            6F955B2BBD9744E9A39444BC /* socketxx */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              45834AF48A384B4786A1B348 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              B58F2A2FD4A94282B345E4A8 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4D9F178D4B0C4BF2AD386783 /* CMake Rules */,
+                            B708BD06A4CF4320AF623818 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              4D9F178D4B0C4BF2AD386783 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              9B6C829730A349C58475FD31 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EC89106C3AF8421B968F4312 /* CMake Rules */,
+                            B708BD06A4CF4320AF623818 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              EC89106C3AF8421B968F4312 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              6F955B2BBD9744E9A39444BC /* socketxx */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9CF5876C885E42108012C2A9 /* Source Files */,
+                            16291E3CCFCA4EA9864AC145 /* Header Files */,
+                            2D1E2D3A34B6464292F1F54A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/CMakeLists.txt */,
+                     );
+                     name = socketxx;
+                     sourceTree = "<group>";
+              };
+              9CF5876C885E42108012C2A9 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F443BC5492CB4D83A3B1AA38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.cpp */,
+                            DE47A066291C497F8EBD4631 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.cpp */,
+                            B13CDEC6164C4469A74F22ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.cpp */,
+                            249D706E972D49E6A7FFBC63 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.cpp */,
+                            C698AE4F352040DEA780D838 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              16291E3CCFCA4EA9864AC145 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DC7A33124B994D46AB23AAB7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.h */,
+                            D6E1AE6578EA43E48E55ED38 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.h */,
+                            5F67D696560D4E3FAE3EF5AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.h */,
+                            046293B478CE4E1188E6A759 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.h */,
+                            D42A2485EC024E7284700EA2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              AE1B808C3C8B458F861EB88A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BDD99119E3D94843A99847A3 /* socketxx */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              E1459F0716E144C7B7155A7A /* socketxx */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 4D830B56CEC145969D7C1161 /* Build configuration list for PBXNativeTarget "socketxx" */;
+                     buildPhases = (
+                            98288156905C437F9E6AACA1 /* Sources */,
+                            C086062D86774B2BA4294A37 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            7AB736490CE84C9594686EB6 /* PBXTargetDependency */,
+                     );
+                     name = socketxx;
+                     productName = socketxx;
+                     productReference = BDD99119E3D94843A99847A3 /* socketxx */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              0F9A2DDD36E749689009B049 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = F093251F33D84EB7909DE6C0 /* Build configuration list for PBXProject  "SOCKETXX" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            880C5E9CD52842ABBBDB7941 /* Debug */,
+                            56325D43FBC144F3963DE3D4 /* Release */,
+                            6436689FA62E43A58864E49D /* MinSizeRel */,
+                            D90E43D6815A409595B19B9F /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 2C2318F419804EBC935C6585;
+                     projectDirPath = "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx";
+                     projectRoot = "";
+                     targets = (
+                            041185DB5CEB41BD86A40362 /* ALL_BUILD */,
+                            5755F2EA557E4E958A509018 /* ZERO_CHECK */,
+                            B8CC321C124C4C689685979F /* install */,
+                            75E0F7E0A7594D5E9AC69F34 /* package */,
+                            E1459F0716E144C7B7155A7A /* socketxx */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              0BA02647D06343F395F4BE83 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              40CDDB04181D4466825FBE06 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              835C902195654026931FAF48 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              9D69BF70310441379F97CF58 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              B63CC7560814475C8AFC9CFC /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              CFF9F881976749AF922FEDC6 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              6C8F4CDC74004622994EFA6A /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              44F090E367954BF1846D11EA /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C086062D86774B2BA4294A37 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++ -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++/CMakeScripts/socketxx_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              98288156905C437F9E6AACA1 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            B1A5586A9A9444FF98609ED3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockstream.cpp */,
+                            56C6A075D68B428680356EEC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/sockinet.cpp */,
+                            AA3DB9E59705432DBC342C6E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/fork.cpp */,
+                            45997EB3247F450CB6B54D8F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/protocol.cpp */,
+                            C7EB2509F3DA4276A60C21DB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++/echo.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              7AB360B34B9049CA943BCD09 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E1459F0716E144C7B7155A7A /* socketxx */;
+                     targetProxy = 78EC2E5436A8435C9C13F6F7 /* PBXContainerItemProxy */;
+              };
+              7AB736490CE84C9594686EB6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5755F2EA557E4E958A509018 /* ZERO_CHECK */;
+                     targetProxy = E889F695A9204D12A421BAE6 /* PBXContainerItemProxy */;
+              };
+              78A4E1A61F5C444CBB3DF288 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 041185DB5CEB41BD86A40362 /* ALL_BUILD */;
+                     targetProxy = 4BD999A1F12F412A9BA2ABDB /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              F14F2C2119974770951DBE3D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/build;
+                     };
+                     name = Debug;
+              };
+              942D4D7795B841AB843F82D5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/build;
+                     };
+                     name = Release;
+              };
+              F4D4ECA99453434F8515F45F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/build;
+                     };
+                     name = MinSizeRel;
+              };
+              8457DF0731124B0396F92F74 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              541AB35C047F4E2E9EE4E195 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B91450DF2FD74D49ADAA3236 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              35A57BF06EED4AAE9A1CA563 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2B9939BD35604E6BAF215FFD /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              CD0E7A7C55FA4599B533CC80 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0FFB5098EE8842A9BDD9C44D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BCE40F86F855485B9C6C694B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              B1D5A09B0AB442559E61E894 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              4FB04A51C3C8471DB2239D42 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FA9AACFDC35343A398EB332B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5B028B3A602345C6B8E3367F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              BCD73451509B40E2A31F9F5F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              70D214664C5B489FB3D7962D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              EEE7BE6F1F24491CB3F1F4FC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              6324100ACD934BB594745AD3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7603CA86ECB447AEBF59A0CA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              AF570A785B4445B7AE05D1D7 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++", "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = " -DNDEBUG     ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = socketxx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C13AF961396A4C849AA4EB78 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++", "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DNDEBUG     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = socketxx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C347132DA5B84E56BE5E8FD3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++", "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = " -DNDEBUG     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = socketxx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              C8A973B20C24495FAFC4B5D0 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx", "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/socketxx/socket++", "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_CPLUSPLUSFLAGS = " -DNDEBUG         ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = socketxx;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/socketxx/socket++";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              F093251F33D84EB7909DE6C0 /* Build configuration list for PBXProject  "SOCKETXX" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F14F2C2119974770951DBE3D /* Debug */,
+                            942D4D7795B841AB843F82D5 /* Release */,
+                            F4D4ECA99453434F8515F45F /* MinSizeRel */,
+                            8457DF0731124B0396F92F74 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A61AE8DE5F634E0E94FCEF87 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            541AB35C047F4E2E9EE4E195 /* Debug */,
+                            B91450DF2FD74D49ADAA3236 /* Release */,
+                            35A57BF06EED4AAE9A1CA563 /* MinSizeRel */,
+                            2B9939BD35604E6BAF215FFD /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              0E54B57F590C4C3AA6C8F041 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CD0E7A7C55FA4599B533CC80 /* Debug */,
+                            0FFB5098EE8842A9BDD9C44D /* Release */,
+                            BCE40F86F855485B9C6C694B /* MinSizeRel */,
+                            B1D5A09B0AB442559E61E894 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              7E87E69A920244BE882A2E91 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            4FB04A51C3C8471DB2239D42 /* Debug */,
+                            FA9AACFDC35343A398EB332B /* Release */,
+                            5B028B3A602345C6B8E3367F /* MinSizeRel */,
+                            BCD73451509B40E2A31F9F5F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              6A944A54883C48268F4DD5D9 /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            70D214664C5B489FB3D7962D /* Debug */,
+                            EEE7BE6F1F24491CB3F1F4FC /* Release */,
+                            6324100ACD934BB594745AD3 /* MinSizeRel */,
+                            7603CA86ECB447AEBF59A0CA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4D830B56CEC145969D7C1161 /* Build configuration list for PBXNativeTarget "socketxx" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            AF570A785B4445B7AE05D1D7 /* Debug */,
+                            C13AF961396A4C849AA4EB78 /* Release */,
+                            C347132DA5B84E56BE5E8FD3 /* MinSizeRel */,
+                            C8A973B20C24495FAFC4B5D0 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 0F9A2DDD36E749689009B049;
+}

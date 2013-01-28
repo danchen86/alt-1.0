@@ -1,0 +1,4 @@
+ffffffffffffffffffffffffffffffff 3086b053d20e440d07c72d14bc5310d8 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/Debug-iphoneos/libdcmtls.a
+000000004d09cefe00000000000025c7 e57442f2bd9674a94f9ef92e4c8b643d ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/DCMTK.build/Debug-iphoneos/dcmtls.build/Objects-normal/armv7/tlsscu.o
+000000004cb702460000000000002ce8 4d79b8afa82768f220b0013af4673cd4 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/DCMTK.build/Debug-iphoneos/dcmtls.build/Objects-normal/armv7/tlstrans.o
+0000000000410284000000000000215f 08295468096a787425f8a70228d73824 ffffffffffffffffffffffffffffffff 0 /Users/dan/Documents/xcode/alt/dcmtkbin/dcmtls/libsrc/DCMTK.build/Debug-iphoneos/dcmtls.build/Objects-normal/armv7/tlslayer.o

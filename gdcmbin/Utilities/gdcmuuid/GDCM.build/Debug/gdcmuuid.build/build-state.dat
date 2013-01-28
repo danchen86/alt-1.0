@@ -1,0 +1,251 @@
+Tgdcmuuid
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmuuid.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Script-77F764B16DA64E40A3F4EE33.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/string.h
+c00000000500180FF0000000000001A3A
+t1342275839
+s6714
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c
+c000000004EFDDAB8000000000000089A
+t1325259448
+s2202
+i"uuidP.h"
+i<string.h>
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c
+c000000004EFDDAB80000000000002B21
+t1325259448
+s11041
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c
+c000000004EFDDAB800000000000008F4
+t1325259448
+s2292
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.c
+c000000004EFDDAB800000000000009CE
+t1325259448
+s2510
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.c
+c000000004EFDDAB80000000000000851
+t1325259448
+s2129
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c
+c000000004EFDDAB80000000000000A09
+t1325259448
+s2569
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuidP.h
+c000000004EFDDAB8000000000000099E
+t1325259448
+s2462
+
+N/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.c
+c000000004EFDDAB8000000000000113B
+t1325259448
+s4411
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gdcmuuid.LinkFileList
+c000000005012CE640000000000000353
+t1343409764
+s851
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Script-77F764B16DA64E40A3F4EE33.sh
+c000000005012CE6400000000000000C5
+t1343409764
+s197
+
+N/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmuuid.a
+t2
+s0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc5e3c6e405c3b541^23d9ebe405c3b541^---0#1#0#--18"Check dependencies36"F1963B70-9020-4814-9B28-FF8C653CDE45-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.927943
+e365102564.992051
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c19abede405c3b541^c026ffe405c3b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c0000000000000000^2223"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.o Utilities/gdcmuuid/compare.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DHAVE_STDLIB_H -DHAVE_UNISTD_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_FILE_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_NET_IF_H -DHAVE_NETINET_IN_H -DHAVE_NET_IF_DL_H -DHAVE_NET_IF_ARP_H -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/compare.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/compare.o36"66C0C04E-23FD-40D1-90E4-EB641C5B31D5-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.927957
+e365102565.043991
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c15acede405c3b541^4bea10e505c3b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c0000000000000000^2229"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.o Utilities/gdcmuuid/gen_uuid.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DHAVE_STDLIB_H -DHAVE_UNISTD_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_FILE_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_NET_IF_H -DHAVE_NETINET_IN_H -DHAVE_NET_IF_DL_H -DHAVE_NET_IF_ARP_H -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/gen_uuid.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gen_uuid.o36"14B7617A-3BAE-47E1-B44B-F391CD82D39E-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.928499
+e365102565.017392
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c6bd2ede405c3b541^7fa50be505c3b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c0000000000000000^2205"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.o Utilities/gdcmuuid/pack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DHAVE_STDLIB_H -DHAVE_UNISTD_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_FILE_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_NET_IF_H -DHAVE_NETINET_IN_H -DHAVE_NET_IF_DL_H -DHAVE_NET_IF_ARP_H -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/pack.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/pack.o36"7A3FC619-BDB4-4D92-A72F-7D42A700BEFD-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.928655
+e365102565.042924
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.cd0d6ede405c3b541^26560ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.c0000000000000000^2211"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.o Utilities/gdcmuuid/parse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DHAVE_STDLIB_H -DHAVE_UNISTD_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_FILE_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_NET_IF_H -DHAVE_NETINET_IN_H -DHAVE_NET_IF_DL_H -DHAVE_NET_IF_ARP_H -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/parse.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/parse.o36"E6CAFC67-508E-4113-8B7E-7A2655D5930E-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.972674
+e365102565.019495
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.ccd21f9e405c3b541^6c040ee505c3b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.c0000000000000000^2217"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.o Utilities/gdcmuuid/unpack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DHAVE_STDLIB_H -DHAVE_UNISTD_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_FILE_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_NET_IF_H -DHAVE_NETINET_IN_H -DHAVE_NET_IF_DL_H -DHAVE_NET_IF_ARP_H -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unpack.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unpack.o36"ABF433F5-C121-4156-ACBB-D3FFA7AD0D81-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102564.994429
+e365102565.045708
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c8db6fee405c3b541^a81e11e505c3b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c0000000000000000^2223"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.o Utilities/gdcmuuid/unparse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DHAVE_STDLIB_H -DHAVE_UNISTD_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_FILE_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_NET_IF_H -DHAVE_NETINET_IN_H -DHAVE_NET_IF_DL_H -DHAVE_NET_IF_ARP_H -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/unparse.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/unparse.o36"4887AF13-1335-4592-B653-A091248FFDEE-
+
+CCompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.o /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s365102565.018969
+e365102565.083307
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.o
+x/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.cc82605e505c3b541^bf6215e505c3b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.c0000000000000000^2235"CompileC /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.o Utilities/gdcmuuid/uuid_time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/include -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -DHAVE_STDLIB_H -DHAVE_UNISTD_H -DHAVE_INTTYPES_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_FILE_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_NET_IF_H -DHAVE_NETINET_IN_H -DHAVE_NET_IF_DL_H -DHAVE_NET_IF_ARP_H -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.dia -c /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmuuid/uuid_time.c -o /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/uuid_time.o36"14B81839-A556-4F91-B16C-09BA82CAB5B7-
+
+CLibtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmuuid.a normal x86_64
+s365102565.138592
+e365102565.213812
+r1
+xLibtool
+x/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmuuid.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmuuid.a normal x86_64e38e23e505c3b541^6a4d37e505c3b541^---0#0#0#--672"Libtool /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmuuid.a normal x86_64    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug -filelist /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Objects-normal/x86_64/gdcmuuid.LinkFileList -o /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug/libgdcmuuid.a36"DF11858E-992E-40E9-AC12-A78177046EB8-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Script-77F764B16DA64E40A3F4EE33.sh
+s365102565.557331
+e365102565.729701
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Script-77F764B16DA64E40A3F4EE33.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmuuid.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmuuid.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmuuid.Debug
+omake[1]: Nothing to be done for `PostBuild.gdcmuuid.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'96798fe505c3b541^6de72fe605c3b541^-677"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmuuid.Debugmake[1]: Nothing to be done for `PostBuild.gdcmuuid.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmuuid.Debugmake[1]: Nothing to be done for `PostBuild.gdcmuuid.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-365102565#0#30#-0#-----2@23"Depend check for xcode-365102565#30#23#-0#-----2@197"cd /Users/dan/Documents/xcode/alt/gdcmbin && make -C /Users/dan/Documents/xcode/alt/gdcmbin -f /Users/dan/Documents/xcode/alt/gdcmbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmuuid.Debug-365102565#53#197#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.gdcmuuid.Debug'.-365102565#250#60#-0#-----2@30"echo "Depend check for xcode"-365102565#310#30#-0#-----2@23"Depend check for xcode-365102565#340#23#-0#-----2@254"cd /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid && make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.gdcmuuid.Debug-365102565#363#254#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.gdcmuuid.Debug'.-365102565#617#60#-0#-----0#0#0#--359"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Script-77F764B16DA64E40A3F4EE33.sh    cd /Users/dan/Documents/xcode/alt/gdcm-2.2.0    /bin/sh -c /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmuuid/GDCM.build/Debug/gdcmuuid.build/Script-77F764B16DA64E40A3F4EE33.sh36"45D18D17-D421-4370-A2C8-A03571428697-
+

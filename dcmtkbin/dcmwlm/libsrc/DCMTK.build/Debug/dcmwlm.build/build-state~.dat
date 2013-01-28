@@ -1,0 +1,275 @@
+Tdcmwlm
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdatset.h
+c000000004CB7027C000000000000500F
+t1287062140
+s20495
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdeftag.h
+c000000004CD3CA3D000000000003E290
+t1288948285
+s254608
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdicent.h
+c000000004CE3F21F0000000000003D67
+t1290007071
+s15719
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdict.h
+c000000004CB7027C0000000000003641
+t1287062140
+s13889
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcsequen.h
+c000000004CD3CF930000000000009ACF
+t1288949651
+s39631
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrae.h
+c000000004CD3CF9300000000000021D2
+t1288949651
+s8658
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrat.h
+c000000004CD3CF9300000000000031AC
+t1288949651
+s12716
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrcs.h
+c000000004CD3CF9300000000000025B9
+t1288949651
+s9657
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrda.h
+c000000004CD3CF930000000000003291
+t1288949651
+s12945
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrlo.h
+c000000004CD3CF930000000000002184
+t1288949651
+s8580
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrpn.h
+c000000004CD3CF9300000000000049CA
+t1288949651
+s18890
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrsh.h
+c000000004CD3CF930000000000002181
+t1288949651
+s8577
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrtm.h
+c000000004CD3CF930000000000004998
+t1288949651
+s18840
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrui.h
+c000000004CD3CF930000000000002A10
+t1288949651
+s10768
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include/dcmtk/dcmnet/dicom.h
+c000000004CF606A20000000000001C1D
+t1291191970
+s7197
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include/dcmtk/dcmwlm/wlds.h
+c000000004CB702B60000000000008E12
+t1287062198
+s36370
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include/dcmtk/dcmwlm/wltypdef.h
+c000000004CB702B7000000000000199D
+t1287062199
+s6557
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.cc
+c000000004CB70248000000000001332F
+t1287062088
+s78639
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmnet/dicom.h"
+i"dcmtk/dcmwlm/wltypdef.h"
+i"dcmtk/ofstd/oftypes.h"
+i"dcmtk/dcmdata/dcdatset.h"
+i"dcmtk/dcmdata/dcvrat.h"
+i"dcmtk/dcmdata/dcvrlo.h"
+i"dcmtk/dcmdata/dcvrae.h"
+i"dcmtk/dcmdata/dcvrda.h"
+i"dcmtk/dcmdata/dcvrcs.h"
+i"dcmtk/dcmdata/dcvrpn.h"
+i"dcmtk/dcmdata/dcvrtm.h"
+i"dcmtk/dcmdata/dcvrsh.h"
+i"dcmtk/dcmdata/dcvrui.h"
+i"dcmtk/dcmdata/dcdict.h"
+i"dcmtk/dcmdata/dcdeftag.h"
+i"dcmtk/dcmdata/dcsequen.h"
+i"dcmtk/dcmdata/dcdicent.h"
+i"dcmtk/dcmwlm/wlds.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc
+c000000004CB702490000000000009C2C
+t1287062089
+s39980
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc
+c000000004CB702490000000000017894
+t1287062089
+s96404
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc
+c000000004CB70249000000000000C793
+t1287062089
+s51091
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/oftypes.h
+c000000004CB702870000000000000E56
+t1287062151
+s3670
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/dcmwlm.LinkFileList
+c00000000509C736900000000000001D0
+t1352430441
+s464
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Script-C70F8E9956214A1EA7C1280B.sh
+c00000000509C736900000000000000BB
+t1352430441
+s187
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug/libdcmwlm.a
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4af016e9aa4cb641^4f3f30e9aa4cb641^---0#1#0#--18"Check dependencies36"C13D9A4D-F377-4160-9737-E1C0ABFB24FE-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123251.528187
+e374123252.503563
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.ccaf5c87f3aa4cb641^6e4e81f4aa4cb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.cc0000000000000000^3232"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.o dcmwlm/libsrc/wlds.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlds.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlds.o36"2DF7FD03-E1A8-494E-B4F5-0418F54627D3-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123251.530747
+e374123252.301687
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc570788f3aa4cb641^043c4df4aa4cb641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc0000000000000000^3244"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.o dcmwlm/libsrc/wldsfs.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wldsfs.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wldsfs.o36"FB69B437-BEC9-4D4A-B22B-FC9F39097638-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123251.549518
+e374123252.200093
+r0
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:51:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h:149:11: error: use of undeclared identifier 'Resize'
+o          Resize( this->size * 2 );
+o          ^
+o          this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:509:23: note: in instantiation of member function 'OFOrderedSet<OFString>::Insert' requested here
+o        worklistFiles.Insert( subname );
+o                      ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofset.h:165:18: note: must qualify identifier to find this declaration in dependent base class
+o    virtual void Resize( unsigned int newSize )
+o                 ^
+oIn file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:51:
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h:192:13: error: use of undeclared identifier 'Resize'
+o            Resize( this->size * 2 );
+o            ^
+o            this->
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:185:26: note: in instantiation of member function 'OFOrderedSet<OFString>::InsertAt' requested here
+o  OFOrderedSet<OFString> worklistFiles;
+o                         ^
+o/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofset.h:165:18: note: must qualify identifier to find this declaration in dependent base class
+o    virtual void Resize( unsigned int newSize )
+o                 ^
+o2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.ccd9d18cf3aa4cb641^b64733f4aa4cb641^-1530"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:51:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h:149:11: error: use of undeclared identifier 'Resize'          Resize( this->size * 2 );          ^          this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:509:23: note: in instantiation of member function 'OFOrderedSet<OFString>::Insert' requested here        worklistFiles.Insert( subname );                      ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofset.h:165:18: note: must qualify identifier to find this declaration in dependent base class    virtual void Resize( unsigned int newSize )                 ^In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:51:/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h:192:13: error: use of undeclared identifier 'Resize'            Resize( this->size * 2 );            ^            this->/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:185:26: note: in instantiation of member function 'OFOrderedSet<OFString>::InsertAt' requested here  OFOrderedSet<OFString> worklistFiles;                         ^/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofset.h:165:18: note: must qualify identifier to find this declaration in dependent base class    virtual void Resize( unsigned int newSize )                 ^2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@37"Use of undeclared identifier 'Resize'-374123252#18446744073709551615#0#3(2@92"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:51:-374123252#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc0000000000000000^50#9#50#9#1126#0#21"Clang LLVM 1.0 Notice--2@83"In instantiation of member function 'OFOrderedSet<OFString>::Insert' requested here-374123252#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc0000000000000000^508#22#508#22#19624#0#14"Semantic Issue--2@72"Must qualify identifier to find this declaration in dependent base class-374123252#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofset.h0000000000000000^164#17#164#17#3982#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h0000000000000000^148#10#148#10#4397#0#14"Semantic Issue1(3@93"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h0000000000000000^148#10#148#10#4397#0#-2@37"Use of undeclared identifier 'Resize'-374123252#18446744073709551615#0#3(2@92"In file included from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc:51:-374123252#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc0000000000000000^50#9#50#9#1126#0#21"Clang LLVM 1.0 Notice--2@85"In instantiation of member function 'OFOrderedSet<OFString>::InsertAt' requested here-374123252#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc0000000000000000^184#25#184#25#6206#0#14"Semantic Issue--2@72"Must qualify identifier to find this declaration in dependent base class-374123252#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@92"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofset.h0000000000000000^164#17#164#17#3982#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h0000000000000000^191#12#191#12#5867#0#14"Semantic Issue1(3@93"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofoset.h0000000000000000^191#12#191#12#5867#0#-0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc0000000000000000^3244"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.o dcmwlm/libsrc/wlfsim.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlfsim.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlfsim.o36"C570532D-8A16-4BAA-8275-C5AA3C49AD21-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123251.570033
+e374123252.402881
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc011592f3aa4cb641^102467f4aa4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc0000000000000000^3256"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.o dcmwlm/libsrc/wlmactmg.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/libsrc/wlmactmg.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Objects-normal/x86_64/wlmactmg.o36"6CFCB554-7B67-4CF1-954D-F0A6BF1D11D3-
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/Debug/libdcmwlm.a normal x86_64
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmwlm/libsrc/DCMTK.build/Debug/dcmwlm.build/Script-C70F8E9956214A1EA7C1280B.sh
+r0
+

@@ -1,0 +1,1927 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              041185DB5CEB41BD86A40362 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 633C934D15204611AB93CF60 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            51314EA91E374ECE99662986 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            6508765618D4496EA5E2C43B /* PBXTargetDependency */,
+                            A0EB22051406429BAC312821 /* PBXTargetDependency */,
+                            3A1CB564F4584523BEB8846E /* PBXTargetDependency */,
+                            6FA1418FD27945E480EE199E /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5755F2EA557E4E958A509018 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = DDF13CB31681460BA26FC18E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            04F638F7207E4DD0A3BDEDF3 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              B8CC321C124C4C689685979F /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3934B76A452E4DEB9DEF199D /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            794A73768D504E47A056AFEB /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            859D9E9CE1D64B5AB6BA0A9A /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              75E0F7E0A7594D5E9AC69F34 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 4E3F5DF972C6436783D166DB /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            E50682061C464B9C8461539F /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            859D9E9CE1D64B5AB6BA0A9A /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+5B8943B8E9234196B5FE27DB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = 9F7FF7052B18483B90A52720 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */; settings = { COMPILER_FLAGS = ""; }; };
+29486DD7806A419DA85B2BF5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */ = {isa = PBXBuildFile; fileRef = FCB0683C504F47E9AF08D50F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */; settings = { COMPILER_FLAGS = ""; }; };
+4E1A24863DCA4CCBAD633EC4 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */ = {isa = PBXBuildFile; fileRef = C222F007F36D4FA49AEECEFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */; settings = { COMPILER_FLAGS = ""; }; };
+97C39DCA5FF84C1AA954FB7C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */ = {isa = PBXBuildFile; fileRef = 682A98ED609947948358F215 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */; settings = { COMPILER_FLAGS = ""; }; };
+99BDC9794BDA472D88575D85 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = BF9504C955B246C987BE9A80 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+EFB490CDC52B415391581C0E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */ = {isa = PBXBuildFile; fileRef = 487504E3204B4622BE667E18 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+B4DEFEB2EB45462B857725A3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 5E271628D6464173AFFCD542 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+8644DEEEB2CE48FB91AD880E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */ = {isa = PBXBuildFile; fileRef = 60DFA0A3ED4741939A0C134A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+2086C80DF0B6498AA3EA80DC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */ = {isa = PBXBuildFile; fileRef = A50450B2DA2545E4960767AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */; settings = { COMPILER_FLAGS = ""; }; };
+056ACF6DDE5A458C94741F40 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */ = {isa = PBXBuildFile; fileRef = F119475D77A74D29B6E8DFC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */; settings = { COMPILER_FLAGS = ""; }; };
+5209C03A8F8D4535AE10471B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */ = {isa = PBXBuildFile; fileRef = 972154E09E804E5E9921F8F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+B051B80135A442919267FEB7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */ = {isa = PBXBuildFile; fileRef = A610316C244D41B891ADB0FE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+A6128CFE965548EB916C57A3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */ = {isa = PBXBuildFile; fileRef = 4DAA5D907BED4AF79070FD13 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+8FAB9D41AC4744B6BC89F206 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */ = {isa = PBXBuildFile; fileRef = 356A5494D4784010841512AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */; settings = { COMPILER_FLAGS = ""; }; };
+4AD991D45DAA4B718E135DEC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */ = {isa = PBXBuildFile; fileRef = 682B59FB0EF74A5280CC61E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+AB499C52E0FB4FCEAFB98533 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */ = {isa = PBXBuildFile; fileRef = 0AD2790637264DBCB2A916F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+441E50DEFD804588A7637C41 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */ = {isa = PBXBuildFile; fileRef = CB62CF017DCA43B68B6C9AB2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+842DADF903894A67B0AB72E3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */ = {isa = PBXBuildFile; fileRef = CD2765FE518E452EB132F6B2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+266DF35D4EB44A708AA796F1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */ = {isa = PBXBuildFile; fileRef = 85F4D911F8D54D9E84F2FB01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+BA4AF05A53884A8BAA7022A2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = 8FEF6CA05C844B1792C02A92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+CF1E947D81854EB7852792FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = 017D166A60F6440BB390E83F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+041A56AA260D440999E67DEE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 4C7EEE112FC246FE9F2695F3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+689F03D8E46140C893D8F6D3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */ = {isa = PBXBuildFile; fileRef = 5504E4EC6A0A44CBA0655E05 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */; settings = { COMPILER_FLAGS = ""; }; };
+A8855EFDACC741849343C110 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */ = {isa = PBXBuildFile; fileRef = 988363C93ED34BF39531116B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+89B87B91D18B438A9A71C517 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 086E9C249F7A4045B2766068 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+9A783BA3E0244F9FA7C2BC00 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */ = {isa = PBXBuildFile; fileRef = E11620585D704C57821993C1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+724BA8E2A9AC4788AF869702 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */ = {isa = PBXBuildFile; fileRef = 900DCB00D2874B57AEBFB15C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+CA04CEA178C5432BADA1D300 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */ = {isa = PBXBuildFile; fileRef = 3F71B55DD4FD4B6399D16FE8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */; settings = { COMPILER_FLAGS = ""; }; };
+0E51011C937B4BB4B396B286 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */ = {isa = PBXBuildFile; fileRef = CEFDE9EA87084AA09CF6A988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+2EB7461540AB49C7B0D4B8CE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 8E497F1058984EBC88B59614 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+83CC685FA396478E8C92BC1A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */ = {isa = PBXBuildFile; fileRef = FC2649E717824915B984EE1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+EE746552495747E2A58A7023 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 5FDD2321568A47DB94742BE1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+2785FB6ACF164665B54F6994 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = C09C0BB225CF4D1091DAD865 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+A5490A9764554DBEAC4D815F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */ = {isa = PBXBuildFile; fileRef = 821F1AED3BA64DBE81934D81 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */; settings = { COMPILER_FLAGS = ""; }; };
+802D26FF28B04223A10C8830 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = D0FCA7C7AB834BC89FE5089F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+A75A6093EBFB4403A61A30AE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */ = {isa = PBXBuildFile; fileRef = 567AD7B875F94B7C9E961820 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+F8B56A06A61744329B40AA32 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */ = {isa = PBXBuildFile; fileRef = 5E492261B8F944BA9541E64B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+A307D18450DB4117A99CD7F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */ = {isa = PBXBuildFile; fileRef = DBC631F933A8407C8FD34BCC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+867513CBE74C45EBA8C94A0A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */ = {isa = PBXBuildFile; fileRef = B7E95014140C4CE2AE894BF6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */; settings = { COMPILER_FLAGS = ""; }; };
+E528B75C20634F60989DB99E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */ = {isa = PBXBuildFile; fileRef = B6996D0D216647E0B1C06492 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+052BFEF575AA471DBA629D8A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */ = {isa = PBXBuildFile; fileRef = DBE8B35639DF406AAD77E544 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+858989EB5EEA4886893B5FC2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */ = {isa = PBXBuildFile; fileRef = B75590E213094442B2FA4159 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */; settings = { COMPILER_FLAGS = ""; }; };
+41F617623A5B4D22AE0C3D98 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */ = {isa = PBXBuildFile; fileRef = 297B6C447C964EA0BC283A62 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */; settings = { COMPILER_FLAGS = ""; }; };
+386E567CBC1044ACAF6C9FB6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */ = {isa = PBXBuildFile; fileRef = 75A72A3C986F4AA0AB5BE2CB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */; settings = { COMPILER_FLAGS = ""; }; };
+016993285D874AA4B40D6126 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = D38F04CD12DB4634AE3A293B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */; settings = { COMPILER_FLAGS = ""; }; };
+47175BA8E5484E00963E1FAE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */ = {isa = PBXBuildFile; fileRef = F30FBA935C1A46B68FF03B4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+A11912C718704A9FB1B10FC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */ = {isa = PBXBuildFile; fileRef = F0AFDE8AD33A4C7AAFAF5E42 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */; settings = { COMPILER_FLAGS = ""; }; };
+617ACBE194474C6598E49966 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */ = {isa = PBXBuildFile; fileRef = 243A9F23BE5949C38FFA1436 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */; settings = { COMPILER_FLAGS = ""; }; };
+77964B26A30E4D06B3B93A43 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */ = {isa = PBXBuildFile; fileRef = 046E52D56A2F4ED5825CBAC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */; settings = { COMPILER_FLAGS = ""; }; };
+1588B428C5CB43E2AC53D553 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */ = {isa = PBXBuildFile; fileRef = F8E8583472E64E90A772813B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */; settings = { COMPILER_FLAGS = ""; }; };
+A2ADDA8397D242059925AA25 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */ = {isa = PBXBuildFile; fileRef = 8DE1229B4A2B4A238FF9949B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+D827827AF5C94DF2B8160A33 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */ = {isa = PBXBuildFile; fileRef = EB841927FDE541A891B988F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+442164D657EB423EAE6F4DBE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */ = {isa = PBXBuildFile; fileRef = BF3BC58DBA11439FA5D590ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */; settings = { COMPILER_FLAGS = ""; }; };
+3FE2BDBC6F914AEA98522D9C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */ = {isa = PBXBuildFile; fileRef = 6D73697B64AF4BF3B46D535C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */; settings = { COMPILER_FLAGS = ""; }; };
+5FBE6461A5C4423F8EEBC9D3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */ = {isa = PBXBuildFile; fileRef = D2CAB6E4F2E343E2A7DA9737 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */; settings = { COMPILER_FLAGS = ""; }; };
+10ECC6C86FC847A1B8CEE31A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */ = {isa = PBXBuildFile; fileRef = 9D39D5AC10194FCC9400041A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */; settings = { COMPILER_FLAGS = ""; }; };
+23C1F07152194F72A96B6F1B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */ = {isa = PBXBuildFile; fileRef = CA5BF05D89CE40A0BFDF65FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+5A788076C72E4D2A894B674A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */ = {isa = PBXBuildFile; fileRef = 7698851C657D4C889293BC17 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */; settings = { COMPILER_FLAGS = ""; }; };
+06DEE4B086FD4D248E763EAA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */ = {isa = PBXBuildFile; fileRef = C7737C4298B54BB982150588 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */; settings = { COMPILER_FLAGS = ""; }; };
+0574054B50C8421F8008F991 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */ = {isa = PBXBuildFile; fileRef = 0509BACB90CD45E098DCA018 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */; settings = { COMPILER_FLAGS = ""; }; };
+3C7765936D7F44258BCA0153 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */ = {isa = PBXBuildFile; fileRef = CFD72E259C004C95AFD9C71D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+A9A37CD739D84A2E8A1F72AF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BC24093AE46D4EE0BAFA7826 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+8F998C3741C94904B4F4E8B1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = 9F7FF7052B18483B90A52720 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */; settings = { COMPILER_FLAGS = ""; }; };
+4BE34E893C3E40319C34B084 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */ = {isa = PBXBuildFile; fileRef = FCB0683C504F47E9AF08D50F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */; settings = { COMPILER_FLAGS = ""; }; };
+24FC713E398545B29357BF9E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */ = {isa = PBXBuildFile; fileRef = C222F007F36D4FA49AEECEFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */; settings = { COMPILER_FLAGS = ""; }; };
+B969F4D1C0FF462EA208030E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */ = {isa = PBXBuildFile; fileRef = 682A98ED609947948358F215 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */; settings = { COMPILER_FLAGS = ""; }; };
+E4D94B576D6446189273FC86 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = BF9504C955B246C987BE9A80 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+9C7B7F52BC724F0EA3813991 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */ = {isa = PBXBuildFile; fileRef = 487504E3204B4622BE667E18 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+F958B03D6D7E4B249DF54EAD /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 5E271628D6464173AFFCD542 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+08796577DD744F098BA67E01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */ = {isa = PBXBuildFile; fileRef = 60DFA0A3ED4741939A0C134A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+A90E4516992B4D60AEEA0EC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */ = {isa = PBXBuildFile; fileRef = A50450B2DA2545E4960767AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */; settings = { COMPILER_FLAGS = ""; }; };
+CDD76EA3835E4AE0B8BEDC49 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */ = {isa = PBXBuildFile; fileRef = F119475D77A74D29B6E8DFC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */; settings = { COMPILER_FLAGS = ""; }; };
+0DC5FFA296164BFA9E4C215D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */ = {isa = PBXBuildFile; fileRef = 972154E09E804E5E9921F8F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+30841B1685E047CD95F9759A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */ = {isa = PBXBuildFile; fileRef = A610316C244D41B891ADB0FE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+5E8F21B1F27446CAA01C4873 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */ = {isa = PBXBuildFile; fileRef = 4DAA5D907BED4AF79070FD13 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+9B7A81A806F9491DA10E9382 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */ = {isa = PBXBuildFile; fileRef = 356A5494D4784010841512AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */; settings = { COMPILER_FLAGS = ""; }; };
+996BC4728F814787AA43FEFC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */ = {isa = PBXBuildFile; fileRef = 682B59FB0EF74A5280CC61E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+C8FBE5566A7048E9B9BDCEA8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */ = {isa = PBXBuildFile; fileRef = 0AD2790637264DBCB2A916F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+5657EB150FE745C7B036DD3D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */ = {isa = PBXBuildFile; fileRef = CB62CF017DCA43B68B6C9AB2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+E16DA1E71ACA468CBDC4527D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */ = {isa = PBXBuildFile; fileRef = CD2765FE518E452EB132F6B2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+64CF57784A9040158C693F99 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */ = {isa = PBXBuildFile; fileRef = 85F4D911F8D54D9E84F2FB01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+7E4BBB8873004A3B8EDD7A24 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = 8FEF6CA05C844B1792C02A92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+E546627DDFD9484B95014988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = 017D166A60F6440BB390E83F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+71535C4D8DDA44B6BBA12020 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 4C7EEE112FC246FE9F2695F3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+03810E2E0CBA44DEB9241816 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */ = {isa = PBXBuildFile; fileRef = 5504E4EC6A0A44CBA0655E05 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */; settings = { COMPILER_FLAGS = ""; }; };
+05CC27ABBCF542AA8AD0B689 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */ = {isa = PBXBuildFile; fileRef = 988363C93ED34BF39531116B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+59B756B1C8DB48A5A9A41E32 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 086E9C249F7A4045B2766068 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+6ABB5F2239A14C01A8C3FE9A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */ = {isa = PBXBuildFile; fileRef = E11620585D704C57821993C1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+9773AB90842843979A74A863 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */ = {isa = PBXBuildFile; fileRef = 900DCB00D2874B57AEBFB15C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+99FD0ECAAE1944EBBC31287D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */ = {isa = PBXBuildFile; fileRef = 3F71B55DD4FD4B6399D16FE8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */; settings = { COMPILER_FLAGS = ""; }; };
+40EBC05C03B34B6088AEB0B6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */ = {isa = PBXBuildFile; fileRef = CEFDE9EA87084AA09CF6A988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+CE1E5748FBE643ABA1C137C3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 8E497F1058984EBC88B59614 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+588194E3B4364634AE014C3B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */ = {isa = PBXBuildFile; fileRef = FC2649E717824915B984EE1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+F86E835379114E7682CC9699 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 5FDD2321568A47DB94742BE1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+15010230DFAD4713854B04C9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = C09C0BB225CF4D1091DAD865 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+21D022675EB44C26B3D790A2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */ = {isa = PBXBuildFile; fileRef = 821F1AED3BA64DBE81934D81 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */; settings = { COMPILER_FLAGS = ""; }; };
+1B4799066CDF494A842EF81D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = D0FCA7C7AB834BC89FE5089F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+A55E95D0B26B49FBA856C783 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */ = {isa = PBXBuildFile; fileRef = 567AD7B875F94B7C9E961820 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+6553CF47B12C4776A2C0282A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */ = {isa = PBXBuildFile; fileRef = 5E492261B8F944BA9541E64B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+AD4AC057B75E4EB89BD1FC7A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */ = {isa = PBXBuildFile; fileRef = DBC631F933A8407C8FD34BCC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+93DAD90D248741CC815E6758 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */ = {isa = PBXBuildFile; fileRef = B7E95014140C4CE2AE894BF6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */; settings = { COMPILER_FLAGS = ""; }; };
+446B9488317E4EF0B881B7F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */ = {isa = PBXBuildFile; fileRef = B6996D0D216647E0B1C06492 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+937CF4D19CED4744971C6BA7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */ = {isa = PBXBuildFile; fileRef = DBE8B35639DF406AAD77E544 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+DD28CEFBF4C34BFE92968B8A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */ = {isa = PBXBuildFile; fileRef = B75590E213094442B2FA4159 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */; settings = { COMPILER_FLAGS = ""; }; };
+77DD0B20781946EEAAED930E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */ = {isa = PBXBuildFile; fileRef = 297B6C447C964EA0BC283A62 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */; settings = { COMPILER_FLAGS = ""; }; };
+B7C32EC811A1438FA456231A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */ = {isa = PBXBuildFile; fileRef = 75A72A3C986F4AA0AB5BE2CB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */; settings = { COMPILER_FLAGS = ""; }; };
+396F7BE46C40429C8235BE93 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = D38F04CD12DB4634AE3A293B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */; settings = { COMPILER_FLAGS = ""; }; };
+ECC3D25F5AA94BCEB7EA0FE0 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */ = {isa = PBXBuildFile; fileRef = F30FBA935C1A46B68FF03B4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+161241F6628A4915AB081B82 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */ = {isa = PBXBuildFile; fileRef = F0AFDE8AD33A4C7AAFAF5E42 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */; settings = { COMPILER_FLAGS = ""; }; };
+5418B0259714454082B4EC55 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */ = {isa = PBXBuildFile; fileRef = 243A9F23BE5949C38FFA1436 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */; settings = { COMPILER_FLAGS = ""; }; };
+3862C16CFF144C2AAC5F0FE7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */ = {isa = PBXBuildFile; fileRef = 046E52D56A2F4ED5825CBAC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */; settings = { COMPILER_FLAGS = ""; }; };
+70A53FC6B2B842D2A2DC1863 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */ = {isa = PBXBuildFile; fileRef = F8E8583472E64E90A772813B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */; settings = { COMPILER_FLAGS = ""; }; };
+6BCA6EF7D13145DF9029F359 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */ = {isa = PBXBuildFile; fileRef = 8DE1229B4A2B4A238FF9949B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+3114FD284DA54D999CC671C7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */ = {isa = PBXBuildFile; fileRef = EB841927FDE541A891B988F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+F92E8AC306D144899A58A84B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */ = {isa = PBXBuildFile; fileRef = BF3BC58DBA11439FA5D590ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */; settings = { COMPILER_FLAGS = ""; }; };
+296AE336D16C4614B5CEBCA6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */ = {isa = PBXBuildFile; fileRef = 6D73697B64AF4BF3B46D535C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */; settings = { COMPILER_FLAGS = ""; }; };
+B87120A845D745F1802A0689 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */ = {isa = PBXBuildFile; fileRef = D2CAB6E4F2E343E2A7DA9737 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */; settings = { COMPILER_FLAGS = ""; }; };
+EA5C126E6E764B878100D871 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */ = {isa = PBXBuildFile; fileRef = 9D39D5AC10194FCC9400041A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */; settings = { COMPILER_FLAGS = ""; }; };
+7D55010D6A6D4B14845A7234 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */ = {isa = PBXBuildFile; fileRef = CA5BF05D89CE40A0BFDF65FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+53EC3FE3FDCE4DD4A505A259 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */ = {isa = PBXBuildFile; fileRef = 7698851C657D4C889293BC17 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */; settings = { COMPILER_FLAGS = ""; }; };
+768279A1C74B473EAFAE5D88 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */ = {isa = PBXBuildFile; fileRef = C7737C4298B54BB982150588 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */; settings = { COMPILER_FLAGS = ""; }; };
+A05E17A78E6D41F2BEAAFD48 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */ = {isa = PBXBuildFile; fileRef = 0509BACB90CD45E098DCA018 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */; settings = { COMPILER_FLAGS = ""; }; };
+EECAD8D6C1FA40CBA7C33D6A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */ = {isa = PBXBuildFile; fileRef = CFD72E259C004C95AFD9C71D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+A9DD49D1F8DA48B2A5AB2489 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/12/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0B8D4FDF1BD5449EA609191A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/12/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+71FD5D96FAB847DAAFF0867C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = 9F7FF7052B18483B90A52720 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */; settings = { COMPILER_FLAGS = ""; }; };
+D246B9D0D95E42DB8335B0F9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */ = {isa = PBXBuildFile; fileRef = FCB0683C504F47E9AF08D50F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */; settings = { COMPILER_FLAGS = ""; }; };
+30824AD7CA72408193184DFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */ = {isa = PBXBuildFile; fileRef = C222F007F36D4FA49AEECEFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */; settings = { COMPILER_FLAGS = ""; }; };
+EB525FD421184AE0A9490E3F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */ = {isa = PBXBuildFile; fileRef = 682A98ED609947948358F215 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */; settings = { COMPILER_FLAGS = ""; }; };
+392BB6EA483D4A70A84E128B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = BF9504C955B246C987BE9A80 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+9BECE476C3C543839CBC41A9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */ = {isa = PBXBuildFile; fileRef = 487504E3204B4622BE667E18 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+F582D92D7EB74DC7B5A712A3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 5E271628D6464173AFFCD542 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+C6A1D15705EC4664B7890B9E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */ = {isa = PBXBuildFile; fileRef = 60DFA0A3ED4741939A0C134A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+E525A3FD9D2B45CAB3C6C0AA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */ = {isa = PBXBuildFile; fileRef = A50450B2DA2545E4960767AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */; settings = { COMPILER_FLAGS = ""; }; };
+9A50C1C06E6E4F348BAB46BE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */ = {isa = PBXBuildFile; fileRef = F119475D77A74D29B6E8DFC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */; settings = { COMPILER_FLAGS = ""; }; };
+2AB42503E2D448769F117800 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */ = {isa = PBXBuildFile; fileRef = 972154E09E804E5E9921F8F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+D53E7324F95044C4B890B2B8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */ = {isa = PBXBuildFile; fileRef = A610316C244D41B891ADB0FE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+7F535D10259F4DF5BFD8AAD5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */ = {isa = PBXBuildFile; fileRef = 4DAA5D907BED4AF79070FD13 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+C39E4DA600F64B979340A9B0 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */ = {isa = PBXBuildFile; fileRef = 356A5494D4784010841512AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */; settings = { COMPILER_FLAGS = ""; }; };
+76AE06243CB54E18AC883B8E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */ = {isa = PBXBuildFile; fileRef = 682B59FB0EF74A5280CC61E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+43A1B66934814525BD9A33F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */ = {isa = PBXBuildFile; fileRef = 0AD2790637264DBCB2A916F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+FBC85CD892D7428E90EBDB70 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */ = {isa = PBXBuildFile; fileRef = CB62CF017DCA43B68B6C9AB2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+D344D8F07F104710ABCCE2D5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */ = {isa = PBXBuildFile; fileRef = CD2765FE518E452EB132F6B2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+7542173416C949238D77D09D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */ = {isa = PBXBuildFile; fileRef = 85F4D911F8D54D9E84F2FB01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+FE2BEAA6B27542D4887AC576 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = 8FEF6CA05C844B1792C02A92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+C07F3FBC1A4244A4941D524F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = 017D166A60F6440BB390E83F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+3ADBE128C5BA43C2A8EA3ADB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 4C7EEE112FC246FE9F2695F3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+7B96EA8992424A5C8652DA95 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */ = {isa = PBXBuildFile; fileRef = 5504E4EC6A0A44CBA0655E05 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */; settings = { COMPILER_FLAGS = ""; }; };
+883EB27E1E8E4C5C8E32840C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */ = {isa = PBXBuildFile; fileRef = 988363C93ED34BF39531116B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */; settings = { COMPILER_FLAGS = ""; }; };
+2FA9C6B97C284ACD9848C172 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 086E9C249F7A4045B2766068 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */; settings = { COMPILER_FLAGS = ""; }; };
+BA0F0514779F49E8A3FBD597 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */ = {isa = PBXBuildFile; fileRef = E11620585D704C57821993C1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */; settings = { COMPILER_FLAGS = ""; }; };
+1FE805AB217548F8A0F52712 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */ = {isa = PBXBuildFile; fileRef = 900DCB00D2874B57AEBFB15C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */; settings = { COMPILER_FLAGS = ""; }; };
+A2C4987C5B2141B7A36F1B1C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */ = {isa = PBXBuildFile; fileRef = 3F71B55DD4FD4B6399D16FE8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */; settings = { COMPILER_FLAGS = ""; }; };
+50AED01F16544804A47C7007 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */ = {isa = PBXBuildFile; fileRef = CEFDE9EA87084AA09CF6A988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */; settings = { COMPILER_FLAGS = ""; }; };
+5B673042E2FB4491BD55E917 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 8E497F1058984EBC88B59614 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+6C2DFA150B104906A6D2D501 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */ = {isa = PBXBuildFile; fileRef = FC2649E717824915B984EE1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+23852630E8A74EAEB6D4AE92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 5FDD2321568A47DB94742BE1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */; settings = { COMPILER_FLAGS = ""; }; };
+1FDB3B5D5DD0430182F61376 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = C09C0BB225CF4D1091DAD865 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */; settings = { COMPILER_FLAGS = ""; }; };
+AFE2CFE7C39941D790F0C499 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */ = {isa = PBXBuildFile; fileRef = 821F1AED3BA64DBE81934D81 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */; settings = { COMPILER_FLAGS = ""; }; };
+F357A142C50B4A7CA224B559 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = D0FCA7C7AB834BC89FE5089F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */; settings = { COMPILER_FLAGS = ""; }; };
+B80B57891B9943949EDCFA55 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */ = {isa = PBXBuildFile; fileRef = 567AD7B875F94B7C9E961820 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */; settings = { COMPILER_FLAGS = ""; }; };
+2858474B9DA34E70AF57486E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */ = {isa = PBXBuildFile; fileRef = 5E492261B8F944BA9541E64B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */; settings = { COMPILER_FLAGS = ""; }; };
+50F17E5272034808A96BF6E3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */ = {isa = PBXBuildFile; fileRef = DBC631F933A8407C8FD34BCC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+9C477E8EE40747E38A747681 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */ = {isa = PBXBuildFile; fileRef = B7E95014140C4CE2AE894BF6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */; settings = { COMPILER_FLAGS = ""; }; };
+22D3D36ED14A47C6B82F9D3F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */ = {isa = PBXBuildFile; fileRef = B6996D0D216647E0B1C06492 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */; settings = { COMPILER_FLAGS = ""; }; };
+92A9952BA76E4550A5DD0A4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */ = {isa = PBXBuildFile; fileRef = DBE8B35639DF406AAD77E544 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */; settings = { COMPILER_FLAGS = ""; }; };
+B4B2D86451B94D508B41FE4E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */ = {isa = PBXBuildFile; fileRef = B75590E213094442B2FA4159 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */; settings = { COMPILER_FLAGS = ""; }; };
+A5974C85CA1C4A1C80FAB898 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */ = {isa = PBXBuildFile; fileRef = 297B6C447C964EA0BC283A62 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */; settings = { COMPILER_FLAGS = ""; }; };
+60730BD67E3F4B249640E064 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */ = {isa = PBXBuildFile; fileRef = 75A72A3C986F4AA0AB5BE2CB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */; settings = { COMPILER_FLAGS = ""; }; };
+06B5966A986F46589A99289B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = D38F04CD12DB4634AE3A293B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */; settings = { COMPILER_FLAGS = ""; }; };
+DAB9831D97F3414783B098AE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */ = {isa = PBXBuildFile; fileRef = F30FBA935C1A46B68FF03B4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */; settings = { COMPILER_FLAGS = ""; }; };
+0201B59F0C5145FD96ED5F1D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */ = {isa = PBXBuildFile; fileRef = F0AFDE8AD33A4C7AAFAF5E42 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */; settings = { COMPILER_FLAGS = ""; }; };
+C3036677E8FB435BB6BE7499 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */ = {isa = PBXBuildFile; fileRef = 243A9F23BE5949C38FFA1436 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */; settings = { COMPILER_FLAGS = ""; }; };
+101476FF26CB4F3FAEEA4901 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */ = {isa = PBXBuildFile; fileRef = 046E52D56A2F4ED5825CBAC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */; settings = { COMPILER_FLAGS = ""; }; };
+4595090E043448FCAD0D6FF9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */ = {isa = PBXBuildFile; fileRef = F8E8583472E64E90A772813B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */; settings = { COMPILER_FLAGS = ""; }; };
+0BC6D00FD2D34EB18FD2994E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */ = {isa = PBXBuildFile; fileRef = 8DE1229B4A2B4A238FF9949B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+B07524E79A3D494290FE2714 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */ = {isa = PBXBuildFile; fileRef = EB841927FDE541A891B988F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+95F68FCFA1DB40F9B41A1C58 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */ = {isa = PBXBuildFile; fileRef = BF3BC58DBA11439FA5D590ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */; settings = { COMPILER_FLAGS = ""; }; };
+79B613B8255341ED89AA243D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */ = {isa = PBXBuildFile; fileRef = 6D73697B64AF4BF3B46D535C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */; settings = { COMPILER_FLAGS = ""; }; };
+CCF870B2720E45459A83172B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */ = {isa = PBXBuildFile; fileRef = D2CAB6E4F2E343E2A7DA9737 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */; settings = { COMPILER_FLAGS = ""; }; };
+C94CC7C2DF404380BA021052 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */ = {isa = PBXBuildFile; fileRef = 9D39D5AC10194FCC9400041A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */; settings = { COMPILER_FLAGS = ""; }; };
+71645C2671854DE899D376E1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */ = {isa = PBXBuildFile; fileRef = CA5BF05D89CE40A0BFDF65FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+E0044F62995B4173A91E7839 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */ = {isa = PBXBuildFile; fileRef = 7698851C657D4C889293BC17 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */; settings = { COMPILER_FLAGS = ""; }; };
+2E3623EEC5B0480A8CF56288 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */ = {isa = PBXBuildFile; fileRef = C7737C4298B54BB982150588 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */; settings = { COMPILER_FLAGS = ""; }; };
+0AC5C29CE3D2474CBB08B3C9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */ = {isa = PBXBuildFile; fileRef = 0509BACB90CD45E098DCA018 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */; settings = { COMPILER_FLAGS = ""; }; };
+809EBC61398244D2B14B5D32 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */ = {isa = PBXBuildFile; fileRef = CFD72E259C004C95AFD9C71D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */; settings = { COMPILER_FLAGS = ""; }; };
+32ABD6770A8740CBBBD1E4F4 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/16/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8C34195B62A94B62B04AE9DD /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/16/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              86833C1133B747DA97DCBAD3 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              4CB464202DE84F819518972C /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2C0C40325D494F6BAF26C62D /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              587DA80DC6B8444DA053B666 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              E8C13FC2B9B0497F8EBB5EF2 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              8E9E4F6D2C074230A04B85BC /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9D71FEB629154B38A8DD019A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 102D8B74B794401B8AA8BFA2;
+                     remoteInfo = gdcmjpeg16;
+              };
+              7D283CF69C3E4B7EBD52AF56 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9D71FEB629154B38A8DD019A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D6E8C50E28994E2191880FA7;
+                     remoteInfo = gdcmjpeg12;
+              };
+              F46E7F957DC642DA83E1A5D6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9D71FEB629154B38A8DD019A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CCA260F9A3B04320A94116BE;
+                     remoteInfo = gdcmjpeg8;
+              };
+              5DE0AC53A16A492598F89FF4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9D71FEB629154B38A8DD019A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5755F2EA557E4E958A509018;
+                     remoteInfo = ZERO_CHECK;
+              };
+              4AF6784E77F44D84A50FE5BB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 9D71FEB629154B38A8DD019A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 041185DB5CEB41BD86A40362;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+D198DCEB48984F788DD24C27 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+9F7FF7052B18483B90A52720 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jmemnobs.c"; path = "jmemnobs.c"; sourceTree = SOURCE_ROOT; };
+FCB0683C504F47E9AF08D50F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcomapi.c"; path = "jcomapi.c"; sourceTree = SOURCE_ROOT; };
+C222F007F36D4FA49AEECEFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jutils.c"; path = "jutils.c"; sourceTree = SOURCE_ROOT; };
+682A98ED609947948358F215 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jerror.c"; path = "jerror.c"; sourceTree = SOURCE_ROOT; };
+BF9504C955B246C987BE9A80 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jmemmgr.c"; path = "jmemmgr.c"; sourceTree = SOURCE_ROOT; };
+487504E3204B4622BE667E18 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcapimin.c"; path = "jcapimin.c"; sourceTree = SOURCE_ROOT; };
+5E271628D6464173AFFCD542 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcapistd.c"; path = "jcapistd.c"; sourceTree = SOURCE_ROOT; };
+60DFA0A3ED4741939A0C134A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jctrans.c"; path = "jctrans.c"; sourceTree = SOURCE_ROOT; };
+A50450B2DA2545E4960767AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcparam.c"; path = "jcparam.c"; sourceTree = SOURCE_ROOT; };
+F119475D77A74D29B6E8DFC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcinit.c"; path = "jcinit.c"; sourceTree = SOURCE_ROOT; };
+972154E09E804E5E9921F8F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcmaster.c"; path = "jcmaster.c"; sourceTree = SOURCE_ROOT; };
+A610316C244D41B891ADB0FE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcmarker.c"; path = "jcmarker.c"; sourceTree = SOURCE_ROOT; };
+4DAA5D907BED4AF79070FD13 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcmainct.c"; path = "jcmainct.c"; sourceTree = SOURCE_ROOT; };
+356A5494D4784010841512AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcprepct.c"; path = "jcprepct.c"; sourceTree = SOURCE_ROOT; };
+682B59FB0EF74A5280CC61E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jccoefct.c"; path = "jccoefct.c"; sourceTree = SOURCE_ROOT; };
+0AD2790637264DBCB2A916F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jccolor.c"; path = "jccolor.c"; sourceTree = SOURCE_ROOT; };
+CB62CF017DCA43B68B6C9AB2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcsample.c"; path = "jcsample.c"; sourceTree = SOURCE_ROOT; };
+CD2765FE518E452EB132F6B2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jchuff.c"; path = "jchuff.c"; sourceTree = SOURCE_ROOT; };
+85F4D911F8D54D9E84F2FB01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcphuff.c"; path = "jcphuff.c"; sourceTree = SOURCE_ROOT; };
+8FEF6CA05C844B1792C02A92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcdctmgr.c"; path = "jcdctmgr.c"; sourceTree = SOURCE_ROOT; };
+017D166A60F6440BB390E83F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jfdctfst.c"; path = "jfdctfst.c"; sourceTree = SOURCE_ROOT; };
+4C7EEE112FC246FE9F2695F3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jfdctflt.c"; path = "jfdctflt.c"; sourceTree = SOURCE_ROOT; };
+5504E4EC6A0A44CBA0655E05 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdatadst.c"; path = "jdatadst.c"; sourceTree = SOURCE_ROOT; };
+988363C93ED34BF39531116B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdapimin.c"; path = "jdapimin.c"; sourceTree = SOURCE_ROOT; };
+086E9C249F7A4045B2766068 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdapistd.c"; path = "jdapistd.c"; sourceTree = SOURCE_ROOT; };
+E11620585D704C57821993C1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdtrans.c"; path = "jdtrans.c"; sourceTree = SOURCE_ROOT; };
+900DCB00D2874B57AEBFB15C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmaster.c"; path = "jdmaster.c"; sourceTree = SOURCE_ROOT; };
+3F71B55DD4FD4B6399D16FE8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdinput.c"; path = "jdinput.c"; sourceTree = SOURCE_ROOT; };
+CEFDE9EA87084AA09CF6A988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmarker.c"; path = "jdmarker.c"; sourceTree = SOURCE_ROOT; };
+8E497F1058984EBC88B59614 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdhuff.c"; path = "jdhuff.c"; sourceTree = SOURCE_ROOT; };
+FC2649E717824915B984EE1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdphuff.c"; path = "jdphuff.c"; sourceTree = SOURCE_ROOT; };
+5FDD2321568A47DB94742BE1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmainct.c"; path = "jdmainct.c"; sourceTree = SOURCE_ROOT; };
+C09C0BB225CF4D1091DAD865 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdcoefct.c"; path = "jdcoefct.c"; sourceTree = SOURCE_ROOT; };
+821F1AED3BA64DBE81934D81 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdpostct.c"; path = "jdpostct.c"; sourceTree = SOURCE_ROOT; };
+D0FCA7C7AB834BC89FE5089F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jddctmgr.c"; path = "jddctmgr.c"; sourceTree = SOURCE_ROOT; };
+567AD7B875F94B7C9E961820 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctfst.c"; path = "jidctfst.c"; sourceTree = SOURCE_ROOT; };
+5E492261B8F944BA9541E64B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctflt.c"; path = "jidctflt.c"; sourceTree = SOURCE_ROOT; };
+DBC631F933A8407C8FD34BCC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctint.c"; path = "jidctint.c"; sourceTree = SOURCE_ROOT; };
+B7E95014140C4CE2AE894BF6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jidctred.c"; path = "jidctred.c"; sourceTree = SOURCE_ROOT; };
+B6996D0D216647E0B1C06492 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdsample.c"; path = "jdsample.c"; sourceTree = SOURCE_ROOT; };
+DBE8B35639DF406AAD77E544 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdcolor.c"; path = "jdcolor.c"; sourceTree = SOURCE_ROOT; };
+B75590E213094442B2FA4159 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jquant1.c"; path = "jquant1.c"; sourceTree = SOURCE_ROOT; };
+297B6C447C964EA0BC283A62 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jquant2.c"; path = "jquant2.c"; sourceTree = SOURCE_ROOT; };
+75A72A3C986F4AA0AB5BE2CB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdmerge.c"; path = "jdmerge.c"; sourceTree = SOURCE_ROOT; };
+D38F04CD12DB4634AE3A293B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdatasrc.c"; path = "jdatasrc.c"; sourceTree = SOURCE_ROOT; };
+F30FBA935C1A46B68FF03B4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jfdctint.c"; path = "jfdctint.c"; sourceTree = SOURCE_ROOT; };
+F0AFDE8AD33A4C7AAFAF5E42 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jclossy.c"; path = "jclossy.c"; sourceTree = SOURCE_ROOT; };
+243A9F23BE5949C38FFA1436 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jclossls.c"; path = "jclossls.c"; sourceTree = SOURCE_ROOT; };
+046E52D56A2F4ED5825CBAC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcodec.c"; path = "jcodec.c"; sourceTree = SOURCE_ROOT; };
+F8E8583472E64E90A772813B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcscale.c"; path = "jcscale.c"; sourceTree = SOURCE_ROOT; };
+8DE1229B4A2B4A238FF9949B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcshuff.c"; path = "jcshuff.c"; sourceTree = SOURCE_ROOT; };
+EB841927FDE541A891B988F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jclhuff.c"; path = "jclhuff.c"; sourceTree = SOURCE_ROOT; };
+BF3BC58DBA11439FA5D590ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcpred.c"; path = "jcpred.c"; sourceTree = SOURCE_ROOT; };
+6D73697B64AF4BF3B46D535C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jcdiffct.c"; path = "jcdiffct.c"; sourceTree = SOURCE_ROOT; };
+D2CAB6E4F2E343E2A7DA9737 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdlossls.c"; path = "jdlossls.c"; sourceTree = SOURCE_ROOT; };
+9D39D5AC10194FCC9400041A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdlossy.c"; path = "jdlossy.c"; sourceTree = SOURCE_ROOT; };
+CA5BF05D89CE40A0BFDF65FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdlhuff.c"; path = "jdlhuff.c"; sourceTree = SOURCE_ROOT; };
+7698851C657D4C889293BC17 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jddiffct.c"; path = "jddiffct.c"; sourceTree = SOURCE_ROOT; };
+C7737C4298B54BB982150588 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdpred.c"; path = "jdpred.c"; sourceTree = SOURCE_ROOT; };
+0509BACB90CD45E098DCA018 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdscale.c"; path = "jdscale.c"; sourceTree = SOURCE_ROOT; };
+CFD72E259C004C95AFD9C71D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "jdshuff.c"; path = "jdshuff.c"; sourceTree = SOURCE_ROOT; };
+BC24093AE46D4EE0BAFA7826 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "8/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5B48FB94599E475FA6FB9EAE /* gdcmjpeg8 */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgdcmjpeg8.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+0B8D4FDF1BD5449EA609191A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/12/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "12/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B2030D10214B4A15B5DB36A6 /* gdcmjpeg12 */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgdcmjpeg12.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+8C34195B62A94B62B04AE9DD /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/16/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "16/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B1E8DFC7D7B3479FBE79645E /* gdcmjpeg16 */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgdcmjpeg16.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              82B2AF9722674AD5950E67C3  = {
+                     isa = PBXGroup;
+                     children = (
+                            2F654CFF31F74C9BB6987EB3 /* Sources */,
+                            F47D865A657B44F7B6D1434B /* Resources */,
+                            56C0B9470DC14046BF6B8650 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              2F654CFF31F74C9BB6987EB3 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E523C6B9799B470F80D608E9 /* ALL_BUILD */,
+                            CC0CA818E48F48C4B3D1CE56 /* ZERO_CHECK */,
+                            9E061E8DF0B844EAA929D210 /* gdcmjpeg8 */,
+                            7ACE102F336A4BD5A8A86E0F /* gdcmjpeg12 */,
+                            D3DDB621053348519DC53F97 /* gdcmjpeg16 */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              F47D865A657B44F7B6D1434B /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              E523C6B9799B470F80D608E9 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3E9B70AEC1774FCB9B6DD861 /* CMake Rules */,
+                            D198DCEB48984F788DD24C27 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              3E9B70AEC1774FCB9B6DD861 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              CC0CA818E48F48C4B3D1CE56 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A5AA6F28F0EB4C18A50BA777 /* CMake Rules */,
+                            D198DCEB48984F788DD24C27 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              A5AA6F28F0EB4C18A50BA777 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              9E061E8DF0B844EAA929D210 /* gdcmjpeg8 */ = {
+                     isa = PBXGroup;
+                     children = (
+                            09D044CB7A9D4CA984416712 /* Source Files */,
+                            BC24093AE46D4EE0BAFA7826 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8/CMakeLists.txt */,
+                     );
+                     name = gdcmjpeg8;
+                     sourceTree = "<group>";
+              };
+              09D044CB7A9D4CA984416712 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9F7FF7052B18483B90A52720 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */,
+                            FCB0683C504F47E9AF08D50F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */,
+                            C222F007F36D4FA49AEECEFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */,
+                            682A98ED609947948358F215 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */,
+                            BF9504C955B246C987BE9A80 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */,
+                            487504E3204B4622BE667E18 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */,
+                            5E271628D6464173AFFCD542 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */,
+                            60DFA0A3ED4741939A0C134A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */,
+                            A50450B2DA2545E4960767AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */,
+                            F119475D77A74D29B6E8DFC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */,
+                            972154E09E804E5E9921F8F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */,
+                            A610316C244D41B891ADB0FE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */,
+                            4DAA5D907BED4AF79070FD13 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */,
+                            356A5494D4784010841512AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */,
+                            682B59FB0EF74A5280CC61E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */,
+                            0AD2790637264DBCB2A916F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */,
+                            CB62CF017DCA43B68B6C9AB2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */,
+                            CD2765FE518E452EB132F6B2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */,
+                            85F4D911F8D54D9E84F2FB01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */,
+                            8FEF6CA05C844B1792C02A92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */,
+                            017D166A60F6440BB390E83F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */,
+                            4C7EEE112FC246FE9F2695F3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */,
+                            5504E4EC6A0A44CBA0655E05 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */,
+                            988363C93ED34BF39531116B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */,
+                            086E9C249F7A4045B2766068 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */,
+                            E11620585D704C57821993C1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */,
+                            900DCB00D2874B57AEBFB15C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */,
+                            3F71B55DD4FD4B6399D16FE8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */,
+                            CEFDE9EA87084AA09CF6A988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */,
+                            8E497F1058984EBC88B59614 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */,
+                            FC2649E717824915B984EE1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */,
+                            5FDD2321568A47DB94742BE1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */,
+                            C09C0BB225CF4D1091DAD865 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */,
+                            821F1AED3BA64DBE81934D81 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */,
+                            D0FCA7C7AB834BC89FE5089F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */,
+                            567AD7B875F94B7C9E961820 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */,
+                            5E492261B8F944BA9541E64B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */,
+                            DBC631F933A8407C8FD34BCC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */,
+                            B7E95014140C4CE2AE894BF6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */,
+                            B6996D0D216647E0B1C06492 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */,
+                            DBE8B35639DF406AAD77E544 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */,
+                            B75590E213094442B2FA4159 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */,
+                            297B6C447C964EA0BC283A62 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */,
+                            75A72A3C986F4AA0AB5BE2CB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */,
+                            D38F04CD12DB4634AE3A293B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */,
+                            F30FBA935C1A46B68FF03B4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */,
+                            F0AFDE8AD33A4C7AAFAF5E42 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */,
+                            243A9F23BE5949C38FFA1436 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */,
+                            046E52D56A2F4ED5825CBAC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */,
+                            F8E8583472E64E90A772813B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */,
+                            8DE1229B4A2B4A238FF9949B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */,
+                            EB841927FDE541A891B988F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */,
+                            BF3BC58DBA11439FA5D590ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */,
+                            6D73697B64AF4BF3B46D535C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */,
+                            D2CAB6E4F2E343E2A7DA9737 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */,
+                            9D39D5AC10194FCC9400041A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */,
+                            CA5BF05D89CE40A0BFDF65FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */,
+                            7698851C657D4C889293BC17 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */,
+                            C7737C4298B54BB982150588 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */,
+                            0509BACB90CD45E098DCA018 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */,
+                            CFD72E259C004C95AFD9C71D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              7ACE102F336A4BD5A8A86E0F /* gdcmjpeg12 */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5C22412FEBF54BF28649EA6F /* Source Files */,
+                            0B8D4FDF1BD5449EA609191A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/12/CMakeLists.txt */,
+                     );
+                     name = gdcmjpeg12;
+                     sourceTree = "<group>";
+              };
+              5C22412FEBF54BF28649EA6F /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9F7FF7052B18483B90A52720 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */,
+                            FCB0683C504F47E9AF08D50F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */,
+                            C222F007F36D4FA49AEECEFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */,
+                            682A98ED609947948358F215 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */,
+                            BF9504C955B246C987BE9A80 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */,
+                            487504E3204B4622BE667E18 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */,
+                            5E271628D6464173AFFCD542 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */,
+                            60DFA0A3ED4741939A0C134A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */,
+                            A50450B2DA2545E4960767AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */,
+                            F119475D77A74D29B6E8DFC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */,
+                            972154E09E804E5E9921F8F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */,
+                            A610316C244D41B891ADB0FE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */,
+                            4DAA5D907BED4AF79070FD13 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */,
+                            356A5494D4784010841512AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */,
+                            682B59FB0EF74A5280CC61E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */,
+                            0AD2790637264DBCB2A916F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */,
+                            CB62CF017DCA43B68B6C9AB2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */,
+                            CD2765FE518E452EB132F6B2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */,
+                            85F4D911F8D54D9E84F2FB01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */,
+                            8FEF6CA05C844B1792C02A92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */,
+                            017D166A60F6440BB390E83F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */,
+                            4C7EEE112FC246FE9F2695F3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */,
+                            5504E4EC6A0A44CBA0655E05 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */,
+                            988363C93ED34BF39531116B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */,
+                            086E9C249F7A4045B2766068 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */,
+                            E11620585D704C57821993C1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */,
+                            900DCB00D2874B57AEBFB15C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */,
+                            3F71B55DD4FD4B6399D16FE8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */,
+                            CEFDE9EA87084AA09CF6A988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */,
+                            8E497F1058984EBC88B59614 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */,
+                            FC2649E717824915B984EE1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */,
+                            5FDD2321568A47DB94742BE1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */,
+                            C09C0BB225CF4D1091DAD865 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */,
+                            821F1AED3BA64DBE81934D81 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */,
+                            D0FCA7C7AB834BC89FE5089F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */,
+                            567AD7B875F94B7C9E961820 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */,
+                            5E492261B8F944BA9541E64B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */,
+                            DBC631F933A8407C8FD34BCC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */,
+                            B7E95014140C4CE2AE894BF6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */,
+                            B6996D0D216647E0B1C06492 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */,
+                            DBE8B35639DF406AAD77E544 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */,
+                            B75590E213094442B2FA4159 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */,
+                            297B6C447C964EA0BC283A62 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */,
+                            75A72A3C986F4AA0AB5BE2CB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */,
+                            D38F04CD12DB4634AE3A293B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */,
+                            F30FBA935C1A46B68FF03B4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */,
+                            F0AFDE8AD33A4C7AAFAF5E42 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */,
+                            243A9F23BE5949C38FFA1436 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */,
+                            046E52D56A2F4ED5825CBAC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */,
+                            F8E8583472E64E90A772813B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */,
+                            8DE1229B4A2B4A238FF9949B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */,
+                            EB841927FDE541A891B988F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */,
+                            BF3BC58DBA11439FA5D590ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */,
+                            6D73697B64AF4BF3B46D535C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */,
+                            D2CAB6E4F2E343E2A7DA9737 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */,
+                            9D39D5AC10194FCC9400041A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */,
+                            CA5BF05D89CE40A0BFDF65FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */,
+                            7698851C657D4C889293BC17 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */,
+                            C7737C4298B54BB982150588 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */,
+                            0509BACB90CD45E098DCA018 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */,
+                            CFD72E259C004C95AFD9C71D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              D3DDB621053348519DC53F97 /* gdcmjpeg16 */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8B3DC9949908477A9D95F860 /* Source Files */,
+                            8C34195B62A94B62B04AE9DD /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/16/CMakeLists.txt */,
+                     );
+                     name = gdcmjpeg16;
+                     sourceTree = "<group>";
+              };
+              8B3DC9949908477A9D95F860 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9F7FF7052B18483B90A52720 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */,
+                            FCB0683C504F47E9AF08D50F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */,
+                            C222F007F36D4FA49AEECEFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */,
+                            682A98ED609947948358F215 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */,
+                            BF9504C955B246C987BE9A80 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */,
+                            487504E3204B4622BE667E18 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */,
+                            5E271628D6464173AFFCD542 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */,
+                            60DFA0A3ED4741939A0C134A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */,
+                            A50450B2DA2545E4960767AB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */,
+                            F119475D77A74D29B6E8DFC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */,
+                            972154E09E804E5E9921F8F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */,
+                            A610316C244D41B891ADB0FE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */,
+                            4DAA5D907BED4AF79070FD13 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */,
+                            356A5494D4784010841512AC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */,
+                            682B59FB0EF74A5280CC61E8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */,
+                            0AD2790637264DBCB2A916F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */,
+                            CB62CF017DCA43B68B6C9AB2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */,
+                            CD2765FE518E452EB132F6B2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */,
+                            85F4D911F8D54D9E84F2FB01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */,
+                            8FEF6CA05C844B1792C02A92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */,
+                            017D166A60F6440BB390E83F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */,
+                            4C7EEE112FC246FE9F2695F3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */,
+                            5504E4EC6A0A44CBA0655E05 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */,
+                            988363C93ED34BF39531116B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */,
+                            086E9C249F7A4045B2766068 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */,
+                            E11620585D704C57821993C1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */,
+                            900DCB00D2874B57AEBFB15C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */,
+                            3F71B55DD4FD4B6399D16FE8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */,
+                            CEFDE9EA87084AA09CF6A988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */,
+                            8E497F1058984EBC88B59614 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */,
+                            FC2649E717824915B984EE1F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */,
+                            5FDD2321568A47DB94742BE1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */,
+                            C09C0BB225CF4D1091DAD865 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */,
+                            821F1AED3BA64DBE81934D81 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */,
+                            D0FCA7C7AB834BC89FE5089F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */,
+                            567AD7B875F94B7C9E961820 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */,
+                            5E492261B8F944BA9541E64B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */,
+                            DBC631F933A8407C8FD34BCC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */,
+                            B7E95014140C4CE2AE894BF6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */,
+                            B6996D0D216647E0B1C06492 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */,
+                            DBE8B35639DF406AAD77E544 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */,
+                            B75590E213094442B2FA4159 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */,
+                            297B6C447C964EA0BC283A62 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */,
+                            75A72A3C986F4AA0AB5BE2CB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */,
+                            D38F04CD12DB4634AE3A293B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */,
+                            F30FBA935C1A46B68FF03B4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */,
+                            F0AFDE8AD33A4C7AAFAF5E42 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */,
+                            243A9F23BE5949C38FFA1436 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */,
+                            046E52D56A2F4ED5825CBAC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */,
+                            F8E8583472E64E90A772813B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */,
+                            8DE1229B4A2B4A238FF9949B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */,
+                            EB841927FDE541A891B988F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */,
+                            BF3BC58DBA11439FA5D590ED /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */,
+                            6D73697B64AF4BF3B46D535C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */,
+                            D2CAB6E4F2E343E2A7DA9737 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */,
+                            9D39D5AC10194FCC9400041A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */,
+                            CA5BF05D89CE40A0BFDF65FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */,
+                            7698851C657D4C889293BC17 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */,
+                            C7737C4298B54BB982150588 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */,
+                            0509BACB90CD45E098DCA018 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */,
+                            CFD72E259C004C95AFD9C71D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              56C0B9470DC14046BF6B8650 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5B48FB94599E475FA6FB9EAE /* gdcmjpeg8 */,
+                            B2030D10214B4A15B5DB36A6 /* gdcmjpeg12 */,
+                            B1E8DFC7D7B3479FBE79645E /* gdcmjpeg16 */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              CCA260F9A3B04320A94116BE /* gdcmjpeg8 */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 910C8C5C9037440AB9923C4C /* Build configuration list for PBXNativeTarget "gdcmjpeg8" */;
+                     buildPhases = (
+                            E2E8424814DC4E62BBFBF9E3 /* Sources */,
+                            590093BBFE62478EA6F3D690 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = gdcmjpeg8;
+                     productName = gdcmjpeg8;
+                     productReference = 5B48FB94599E475FA6FB9EAE /* gdcmjpeg8 */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              D6E8C50E28994E2191880FA7 /* gdcmjpeg12 */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E1B7C883301F45149BFBD2E5 /* Build configuration list for PBXNativeTarget "gdcmjpeg12" */;
+                     buildPhases = (
+                            AAA173C31ABD4094AE6F3FAB /* Sources */,
+                            E282098A6F47419092E3C720 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = gdcmjpeg12;
+                     productName = gdcmjpeg12;
+                     productReference = B2030D10214B4A15B5DB36A6 /* gdcmjpeg12 */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              102D8B74B794401B8AA8BFA2 /* gdcmjpeg16 */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 7DE7EDF44A0342DF8EF44CFD /* Build configuration list for PBXNativeTarget "gdcmjpeg16" */;
+                     buildPhases = (
+                            9CF55AEB551F4C758419BC59 /* Sources */,
+                            97297B1234DC413D8E4EC4EC /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = gdcmjpeg16;
+                     productName = gdcmjpeg16;
+                     productReference = B1E8DFC7D7B3479FBE79645E /* gdcmjpeg16 */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              9D71FEB629154B38A8DD019A /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 5C19A115B050487D8C755770 /* Build configuration list for PBXProject  "GDCMJPEG" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            4CB464202DE84F819518972C /* Debug */,
+                            2C0C40325D494F6BAF26C62D /* Release */,
+                            587DA80DC6B8444DA053B666 /* MinSizeRel */,
+                            E8C13FC2B9B0497F8EBB5EF2 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 82B2AF9722674AD5950E67C3;
+                     projectDirPath = "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg";
+                     projectRoot = "";
+                     targets = (
+                            041185DB5CEB41BD86A40362 /* ALL_BUILD */,
+                            5755F2EA557E4E958A509018 /* ZERO_CHECK */,
+                            B8CC321C124C4C689685979F /* install */,
+                            75E0F7E0A7594D5E9AC69F34 /* package */,
+                            CCA260F9A3B04320A94116BE /* gdcmjpeg8 */,
+                            D6E8C50E28994E2191880FA7 /* gdcmjpeg12 */,
+                            102D8B74B794401B8AA8BFA2 /* gdcmjpeg16 */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              7B01D2ED1FA541E1A98F56C8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              51314EA91E374ECE99662986 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              04A469A1AA3848208BB71C3C /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              04F638F7207E4DD0A3BDEDF3 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E4EBFE16E282480CAD54F9FA /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              794A73768D504E47A056AFEB /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CDECE6500F8B4D789982AEB7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              E50682061C464B9C8461539F /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              590093BBFE62478EA6F3D690 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8/CMakeScripts/gdcmjpeg8_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E282098A6F47419092E3C720 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12/CMakeScripts/gdcmjpeg12_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              97297B1234DC413D8E4EC4EC /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16 -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16/CMakeScripts/gdcmjpeg16_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              E2E8424814DC4E62BBFBF9E3 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            5B8943B8E9234196B5FE27DB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */,
+                            29486DD7806A419DA85B2BF5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */,
+                            4E1A24863DCA4CCBAD633EC4 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */,
+                            97C39DCA5FF84C1AA954FB7C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */,
+                            99BDC9794BDA472D88575D85 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */,
+                            EFB490CDC52B415391581C0E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */,
+                            B4DEFEB2EB45462B857725A3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */,
+                            8644DEEEB2CE48FB91AD880E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */,
+                            2086C80DF0B6498AA3EA80DC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */,
+                            056ACF6DDE5A458C94741F40 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */,
+                            5209C03A8F8D4535AE10471B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */,
+                            B051B80135A442919267FEB7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */,
+                            A6128CFE965548EB916C57A3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */,
+                            8FAB9D41AC4744B6BC89F206 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */,
+                            4AD991D45DAA4B718E135DEC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */,
+                            AB499C52E0FB4FCEAFB98533 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */,
+                            441E50DEFD804588A7637C41 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */,
+                            842DADF903894A67B0AB72E3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */,
+                            266DF35D4EB44A708AA796F1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */,
+                            BA4AF05A53884A8BAA7022A2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */,
+                            CF1E947D81854EB7852792FF /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */,
+                            041A56AA260D440999E67DEE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */,
+                            689F03D8E46140C893D8F6D3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */,
+                            A8855EFDACC741849343C110 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */,
+                            89B87B91D18B438A9A71C517 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */,
+                            9A783BA3E0244F9FA7C2BC00 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */,
+                            724BA8E2A9AC4788AF869702 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */,
+                            CA04CEA178C5432BADA1D300 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */,
+                            0E51011C937B4BB4B396B286 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */,
+                            2EB7461540AB49C7B0D4B8CE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */,
+                            83CC685FA396478E8C92BC1A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */,
+                            EE746552495747E2A58A7023 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */,
+                            2785FB6ACF164665B54F6994 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */,
+                            A5490A9764554DBEAC4D815F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */,
+                            802D26FF28B04223A10C8830 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */,
+                            A75A6093EBFB4403A61A30AE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */,
+                            F8B56A06A61744329B40AA32 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */,
+                            A307D18450DB4117A99CD7F6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */,
+                            867513CBE74C45EBA8C94A0A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */,
+                            E528B75C20634F60989DB99E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */,
+                            052BFEF575AA471DBA629D8A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */,
+                            858989EB5EEA4886893B5FC2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */,
+                            41F617623A5B4D22AE0C3D98 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */,
+                            386E567CBC1044ACAF6C9FB6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */,
+                            016993285D874AA4B40D6126 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */,
+                            47175BA8E5484E00963E1FAE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */,
+                            A11912C718704A9FB1B10FC7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */,
+                            617ACBE194474C6598E49966 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */,
+                            77964B26A30E4D06B3B93A43 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */,
+                            1588B428C5CB43E2AC53D553 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */,
+                            A2ADDA8397D242059925AA25 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */,
+                            D827827AF5C94DF2B8160A33 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */,
+                            442164D657EB423EAE6F4DBE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */,
+                            3FE2BDBC6F914AEA98522D9C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */,
+                            5FBE6461A5C4423F8EEBC9D3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */,
+                            10ECC6C86FC847A1B8CEE31A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */,
+                            23C1F07152194F72A96B6F1B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */,
+                            5A788076C72E4D2A894B674A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */,
+                            06DEE4B086FD4D248E763EAA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */,
+                            0574054B50C8421F8008F991 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */,
+                            3C7765936D7F44258BCA0153 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              AAA173C31ABD4094AE6F3FAB /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            8F998C3741C94904B4F4E8B1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */,
+                            4BE34E893C3E40319C34B084 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */,
+                            24FC713E398545B29357BF9E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */,
+                            B969F4D1C0FF462EA208030E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */,
+                            E4D94B576D6446189273FC86 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */,
+                            9C7B7F52BC724F0EA3813991 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */,
+                            F958B03D6D7E4B249DF54EAD /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */,
+                            08796577DD744F098BA67E01 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */,
+                            A90E4516992B4D60AEEA0EC6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */,
+                            CDD76EA3835E4AE0B8BEDC49 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */,
+                            0DC5FFA296164BFA9E4C215D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */,
+                            30841B1685E047CD95F9759A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */,
+                            5E8F21B1F27446CAA01C4873 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */,
+                            9B7A81A806F9491DA10E9382 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */,
+                            996BC4728F814787AA43FEFC /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */,
+                            C8FBE5566A7048E9B9BDCEA8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */,
+                            5657EB150FE745C7B036DD3D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */,
+                            E16DA1E71ACA468CBDC4527D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */,
+                            64CF57784A9040158C693F99 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */,
+                            7E4BBB8873004A3B8EDD7A24 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */,
+                            E546627DDFD9484B95014988 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */,
+                            71535C4D8DDA44B6BBA12020 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */,
+                            03810E2E0CBA44DEB9241816 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */,
+                            05CC27ABBCF542AA8AD0B689 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */,
+                            59B756B1C8DB48A5A9A41E32 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */,
+                            6ABB5F2239A14C01A8C3FE9A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */,
+                            9773AB90842843979A74A863 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */,
+                            99FD0ECAAE1944EBBC31287D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */,
+                            40EBC05C03B34B6088AEB0B6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */,
+                            CE1E5748FBE643ABA1C137C3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */,
+                            588194E3B4364634AE014C3B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */,
+                            F86E835379114E7682CC9699 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */,
+                            15010230DFAD4713854B04C9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */,
+                            21D022675EB44C26B3D790A2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */,
+                            1B4799066CDF494A842EF81D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */,
+                            A55E95D0B26B49FBA856C783 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */,
+                            6553CF47B12C4776A2C0282A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */,
+                            AD4AC057B75E4EB89BD1FC7A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */,
+                            93DAD90D248741CC815E6758 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */,
+                            446B9488317E4EF0B881B7F8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */,
+                            937CF4D19CED4744971C6BA7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */,
+                            DD28CEFBF4C34BFE92968B8A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */,
+                            77DD0B20781946EEAAED930E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */,
+                            B7C32EC811A1438FA456231A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */,
+                            396F7BE46C40429C8235BE93 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */,
+                            ECC3D25F5AA94BCEB7EA0FE0 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */,
+                            161241F6628A4915AB081B82 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */,
+                            5418B0259714454082B4EC55 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */,
+                            3862C16CFF144C2AAC5F0FE7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */,
+                            70A53FC6B2B842D2A2DC1863 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */,
+                            6BCA6EF7D13145DF9029F359 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */,
+                            3114FD284DA54D999CC671C7 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */,
+                            F92E8AC306D144899A58A84B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */,
+                            296AE336D16C4614B5CEBCA6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */,
+                            B87120A845D745F1802A0689 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */,
+                            EA5C126E6E764B878100D871 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */,
+                            7D55010D6A6D4B14845A7234 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */,
+                            53EC3FE3FDCE4DD4A505A259 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */,
+                            768279A1C74B473EAFAE5D88 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */,
+                            A05E17A78E6D41F2BEAAFD48 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */,
+                            EECAD8D6C1FA40CBA7C33D6A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              9CF55AEB551F4C758419BC59 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            71FD5D96FAB847DAAFF0867C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemnobs.c */,
+                            D246B9D0D95E42DB8335B0F9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcomapi.c */,
+                            30824AD7CA72408193184DFA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jutils.c */,
+                            EB525FD421184AE0A9490E3F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jerror.c */,
+                            392BB6EA483D4A70A84E128B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jmemmgr.c */,
+                            9BECE476C3C543839CBC41A9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapimin.c */,
+                            F582D92D7EB74DC7B5A712A3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcapistd.c */,
+                            C6A1D15705EC4664B7890B9E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jctrans.c */,
+                            E525A3FD9D2B45CAB3C6C0AA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcparam.c */,
+                            9A50C1C06E6E4F348BAB46BE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcinit.c */,
+                            2AB42503E2D448769F117800 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmaster.c */,
+                            D53E7324F95044C4B890B2B8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmarker.c */,
+                            7F535D10259F4DF5BFD8AAD5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcmainct.c */,
+                            C39E4DA600F64B979340A9B0 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcprepct.c */,
+                            76AE06243CB54E18AC883B8E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccoefct.c */,
+                            43A1B66934814525BD9A33F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jccolor.c */,
+                            FBC85CD892D7428E90EBDB70 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcsample.c */,
+                            D344D8F07F104710ABCCE2D5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jchuff.c */,
+                            7542173416C949238D77D09D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcphuff.c */,
+                            FE2BEAA6B27542D4887AC576 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdctmgr.c */,
+                            C07F3FBC1A4244A4941D524F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctfst.c */,
+                            3ADBE128C5BA43C2A8EA3ADB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctflt.c */,
+                            7B96EA8992424A5C8652DA95 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatadst.c */,
+                            883EB27E1E8E4C5C8E32840C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapimin.c */,
+                            2FA9C6B97C284ACD9848C172 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdapistd.c */,
+                            BA0F0514779F49E8A3FBD597 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdtrans.c */,
+                            1FE805AB217548F8A0F52712 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmaster.c */,
+                            A2C4987C5B2141B7A36F1B1C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdinput.c */,
+                            50AED01F16544804A47C7007 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmarker.c */,
+                            5B673042E2FB4491BD55E917 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdhuff.c */,
+                            6C2DFA150B104906A6D2D501 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdphuff.c */,
+                            23852630E8A74EAEB6D4AE92 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmainct.c */,
+                            1FDB3B5D5DD0430182F61376 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcoefct.c */,
+                            AFE2CFE7C39941D790F0C499 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpostct.c */,
+                            F357A142C50B4A7CA224B559 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddctmgr.c */,
+                            B80B57891B9943949EDCFA55 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctfst.c */,
+                            2858474B9DA34E70AF57486E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctflt.c */,
+                            50F17E5272034808A96BF6E3 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctint.c */,
+                            9C477E8EE40747E38A747681 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jidctred.c */,
+                            22D3D36ED14A47C6B82F9D3F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdsample.c */,
+                            92A9952BA76E4550A5DD0A4F /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdcolor.c */,
+                            B4B2D86451B94D508B41FE4E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant1.c */,
+                            A5974C85CA1C4A1C80FAB898 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jquant2.c */,
+                            60730BD67E3F4B249640E064 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdmerge.c */,
+                            06B5966A986F46589A99289B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdatasrc.c */,
+                            DAB9831D97F3414783B098AE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jfdctint.c */,
+                            0201B59F0C5145FD96ED5F1D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossy.c */,
+                            C3036677E8FB435BB6BE7499 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclossls.c */,
+                            101476FF26CB4F3FAEEA4901 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcodec.c */,
+                            4595090E043448FCAD0D6FF9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcscale.c */,
+                            0BC6D00FD2D34EB18FD2994E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcshuff.c */,
+                            B07524E79A3D494290FE2714 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jclhuff.c */,
+                            95F68FCFA1DB40F9B41A1C58 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcpred.c */,
+                            79B613B8255341ED89AA243D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jcdiffct.c */,
+                            CCF870B2720E45459A83172B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossls.c */,
+                            C94CC7C2DF404380BA021052 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlossy.c */,
+                            71645C2671854DE899D376E1 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdlhuff.c */,
+                            E0044F62995B4173A91E7839 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jddiffct.c */,
+                            2E3623EEC5B0480A8CF56288 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdpred.c */,
+                            0AC5C29CE3D2474CBB08B3C9 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdscale.c */,
+                            809EBC61398244D2B14B5D32 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/jdshuff.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              6508765618D4496EA5E2C43B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 102D8B74B794401B8AA8BFA2 /* gdcmjpeg16 */;
+                     targetProxy = 8E9E4F6D2C074230A04B85BC /* PBXContainerItemProxy */;
+              };
+              A0EB22051406429BAC312821 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D6E8C50E28994E2191880FA7 /* gdcmjpeg12 */;
+                     targetProxy = 7D283CF69C3E4B7EBD52AF56 /* PBXContainerItemProxy */;
+              };
+              3A1CB564F4584523BEB8846E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CCA260F9A3B04320A94116BE /* gdcmjpeg8 */;
+                     targetProxy = F46E7F957DC642DA83E1A5D6 /* PBXContainerItemProxy */;
+              };
+              6FA1418FD27945E480EE199E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5755F2EA557E4E958A509018 /* ZERO_CHECK */;
+                     targetProxy = 5DE0AC53A16A492598F89FF4 /* PBXContainerItemProxy */;
+              };
+              859D9E9CE1D64B5AB6BA0A9A /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 041185DB5CEB41BD86A40362 /* ALL_BUILD */;
+                     targetProxy = 4AF6784E77F44D84A50FE5BB /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              8683E24E75A84BAD9AE6B82E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/build;
+                     };
+                     name = Debug;
+              };
+              E401054DA9254A169EBD598F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/build;
+                     };
+                     name = Release;
+              };
+              9E5854E8CB4543659E1F2DE4 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/build;
+                     };
+                     name = MinSizeRel;
+              };
+              5A965C8B61D94BA2B23D7C26 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              85E88B30A5D84A4EAC942BA5 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5112FB61133940589482CB32 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              E198581343214EB897FA77F6 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              93EA65763FCA4B3D8DE31D54 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              5DB0EFD030ED45F6B9ABA9F6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C8FC757AF0524B58A61A5057 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              38499567B2AB48F6B3CB8737 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7E7C334B0CBA4975ACD00818 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              0AFE08E300634D1F94DA0842 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              39160C343FB1432E83501D11 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              78A147897A74446EA3FAAE28 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              4FD3DCB4B2CD447ABD630044 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              7782BF0C0C3647CDBC9221BB /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              AD0C9C6B793941F1BCC42C72 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              866DE6FF5CCD446096860004 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3C39C5025955431083C2C8BD /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              45BCF4351635486FAAD85A4A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8", /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg8;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FCA787BEF4844B8EB98AC7D3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8", /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg8;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              E7CB1D9F1AEF41CFB46773D2 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8", /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg8;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              26BD9C76ACE04246A900E646 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmjpeg/8", /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg8;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/8;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              B25B6A482F694278BF8C0B47 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg12;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              81D5B53515D9453893E5D14A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg12;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              B961E61F46434EAA83BA75CC /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg12;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              9CEE9F433BE94A429C246BE9 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg12;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/12;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              AD1C67E735894320B3724F60 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg16;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8278C28F9C8948D08AABB1E0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg16;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              098E29DC22BE4F61827CCE18 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg16;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              E9540A6EEC3F4861B8BC605D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16, /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmjpeg16;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmjpeg/16;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              5C19A115B050487D8C755770 /* Build configuration list for PBXProject  "GDCMJPEG" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8683E24E75A84BAD9AE6B82E /* Debug */,
+                            E401054DA9254A169EBD598F /* Release */,
+                            9E5854E8CB4543659E1F2DE4 /* MinSizeRel */,
+                            5A965C8B61D94BA2B23D7C26 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              633C934D15204611AB93CF60 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            85E88B30A5D84A4EAC942BA5 /* Debug */,
+                            5112FB61133940589482CB32 /* Release */,
+                            E198581343214EB897FA77F6 /* MinSizeRel */,
+                            93EA65763FCA4B3D8DE31D54 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              DDF13CB31681460BA26FC18E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5DB0EFD030ED45F6B9ABA9F6 /* Debug */,
+                            C8FC757AF0524B58A61A5057 /* Release */,
+                            38499567B2AB48F6B3CB8737 /* MinSizeRel */,
+                            7E7C334B0CBA4975ACD00818 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3934B76A452E4DEB9DEF199D /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0AFE08E300634D1F94DA0842 /* Debug */,
+                            39160C343FB1432E83501D11 /* Release */,
+                            78A147897A74446EA3FAAE28 /* MinSizeRel */,
+                            4FD3DCB4B2CD447ABD630044 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4E3F5DF972C6436783D166DB /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7782BF0C0C3647CDBC9221BB /* Debug */,
+                            AD0C9C6B793941F1BCC42C72 /* Release */,
+                            866DE6FF5CCD446096860004 /* MinSizeRel */,
+                            3C39C5025955431083C2C8BD /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              910C8C5C9037440AB9923C4C /* Build configuration list for PBXNativeTarget "gdcmjpeg8" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            45BCF4351635486FAAD85A4A /* Debug */,
+                            FCA787BEF4844B8EB98AC7D3 /* Release */,
+                            E7CB1D9F1AEF41CFB46773D2 /* MinSizeRel */,
+                            26BD9C76ACE04246A900E646 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E1B7C883301F45149BFBD2E5 /* Build configuration list for PBXNativeTarget "gdcmjpeg12" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B25B6A482F694278BF8C0B47 /* Debug */,
+                            81D5B53515D9453893E5D14A /* Release */,
+                            B961E61F46434EAA83BA75CC /* MinSizeRel */,
+                            9CEE9F433BE94A429C246BE9 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              7DE7EDF44A0342DF8EF44CFD /* Build configuration list for PBXNativeTarget "gdcmjpeg16" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            AD1C67E735894320B3724F60 /* Debug */,
+                            8278C28F9C8948D08AABB1E0 /* Release */,
+                            098E29DC22BE4F61827CCE18 /* MinSizeRel */,
+                            E9540A6EEC3F4861B8BC605D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 9D71FEB629154B38A8DD019A;
+}

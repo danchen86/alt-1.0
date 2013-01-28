@@ -1,0 +1,815 @@
+Tdcmjpeg
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/libdcmjpeg.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c0000000050801BEA0000000000000132
+t1350573034
+s306
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/dcmimage.h
+c000000004CB702A90000000000018113
+t1287062185
+s98579
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include/dcmtk/dcmimgle/discalet.h
+c00000000509C73A5000000000000E34A
+t1352430501
+s58186
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include/dcmtk/dcmjpeg/ddpiimpl.h
+c000000004CB702DC0000000000000E45
+t1287062236
+s3653
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc
+c000000004CB7022D000000000000131E
+t1287062061
+s4894
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmjpeg/ddpiimpl.h"
+i"dcmtk/dcmimgle/dcmimage.h"
+i"dcmtk/dcmimgle/discalet.h"
+i"dcmtk/ofstd/ofcast.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc
+c000000004CB7022D000000000000263F
+t1287062061
+s9791
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc
+c000000004CED1D520000000000008942
+t1290607954
+s35138
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc
+c000000004CD145FE000000000000EC4D
+t1288783358
+s60493
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc
+c000000004CB7022D00000000000014CF
+t1287062061
+s5327
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc
+c000000004CB7022D0000000000000663
+t1287062061
+s1635
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc
+c000000004CB7022D00000000000006DB
+t1287062061
+s1755
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc
+c000000004CB7022D0000000000000739
+t1287062061
+s1849
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc
+c000000004CB7022D000000000000120E
+t1287062061
+s4622
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc
+c000000004CB7022D00000000000006E7
+t1287062061
+s1767
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc
+c000000004CB7022D0000000000000701
+t1287062061
+s1793
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc
+c000000004CB7022D0000000000000743
+t1287062061
+s1859
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc
+c000000004CB7022D0000000000004147
+t1287062061
+s16711
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc
+c000000004CB7022D000000000000431C
+t1287062061
+s17180
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc
+c000000004CB7022D0000000000004123
+t1287062061
+s16675
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc
+c000000004CB7022D0000000000004602
+t1287062061
+s17922
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc
+c000000004CB7022D00000000000033A2
+t1287062061
+s13218
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc
+c000000004CB7022E00000000000044AE
+t1287062062
+s17582
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc
+c000000004CB7022E00000000000009B1
+t1287062062
+s2481
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc
+c000000004CB7022E0000000000000B52
+t1287062062
+s2898
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc
+c000000004CD145FE0000000000000D42
+t1288783358
+s3394
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc
+c000000004CB7022E0000000000001888
+t1287062062
+s6280
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc
+c000000004CB7022E0000000000000AEE
+t1287062062
+s2798
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc
+c000000004CB7022E0000000000000B23
+t1287062062
+s2851
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc
+c000000004CD145FE0000000000000CFF
+t1288783358
+s3327
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc
+c000000004CB7022E0000000000000771
+t1287062062
+s1905
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc
+c000000004CB7022E00000000000006FB
+t1287062062
+s1787
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc
+c000000004CCE809C000000000000120F
+t1288601756
+s4623
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcast.h
+c000000004CB702860000000000000643
+t1287062150
+s1603
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dcmjpeg.LinkFileList
+c00000000509C75140000000000000DFC
+t1352430868
+s3580
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh
+c00000000509C751400000000000000BE
+t1352430868
+s190
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/libdcmjpeg.a
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc
+r0
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2eca0894ac4cb641^61e0d194ac4cb641^---0#1#0#--18"Check dependencies36"96D20240-D607-4D1B-9ED5-241F10F2A121-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.831824
+e374123669.966180
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc7a1dd594ac4cb641^3716f895ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.o dcmjpeg/libsrc/ddpiimpl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/ddpiimpl.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/ddpiimpl.o36"31B11F5E-636A-4508-9CD6-557BA14676FB-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123668.832005
+e374123669.510369
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.ccda1ed594ac4cb641^376f8c95ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.o dcmjpeg/libsrc/dipijpeg.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/dipijpeg.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dipijpeg.o36"1F506EEC-3B73-4368-8BD2-F7863DBA58D9-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.225929
+e374123670.294933
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc5df83995ac4cb641^7dcc4b96ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.o dcmjpeg/libsrc/djcodecd.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodecd.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodecd.o36"52C71DFB-A613-40C5-A070-8EFD51DAA638-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.241136
+e374123670.886301
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc01df3d95ac4cb641^b7eee296ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.o dcmjpeg/libsrc/djcodece.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcodece.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcodece.o36"76D02312-255E-4ABE-A5D2-D0E279C4663F-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.253126
+e374123669.812171
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc6ff14095ac4cb641^fbe6d295ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.o dcmjpeg/libsrc/djcparam.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djcparam.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djcparam.o36"981BE408-B3F7-438D-9F36-36E2B40C4665-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.449688
+e374123670.062599
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc3f577395ac4cb641^38121096ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.o dcmjpeg/libsrc/djdecbas.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecbas.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecbas.o36"2F12F440-5883-4A60-9C90-3E4C178B0C06-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.511798
+e374123670.077359
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.ccd02a8395ac4cb641^569d1596ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.o dcmjpeg/libsrc/djdecext.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecext.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecext.o36"E9446B87-25CD-4AB4-9F23-4BFE06C4C925-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.560844
+e374123670.141330
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc62bf8f95ac4cb641^7bdc2f96ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.o dcmjpeg/libsrc/djdeclol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdeclol.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdeclol.o36"FA8FFF8E-4040-47A6-8DD4-6F8F00E625BA-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.842511
+e374123670.470090
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc0edad795ac4cb641^e1997896ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.o dcmjpeg/libsrc/djdecode.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecode.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecode.o36"F32DC5D3-A384-496C-ABE5-E3534FAE7FDD-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.890669
+e374123670.601083
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.ccdc7fe495ac4cb641^08229b96ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.o dcmjpeg/libsrc/djdecpro.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecpro.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecpro.o36"88EF75A1-C8C5-4FFF-BBC8-3CD202DD3BD2-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123669.989202
+e374123670.659323
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.ccb56cfd95ac4cb641^02f3a896ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.o dcmjpeg/libsrc/djdecsps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsps.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsps.o36"4B88BAAB-089C-4FC2-8097-79ACD7399439-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.066209
+e374123670.781307
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc3b1c1196ac4cb641^310cc896ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.o dcmjpeg/libsrc/djdecsv1.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdecsv1.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdecsv1.o36"1BA6A9B1-9AA7-46E1-975A-00631D58D19C-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.078752
+e374123670.781190
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc3c4f1496ac4cb641^da00c896ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.o dcmjpeg/libsrc/djdijg12.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg12.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg12.o36"E5EF9483-E9C1-416C-B254-0E3D1BB37B7D-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.300697
+e374123670.888514
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc70274d96ac4cb641^8c83e396ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.o dcmjpeg/libsrc/djdijg16.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg16.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg16.o36"CF4BD84D-FD4C-48D3-A2ED-C6F02E486FDA-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.188926
+e374123670.903505
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc40883096ac4cb641^c956e796ac4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc0000000000000000^3519"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.o dcmjpeg/libsrc/djdijg8.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djdijg8.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djdijg8.o36"32D0D025-C9AF-421C-8BA9-7E52319D0592-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.501636
+e374123671.267166
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.ccd1958096ac4cb641^0e9f6097ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.o dcmjpeg/libsrc/djeijg12.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg12.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg12.o36"0798F0C6-0345-4E50-B8D3-D84397428CAD-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.663272
+e374123671.439380
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc34f6a996ac4cb641^c7f58797ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.o dcmjpeg/libsrc/djeijg16.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg16.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg16.o36"8226D52C-60EA-4B10-B9FB-5C9E742371C0-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.606776
+e374123671.364511
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc90829b96ac4cb641^b6ba6097ac4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc0000000000000000^3519"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.o dcmjpeg/libsrc/djeijg8.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djeijg8.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djeijg8.o36"BEFA75C8-6F82-440D-A4EA-1BFF9F03A4A8-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.782542
+e374123671.369615
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cca67cc896ac4cb641^0abf6097ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.o dcmjpeg/libsrc/djencbas.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencbas.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencbas.o36"66B8A373-AFD4-4D1C-9C91-B9AE651FE107-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.784065
+e374123671.395734
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc05dfc896ac4cb641^0af28797ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.o dcmjpeg/libsrc/djencext.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencext.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencext.o36"98F6027E-9C2B-4493-AD32-EEAA5A337DF3-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.887741
+e374123671.531013
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc2369e396ac4cb641^89cf8997ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.o dcmjpeg/libsrc/djenclol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djenclol.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djenclol.o36"BD57DF0F-727F-41F5-AFF0-0813DD4BC748-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.890055
+e374123671.530814
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc9604e496ac4cb641^65c88997ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.o dcmjpeg/libsrc/djencode.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencode.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencode.o36"30BD7C3B-E967-4D49-95EF-8090C7ECF48C-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123670.904872
+e374123671.530853
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.ccffcde796ac4cb641^b8cc8997ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.o dcmjpeg/libsrc/djencpro.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencpro.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencpro.o36"4DC43AAB-667F-4F97-9A97-C2EA68EFD824-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123671.269458
+e374123671.909730
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc1c234597ac4cb641^8eeae897ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.o dcmjpeg/libsrc/djencsps.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsps.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsps.o36"0E694348-0081-46F1-AE69-6D36C483F454-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123671.366399
+e374123671.964082
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc55f65d97ac4cb641^80d8f697ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.o dcmjpeg/libsrc/djencsv1.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djencsv1.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djencsv1.o36"7347F179-1C9A-443F-BFEB-CDEFB77D74F7-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123671.370986
+e374123671.909522
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.ccc4215f97ac4cb641^59dfe897ac4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc0000000000000000^3519"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.o dcmjpeg/libsrc/djrplol.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrplol.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrplol.o36"6A2A49FB-6DC1-4630-BCF8-4BF1B62F9253-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123671.441092
+e374123671.991245
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc27157197ac4cb641^21ccfd97ac4cb641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc0000000000000000^3525"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.o dcmjpeg/libsrc/djrploss.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djrploss.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djrploss.o36"2067FDFB-0FDA-4141-A8F8-3FEB5534CDEC-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123671.478537
+e374123672.170710
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.ccfca87a97ac4cb641^f7c72b98ac4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc0000000000000000^3519"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.o dcmjpeg/libsrc/djutils.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources/armv7 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libsrc/djutils.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/djutils.o36"4605D0B5-62F6-44B2-B1E3-B4CC654E2386-
+
+CLibtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/libdcmjpeg.a normal armv7
+s374123672.225859
+e374123672.257570
+r1
+xLibtool
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/libdcmjpeg.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/libdcmjpeg.a normal armv764eb3998ac4cb641^bff14198ac4cb641^---0#0#0#--928"Libtool /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/libdcmjpeg.a normal armv7    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Objects-normal/armv7/dcmjpeg.LinkFileList -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/Debug-iphoneos/libdcmjpeg.a36"75D55827-809F-4980-9FA7-9B8A6925938B-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh
+s374123683.377562
+e374123683.492598
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmjpeg.Debug
+omake[1]: Nothing to be done for `PostBuild.dcmjpeg.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmjpeg.Debug
+omake[1]: Nothing to be done for `PostBuild.dcmjpeg.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'bc5b61a3ac4cb641^37377ea3ac4cb641^-646"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmjpeg.Debugmake[1]: Nothing to be done for `PostBuild.dcmjpeg.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmjpeg.Debugmake[1]: Nothing to be done for `PostBuild.dcmjpeg.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-374123683#0#30#-0#-----2@23"Depend check for xcode-374123683#30#23#-0#-----2@199"cd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmjpeg.Debug-374123683#53#199#-0#-----2@59"make[1]: Nothing to be done for `PostBuild.dcmjpeg.Debug'.-374123683#252#59#-0#-----2@30"echo "Depend check for xcode"-374123683#311#30#-0#-----2@23"Depend check for xcode-374123683#341#23#-0#-----2@223"cd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmjpeg.Debug-374123683#364#223#-0#-----2@59"make[1]: Nothing to be done for `PostBuild.dcmjpeg.Debug'.-374123683#587#59#-0#-----0#0#0#--372"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/dcmjpeg/libsrc/DCMTK.build/Debug-iphoneos/dcmjpeg.build/Script-A795C6D867C54C1694EEF1C4.sh36"9C207644-E190-4DA7-9518-2CD09588CEE8-
+

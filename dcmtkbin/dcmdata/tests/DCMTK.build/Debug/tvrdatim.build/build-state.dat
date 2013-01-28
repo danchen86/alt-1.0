@@ -1,0 +1,122 @@
+Ttvrdatim
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/tvrdatim normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Script-6D7F8E82676C4D6489AD9B8D.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcdeftag.h
+c000000004CD3CA3D000000000003E290
+t1288948285
+s254608
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrda.h
+c000000004CD3CF930000000000003291
+t1288949651
+s12945
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrdt.h
+c000000004CD3CF93000000000000590D
+t1288949651
+s22797
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvrtm.h
+c000000004CD3CF930000000000004998
+t1288949651
+s18840
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.cc
+c000000004CB7025B0000000000001225
+t1287062107
+s4645
+i"dcmtk/config/osconfig.h"
+i"dcmtk/dcmdata/dcvrda.h"
+i"dcmtk/dcmdata/dcvrtm.h"
+i"dcmtk/dcmdata/dcvrdt.h"
+i"dcmtk/dcmdata/dcdeftag.h"
+i"dcmtk/ofstd/ofconsol.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofconsol.h
+c000000004CB702860000000000002D32
+t1287062150
+s11570
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.LinkFileList
+c00000000509C73E00000000000000078
+t1352430560
+s120
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.o
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Script-6D7F8E82676C4D6489AD9B8D.sh
+c00000000509C73E000000000000000BD
+t1352430560
+s189
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/tvrdatim
+t2
+s0
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencieseb3a7460ab4cb641^bdc47460ab4cb641^---0#1#0#--18"Check dependencies36"C0721EED-7757-4F8A-8DBB-0A5EA3F026B2-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123360.458847
+e374123361.115627
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.ccf2987560ab4cb641^71922e61ab4cb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.cc0000000000000000^3268"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.o dcmdata/tests/tvrdatim.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/tests/tvrdatim.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.o36"59725DB8-AF5C-488F-B63E-42984CA3A161-
+
+CLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/tvrdatim normal x86_64
+s374123361.122463
+e374123361.356204
+r1
+xLd
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/tvrdatim
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Link /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/tvrdatim11711f61ab4cb641^1d3c5b61ab4cb641^-302"ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'3(21%IDEActivityLogMessage2@88"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'-374123361#0#102#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'-374123361#102#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'-374123361#202#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1362"Ld /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/tvrdatim normal x86_64    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Objects-normal/x86_64/tvrdatim.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/libsrc/Debug/libdcmdata.a /Users/dan/Documents/xcode/alt/dcmtkbin/oflog/libsrc/Debug/liboflog.a /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/Debug/tvrdatim36"7EEC2B29-F46E-494E-96DF-35C2C1144B05-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Script-6D7F8E82676C4D6489AD9B8D.sh
+s374123361.363877
+e374123361.452804
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Script-6D7F8E82676C4D6489AD9B8D.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.tvrdatim.Debug
+omake[1]: Nothing to be done for `PostBuild.tvrdatim.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.tvrdatim.Debug
+omake[1]: Nothing to be done for `PostBuild.tvrdatim.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'51bd5d61ab4cb641^e6ca9461ab4cb641^-650"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.tvrdatim.Debugmake[1]: Nothing to be done for `PostBuild.tvrdatim.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.tvrdatim.Debugmake[1]: Nothing to be done for `PostBuild.tvrdatim.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-374123361#0#30#-0#-----2@23"Depend check for xcode-374123361#30#23#-0#-----2@200"cd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.tvrdatim.Debug-374123361#53#200#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.tvrdatim.Debug'.-374123361#253#60#-0#-----2@30"echo "Depend check for xcode"-374123361#313#30#-0#-----2@23"Depend check for xcode-374123361#343#23#-0#-----2@224"cd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.tvrdatim.Debug-374123361#366#224#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.tvrdatim.Debug'.-374123361#590#60#-0#-----0#0#0#--354"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Script-6D7F8E82676C4D6489AD9B8D.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/tests/DCMTK.build/Debug/tvrdatim.build/Script-6D7F8E82676C4D6489AD9B8D.sh36"F15C2042-96C0-4615-8CDA-1B82AE07ACBA-
+

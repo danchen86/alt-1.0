@@ -1,0 +1,963 @@
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4044277063 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec4044277063 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4044277063.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4044277063.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4044277063.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4044277063.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4044277063.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4044277063.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4044277063.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3625494924 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3625494924 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3625494924.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3625494924.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3625494924.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE
+
+
+The following build commands failed:
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3625494924.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3625494924.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3625494924.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ieeefp.h' file not found
+#include <ieeefp.h>
+         ^
+1 error generated.
+
+
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3625494924.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2152416481 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2152416481 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2152416481.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+
+
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2152416481.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2152416481.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCEThe following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2152416481.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2152416481.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2152416481.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2152416481.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^
+1 error generated.
+
+
+
+(1 failure)
+
+
+Determining if the include file png.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1921450680 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1921450680 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1921450680.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+
+
+The following build commands failed:
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1921450680.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1921450680.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1921450680.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1921450680.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1921450680.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1921450680.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'png.h' file not found
+#include <png.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1373805168 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1373805168 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1373805168.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+
+
+The following build commands failed:
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1373805168.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1373805168.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1373805168.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1373805168.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1373805168.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1373805168.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ndir.h' file not found
+#include <ndir.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file sstream.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3713612241 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3713612241 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3713612241.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+
+
+The following build commands failed:
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3713612241.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3713612241.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3713612241.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3713612241.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3713612241.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'sstream.h' file not found
+#include <sstream.h>
+         ^
+1 error generated.
+
+
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3713612241.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file stat.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2493899323 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2493899323 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2493899323.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2493899323.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2493899323.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE** BUILD FAILED **
+
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2493899323.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2493899323.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2493899323.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'stat.h' file not found
+#include <stat.h>
+         ^
+1 error generated.
+
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2493899323.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file strstream.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2602937676 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2602937676 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2602937676.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2602937676.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2602937676.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2602937676.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2602937676.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2602937676.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2602937676.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'strstream.h' file not found
+#include <strstream.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file strstrea.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3479398070 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3479398070 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3479398070.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3479398070.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3479398070.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3479398070.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3479398070.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3479398070.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3479398070.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'strstrea.h' file not found
+#include <strstrea.h>
+         ^
+1 error generated.
+
+
+(1 failure)
+
+
+Determining if the include file synch.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3025386883 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3025386883 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3025386883.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3025386883.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3025386883.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3025386883.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3025386883.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3025386883.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3025386883.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'synch.h' file not found
+#include <synch.h>
+         ^
+1 error generated.
+
+
+(1 failure)
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec316357677 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec316357677 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec316357677.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensio** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec316357677.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+ns "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec316357677.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec316357677.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec316357677.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec316357677.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec316357677.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'sys/ndir.h' file not found
+#include <sys/ndir.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file sys/utime.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec722235959 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec722235959 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec722235959.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensio** BUILD FAILED **
+
+
+The following build commands failed:
+ns "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec722235959.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec722235959.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXT	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec722235959.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+ENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec722235959.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec722235959.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec722235959.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'sys/utime.h' file not found
+#include <sys/utime.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file thread.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2757997630 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2757997630 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2757997630.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2757997630.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2757997630.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2757997630.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE(1 failure)
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2757997630.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2757997630.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2757997630.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'thread.h' file not found
+#include <thread.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file unix.h exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3253876749 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3253876749 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3253876749.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extens** BUILD FAILED **ions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3253876749.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3253876749.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3253876749.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3253876749.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3253876749.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3253876749.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'unix.h' file not found
+#include <unix.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the function cuserid exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2080674291 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2080674291 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2080674291.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno** BUILD FAILED **
+-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2080674291.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2080674291.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDE
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec2080674291 normal x86_64
+D -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=cuserid -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2080674291.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2080674291.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2080674291.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2080674291 normal x86_64
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain(1 failure)
+/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2080674291.build/Objects-normal/x86_64/cmTryCompileExec2080674291.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2080674291
+Undefined symbols for architecture x86_64:
+  "_cuserid", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3596884023 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3596884023 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3596884023.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec3596884023 normal x86_64
+-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3596884023.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3596884023.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDE(1 failure)
+D -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=_doprnt -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3596884023.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3596884023.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3596884023.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec3596884023 normal x86_64
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3596884023.build/Objects-normal/x86_64/cmTryCompileExec3596884023.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3596884023
+Undefined symbols for architecture x86_64:
+  "__doprnt", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2980203603 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2980203603 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2980203603.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec2980203603 normal x86_64
+-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2980203603.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2980203603.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDE(1 failure)
+D -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=itoa -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2980203603.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2980203603.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2980203603.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2980203603 normal x86_64
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2980203603.build/Objects-normal/x86_64/cmTryCompileExec2980203603.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2980203603
+Undefined symbols for architecture x86_64:
+  "_itoa", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+
+
+Determining if the function sysinfo exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1264787287 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1264787287 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1264787287.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno** BUILD FAILED **-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1264787287.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1264787287.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDE
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec1264787287 normal x86_64
+(1 failure)
+D -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=sysinfo -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1264787287.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1264787287.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1264787287.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec1264787287 normal x86_64
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1264787287.build/Objects-normal/x86_64/cmTryCompileExec1264787287.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1264787287
+Undefined symbols for architecture x86_64:
+  "_sysinfo", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+
+
+Determining if the function _findfirst exists failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1165267803 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1165267803 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1165267803.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno** BUILD FAILED **
+
+
+The following build commands failed:-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1165267803.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1165267803.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDE
+	Ld Debug/cmTryCompileExec1165267803 normal x86_64
+(1 failure)
+D -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=_findfirst -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1165267803.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1165267803.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1165267803.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec1165267803 normal x86_64
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1165267803.build/Objects-normal/x86_64/cmTryCompileExec1165267803.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1165267803
+Undefined symbols for architecture x86_64:
+  "__findfirst", referenced from:
+      _main in CheckFunctionExists.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+
+
+Determining if the isinf exist failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec689031308 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec689031308 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec689031308.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -W** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec689031308.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+no-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec689031308.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec689031308.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec689031308.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec689031308.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec689031308.build/Objects-normal/x86_64/CheckSymbolExists.o
+In file included from /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/iostream.h:31:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning This file includes at least one deprecated or antiquated header. \
+ ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:23:1: error: use of undeclared identifier 'isinf'
+isinf;return 0;
+^
+1 warning and 1 error generated.
+
+
+
+File /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iostream.h>
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+isinf;return 0;
+}
+
+Determining if the isnan exist failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec584116122 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec584116122 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec584116122.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -W** BUILD FAILED **no-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec584116122.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec584116122.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D
+
+
+The following build commands failed:
+_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec584116122.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec584116122.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec584116122.build/Objects-normal/x86_64/CheckSymbolExists.o
+In file included from /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/iostream.h:31:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning This file includes at least one deprecated or antiquated header. \
+ ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:23:1: error: use of undeclared identifier 'isnan'
+isnan;return 0;
+^
+1 warning and 1 error generated.
+
+
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec584116122.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iostream.h>
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+isnan;return 0;
+}
+
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2437599026 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2437599026 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437599026.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof ** BUILD FAILED **
+
+
+The following build commands failed:-Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437599026.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437599026.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437599026.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437599026.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437599026.build/Objects-normal/x86_64/CheckSymbolExists.o
+In file included from /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/iostream.
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437599026.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+h:31:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning This file includes at least one deprecated or antiquated header. \
+ ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:23:1: error: use of undeclared identifier '_stricmp'
+_stricmp;return 0;
+^
+1 warning and 1 error generated.
+
+
+
+File /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iostream.h>
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+_stricmp;return 0;
+}
+
+Determining if the uchar definition exist failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec52774574 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec52774574 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec52774574.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno** BUILD FAILED **
+-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec52774574.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec52774574.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOP
+EN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec52774574.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec52774574.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec52774574.build/Objects-normal/x86_64/CheckSymbolExists.o
+In file included from /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/iostream.h:31:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning This file includes at least one deprecated or antiquated header. \
+ ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:23:1: error: use of undeclared identifier 'uchar'
+uchar definition;return 0;
+^
+1 warning and 1 error generated.
+
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec52774574.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iostream.h>
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+uchar definition;return 0;
+}
+
+Determining if the ulong definition exist failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2224095678 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2224095678 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2224095678.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof ** BUILD FAILED **
+-Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2224095678.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2224095678.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debu
+
+The following build commands failed:
+g -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2224095678.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2224095678.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2224095678.build/Objects-normal/x86_64/CheckSymbolExists.o
+In file included from /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/iostream.h:31:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning This file includes at least one deprecated or antiquated header. \
+ ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:23:1: error: use of undeclared identifier 'ulong'
+ulong definition;return 0;
+^
+1 warning and 1 error generated.
+
+
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2224095678.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+File /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iostream.h>
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+ulong definition;return 0;
+}
+
+Determining if the longlong definition exist failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4087203497 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec4087203497 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4087203497.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof ** BUILD FAILED **-Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4087203497.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4087203497.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debu
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4087203497.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+g -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4087203497.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4087203497.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4087203497.build/Objects-normal/x86_64/CheckSymbolExists.o
+In file included from /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/iostream.h:31:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning This file includes at least one deprecated or antiquated header. \
+ ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:23:1: error: use of undeclared identifier 'longlong'
+longlong definition;return 0;
+^
+1 warning and 1 error generated.
+
+
+
+File /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iostream.h>
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+longlong definition;return 0;
+}
+
+Determining if the ulonglong definition exist failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1463456904 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1463456904 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463456904.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof ** BUILD FAILED **
+-Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463456904.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463456904.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debu
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463456904.build/Objects-normal/x86_64/CheckSymbolExists.o ../../CMakeTmp/CheckSymbolExists.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerg -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463456904.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463456904.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1463456904.build/Objects-normal/x86_64/CheckSymbolExists.o
+In file included from /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/iostream.
+(1 failure)
+h:31:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+#warning This file includes at least one deprecated or antiquated header. \
+ ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../CMakeTmp/CheckSymbolExists.cxx:23:1: error: use of undeclared identifier 'ulonglong'
+ulonglong definition;return 0;
+^
+1 warning and 1 error generated.
+
+
+
+File /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iostream.h>
+#include <math.h>
+#include <libc.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/file.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <sys/select.h>
+
+int main()
+{
+ulonglong definition;return 0;
+}
+
+Determining if std::ios::nocreate is supported failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2260155603 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2260155603 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2260155603.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.o ../../../../../dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2260155603.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2260155603.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2260155603.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2260155603.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/../../../../../dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2260155603.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/IosNocreate/CMakeFiles/CMakeTmp/../../../../../dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc:7:40: error: no member named 'nocreate' in 'std::basic_ios<char>'
+  std::ifstream file("name", std::ios::nocreate);
+                             ~~~~~~~~~~^
+1 error generated.
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2260155603.build/Objects-normal/x86_64/dcmtkTestStdIosNocreate.o ../../../../../dcmtk-3.6.0/CMake/dcmtkTestStdIosNocreate.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Determining if socket functions accept an int* argument failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3286750470 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3286750470 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3286750470.build/Objects-normal/x86_64/dcmtkTestSocketIntP.o ../../../../../dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conve** BUILD FAILED **
+
+
+The following build commands failed:rsion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3286750470.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3286750470.build/DerivedSources -W
+most -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3286750470.build/Objects-normal/x86_64/dcmtkTestSocketIntP.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3286750470.build/Objects-normal/x86_64/dcmtkTestSocketIntP.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/../../../../../dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3286750470.build/Objects-normal/x86_64/dcmtkTestSocketIntP.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/../../../../../dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc:21:9: error: no matching function for call to 'accept'
+    i = accept(1, addr, &addrlen);
+        ^~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/socket.h:610:5: note: candidate function not viable: no known conversion from 'int *' to 'socklen_t *' (aka 'unsigned int *') for 3rd argument; 
+int     accept(int, struct sockaddr * __restrict, socklen_t * __restrict)
+        ^
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSocketIntP/CMakeFiles/CMakeTmp/../../../../../dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc:22:9: error: no matching function for call to 'getsockopt'
+    i = getsockopt(0, 0, 0, 0, &optlen);
+        ^~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/socket.h:618:5: note: candidate function not viable: no known conversion from 'int *' to 'socklen_t *' (aka 'unsigned int *') for 5th argument; 
+int     getsockopt(int, int, int, void * __restrict, socklen_t * __restrict);
+        ^
+2 errors generated.
+
+
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3286750470.build/Objects-normal/x86_64/dcmtkTestSocketIntP.o ../../../../../dcmtk-3.6.0/CMake/dcmtkTestSocketIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Determining if select() accepts an int* argument failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2777238027 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2777238027 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2777238027.build/Objects-normal/x86_64/dcmtkTestSelectIntP.o ../../../../../dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conve** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2777238027.build/Objects-normal/x86_64/dcmtkTestSelectIntP.o ../../../../../dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+rsion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2777238027.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2777238027.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -g -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2777238027.build/Objects-normal/x86_64/dcmtkTestSelectIntP.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2777238027.build/Objects-normal/x86_64/dcmtkTestSelectIntP.dia -c /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/../../../../../dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2777238027.build/Objects-normal/x86_64/dcmtkTestSelectIntP.o
+/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeTmp/testSelectIntP/CMakeFiles/CMakeTmp/../../../../../dcmtk-3.6.0/CMake/dcmtkTestSelectIntP.cc:19:9: error: use of undeclared identifier 'select'
+    i = select(1, &fds, &fds, &fds, 0);
+        ^
+1 error generated.
+
+
+
+Determining if the function sem_init exists in the rt failed with the following output:
+Change Dir: /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2517230610 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2517230610 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2517230610.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTryCompileExec2517230610 normal x86_64-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2517230610.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2517230610.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -D_XOPEN_SOURCE_EXTENDE
+D -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DCHECK_FUNCTION_EXISTS=sem_init -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2517230610.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2517230610.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-8.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2517230610.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2517230610 normal x86_64
+    cd /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -F/Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2517230610.build/Objects-normal/x86_64/cmTryCompileExec2517230610.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lrt -o /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2517230610
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+(1 failure)
+
+

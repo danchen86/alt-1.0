@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              041185DB5CEB41BD86A40362 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A9D0FD232E664275AE1CA4DF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            11A931D46EF64835B85F9479 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            8C679EEA65DA4942B671D526 /* PBXTargetDependency */,
+                            B0A71DAFA7B349398510C241 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5755F2EA557E4E958A509018 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 4AB9AD12088C4179BF2303A2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            5606A9AFEFF24DC2A8C18CB1 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              B8CC321C124C4C689685979F /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A0227982EB944D319E934103 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            52D9C580C158473EA372E5B3 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            0A493C2BE07D49E298740DC0 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              75E0F7E0A7594D5E9AC69F34 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E1A93BD8767F4BCCA7EA1C63 /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            1147FAC3C8144BB182AA8DD5 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            0A493C2BE07D49E298740DC0 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+C698D273F4384D089AFFB69E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/adler32.c */ = {isa = PBXBuildFile; fileRef = 64C7586950E64DD48E247E31 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/adler32.c */; settings = { COMPILER_FLAGS = ""; }; };
+C9628CE60FFC428B88A67D0A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/compress.c */ = {isa = PBXBuildFile; fileRef = 5CEB4EA6CC094488AA71C751 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/compress.c */; settings = { COMPILER_FLAGS = ""; }; };
+1FF9F3D37C3B4A6B85A050FA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/crc32.c */ = {isa = PBXBuildFile; fileRef = 5924F75B302549FE8A99C2AE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/crc32.c */; settings = { COMPILER_FLAGS = ""; }; };
+1D6E1E915EC94F6F99B3E74C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/deflate.c */ = {isa = PBXBuildFile; fileRef = 7487D5BB577B45F385DA59B8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/deflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+83FA71AEA4D741C2B8C41C30 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/gzio.c */ = {isa = PBXBuildFile; fileRef = 5A06AD93394444FC819FED26 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/gzio.c */; settings = { COMPILER_FLAGS = ""; }; };
+23396F69F9044BA6BA581111 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/infback.c */ = {isa = PBXBuildFile; fileRef = C1AAF06EEEC14C1589964862 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/infback.c */; settings = { COMPILER_FLAGS = ""; }; };
+24FB3C8109FF4A9F830491A8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inffast.c */ = {isa = PBXBuildFile; fileRef = 8992FA61EC8E4DC8AD0E4246 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inffast.c */; settings = { COMPILER_FLAGS = ""; }; };
+C21A8B91B3714DB48D95EC0B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inflate.c */ = {isa = PBXBuildFile; fileRef = F3218E97610D4554A5BA2EB8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+7594CD2B118B4EAE8099837D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = 6C1A2B46F4E04AC9B5DE3A55 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inftrees.c */; settings = { COMPILER_FLAGS = ""; }; };
+5375F4DAED8E4C3E86A4467D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/trees.c */ = {isa = PBXBuildFile; fileRef = 0903B48C11E54CF29A0FB696 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/trees.c */; settings = { COMPILER_FLAGS = ""; }; };
+FED1223A6825441BBE3C83A2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = 0ED8FDF4A6844DA9943797D2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/uncompr.c */; settings = { COMPILER_FLAGS = ""; }; };
+BAC8F7A529AA495B858B60F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/zutil.c */ = {isa = PBXBuildFile; fileRef = 3245230A0495462586CCE778 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/zutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+63A12CB3AEE1444DB66F66BB /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 660A057E29A540A7A2AB24B6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              42856F98C7E242B98ABAC645 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              7369A6C4DEDB4069A5CCD4E3 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              FE1C7AC183374D6F8E524F5A /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              9DF0E6EBA08B4DF8BA986D27 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              A7F7CB6BB02F42729E55D16D /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              2CD8630F9BE542E7AAE31754 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = ABA16A1A818D40FC905E0A5A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5755F2EA557E4E958A509018;
+                     remoteInfo = ZERO_CHECK;
+              };
+              42461D745E42436CADC064BC /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = ABA16A1A818D40FC905E0A5A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B72FAD37061C46F29C92CEA2;
+                     remoteInfo = gdcmzlib;
+              };
+              86231EE81463496F92540DCB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = ABA16A1A818D40FC905E0A5A /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 041185DB5CEB41BD86A40362;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+660A057E29A540A7A2AB24B6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+64C7586950E64DD48E247E31 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "adler32.c"; path = "adler32.c"; sourceTree = SOURCE_ROOT; };
+5CEB4EA6CC094488AA71C751 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "compress.c"; path = "compress.c"; sourceTree = SOURCE_ROOT; };
+5924F75B302549FE8A99C2AE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "crc32.c"; path = "crc32.c"; sourceTree = SOURCE_ROOT; };
+7487D5BB577B45F385DA59B8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "deflate.c"; path = "deflate.c"; sourceTree = SOURCE_ROOT; };
+5A06AD93394444FC819FED26 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/gzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzio.c"; path = "gzio.c"; sourceTree = SOURCE_ROOT; };
+C1AAF06EEEC14C1589964862 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "infback.c"; path = "infback.c"; sourceTree = SOURCE_ROOT; };
+8992FA61EC8E4DC8AD0E4246 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inffast.c"; path = "inffast.c"; sourceTree = SOURCE_ROOT; };
+F3218E97610D4554A5BA2EB8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inflate.c"; path = "inflate.c"; sourceTree = SOURCE_ROOT; };
+6C1A2B46F4E04AC9B5DE3A55 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inftrees.c"; path = "inftrees.c"; sourceTree = SOURCE_ROOT; };
+0903B48C11E54CF29A0FB696 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "trees.c"; path = "trees.c"; sourceTree = SOURCE_ROOT; };
+0ED8FDF4A6844DA9943797D2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "uncompr.c"; path = "uncompr.c"; sourceTree = SOURCE_ROOT; };
+3245230A0495462586CCE778 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "zutil.c"; path = "zutil.c"; sourceTree = SOURCE_ROOT; };
+0B7D8E376C114B50B286FBD0 /* gdcmzlib */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgdcmzlib.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              5FD9EB5163C04631A16EA54B  = {
+                     isa = PBXGroup;
+                     children = (
+                            CE5FBD39DA104F709A71918C /* Sources */,
+                            F5E9EE124A404FD5977A82D4 /* Resources */,
+                            29A01490927A478EA322DE08 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              CE5FBD39DA104F709A71918C /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D7ED61C60C51407DA601F21A /* ALL_BUILD */,
+                            7A1A7FB0C7C64718BAB8D5C1 /* ZERO_CHECK */,
+                            13EFE1491049475EA94746F7 /* gdcmzlib */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              F5E9EE124A404FD5977A82D4 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              D7ED61C60C51407DA601F21A /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            07B903B64ECF4D75B5ACA4D1 /* CMake Rules */,
+                            660A057E29A540A7A2AB24B6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              07B903B64ECF4D75B5ACA4D1 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              7A1A7FB0C7C64718BAB8D5C1 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BDE56099F23E43A0AAEAB6EA /* CMake Rules */,
+                            660A057E29A540A7A2AB24B6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              BDE56099F23E43A0AAEAB6EA /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              13EFE1491049475EA94746F7 /* gdcmzlib */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1497727F56B44FC687FD29CE /* Source Files */,
+                            660A057E29A540A7A2AB24B6 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/CMakeLists.txt */,
+                     );
+                     name = gdcmzlib;
+                     sourceTree = "<group>";
+              };
+              1497727F56B44FC687FD29CE /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            64C7586950E64DD48E247E31 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/adler32.c */,
+                            5CEB4EA6CC094488AA71C751 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/compress.c */,
+                            5924F75B302549FE8A99C2AE /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/crc32.c */,
+                            7487D5BB577B45F385DA59B8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/deflate.c */,
+                            5A06AD93394444FC819FED26 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/gzio.c */,
+                            C1AAF06EEEC14C1589964862 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/infback.c */,
+                            8992FA61EC8E4DC8AD0E4246 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inffast.c */,
+                            F3218E97610D4554A5BA2EB8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inflate.c */,
+                            6C1A2B46F4E04AC9B5DE3A55 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inftrees.c */,
+                            0903B48C11E54CF29A0FB696 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/trees.c */,
+                            0ED8FDF4A6844DA9943797D2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/uncompr.c */,
+                            3245230A0495462586CCE778 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/zutil.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              29A01490927A478EA322DE08 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0B7D8E376C114B50B286FBD0 /* gdcmzlib */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              B72FAD37061C46F29C92CEA2 /* gdcmzlib */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 3D45DA1EAF624A45A076594E /* Build configuration list for PBXNativeTarget "gdcmzlib" */;
+                     buildPhases = (
+                            6A8F9B60C8B44771989F2348 /* Sources */,
+                            EB4040856C50472E89A2C85E /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            8C679EEA65DA4942B671D526 /* PBXTargetDependency */,
+                     );
+                     name = gdcmzlib;
+                     productName = gdcmzlib;
+                     productReference = 0B7D8E376C114B50B286FBD0 /* gdcmzlib */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              ABA16A1A818D40FC905E0A5A /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 6F038A51E1C14B4EA086D77F /* Build configuration list for PBXProject  "GDCMZLIB" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            7369A6C4DEDB4069A5CCD4E3 /* Debug */,
+                            FE1C7AC183374D6F8E524F5A /* Release */,
+                            9DF0E6EBA08B4DF8BA986D27 /* MinSizeRel */,
+                            A7F7CB6BB02F42729E55D16D /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 5FD9EB5163C04631A16EA54B;
+                     projectDirPath = "/Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib";
+                     projectRoot = "";
+                     targets = (
+                            041185DB5CEB41BD86A40362 /* ALL_BUILD */,
+                            5755F2EA557E4E958A509018 /* ZERO_CHECK */,
+                            B72FAD37061C46F29C92CEA2 /* gdcmzlib */,
+                            B8CC321C124C4C689685979F /* install */,
+                            75E0F7E0A7594D5E9AC69F34 /* package */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              A472F44A6A4043339BFE48D5 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              11A931D46EF64835B85F9479 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              343CCA175E364926B8B3DA8D /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              5606A9AFEFF24DC2A8C18CB1 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              EB4040856C50472E89A2C85E /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/CMakeScripts/gdcmzlib_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              BD4417BC87DF4189AE246939 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              52D9C580C158473EA372E5B3 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              EBD35E505F464EB19F686732 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              1147FAC3C8144BB182AA8DD5 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib -f /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              6A8F9B60C8B44771989F2348 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            C698D273F4384D089AFFB69E /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/adler32.c */,
+                            C9628CE60FFC428B88A67D0A /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/compress.c */,
+                            1FF9F3D37C3B4A6B85A050FA /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/crc32.c */,
+                            1D6E1E915EC94F6F99B3E74C /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/deflate.c */,
+                            83FA71AEA4D741C2B8C41C30 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/gzio.c */,
+                            23396F69F9044BA6BA581111 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/infback.c */,
+                            24FB3C8109FF4A9F830491A8 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inffast.c */,
+                            C21A8B91B3714DB48D95EC0B /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inflate.c */,
+                            7594CD2B118B4EAE8099837D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/inftrees.c */,
+                            5375F4DAED8E4C3E86A4467D /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/trees.c */,
+                            FED1223A6825441BBE3C83A2 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/uncompr.c */,
+                            BAC8F7A529AA495B858B60F5 /* /Users/dan/Documents/xcode/alt/gdcm-2.2.0/Utilities/gdcmzlib/zutil.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              8C679EEA65DA4942B671D526 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5755F2EA557E4E958A509018 /* ZERO_CHECK */;
+                     targetProxy = 2CD8630F9BE542E7AAE31754 /* PBXContainerItemProxy */;
+              };
+              B0A71DAFA7B349398510C241 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B72FAD37061C46F29C92CEA2 /* gdcmzlib */;
+                     targetProxy = 42461D745E42436CADC064BC /* PBXContainerItemProxy */;
+              };
+              0A493C2BE07D49E298740DC0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 041185DB5CEB41BD86A40362 /* ALL_BUILD */;
+                     targetProxy = 86231EE81463496F92540DCB /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              BFA3D6A32AD2432C9B842024 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/build;
+                     };
+                     name = Debug;
+              };
+              346C3022EE304DEDA0AE5513 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/build;
+                     };
+                     name = Release;
+              };
+              64ABA5776DC744EA9814A6F3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/build;
+                     };
+                     name = MinSizeRel;
+              };
+              A5518FCE19884D7B9E53BCF5 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              61F6F35547544B02BEDA12BD /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C04AAD7D49084E0BBBF7467F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              331F2AF02B9C4B7A8016DA60 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D1E2D497C3384E19914D5475 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              38D897711755416A8ED077F3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              93751668A9874694931EC9CA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              6A246D2FB53940BA961EE572 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              218F3CC9D3074A25BA0B09C0 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              9A020FD27D994D0BA1DFC35B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmzlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3B2BD2B462A54AE39015A07C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmzlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              115E93AFD9124CE5A3143F14 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/MinSizeRel;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmzlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              784C931E17974E3D87FF10E6 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = /Users/dan/Documents/xcode/alt/gdcmbin/bin/RelWithDebInfo;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gdcmzlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              952F7FF5CB8A4CF2A7903949 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              760ED46DAE12418086080AE5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              7DB6943E08B04D748A61D739 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              417BD9A3A7AB43F085FA5907 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              84FF7181C16A4C1F848DED09 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              52756C69F8334088BB67D86E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              3F69DD1803054567A7146594 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7114CFF4F31B464C8BD693B1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dan/Documents/xcode/alt/gdcmbin/Utilities/gdcmzlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              6F038A51E1C14B4EA086D77F /* Build configuration list for PBXProject  "GDCMZLIB" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BFA3D6A32AD2432C9B842024 /* Debug */,
+                            346C3022EE304DEDA0AE5513 /* Release */,
+                            64ABA5776DC744EA9814A6F3 /* MinSizeRel */,
+                            A5518FCE19884D7B9E53BCF5 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A9D0FD232E664275AE1CA4DF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            61F6F35547544B02BEDA12BD /* Debug */,
+                            C04AAD7D49084E0BBBF7467F /* Release */,
+                            331F2AF02B9C4B7A8016DA60 /* MinSizeRel */,
+                            D1E2D497C3384E19914D5475 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4AB9AD12088C4179BF2303A2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            38D897711755416A8ED077F3 /* Debug */,
+                            93751668A9874694931EC9CA /* Release */,
+                            6A246D2FB53940BA961EE572 /* MinSizeRel */,
+                            218F3CC9D3074A25BA0B09C0 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3D45DA1EAF624A45A076594E /* Build configuration list for PBXNativeTarget "gdcmzlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9A020FD27D994D0BA1DFC35B /* Debug */,
+                            3B2BD2B462A54AE39015A07C /* Release */,
+                            115E93AFD9124CE5A3143F14 /* MinSizeRel */,
+                            784C931E17974E3D87FF10E6 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A0227982EB944D319E934103 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            952F7FF5CB8A4CF2A7903949 /* Debug */,
+                            760ED46DAE12418086080AE5 /* Release */,
+                            7DB6943E08B04D748A61D739 /* MinSizeRel */,
+                            417BD9A3A7AB43F085FA5907 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E1A93BD8767F4BCCA7EA1C63 /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            84FF7181C16A4C1F848DED09 /* Debug */,
+                            52756C69F8334088BB67D86E /* Release */,
+                            3F69DD1803054567A7146594 /* MinSizeRel */,
+                            7114CFF4F31B464C8BD693B1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = ABA16A1A818D40FC905E0A5A;
+}

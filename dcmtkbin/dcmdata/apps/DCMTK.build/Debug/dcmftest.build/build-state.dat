@@ -1,0 +1,351 @@
+Tdcmftest
+v5
+r1
+cCheck dependencies
+cCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050801BE400000000000000AA
+t1350573028
+s170
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc
+c000000004CB701FA0000000000001708
+t1287062010
+s5896
+i"dcmtk/config/osconfig.h"
+i"dcmtk/ofstd/ofstdinc.h"
+i"dcmtk/dcmdata/dcmetinf.h"
+i"dcmtk/ofstd/ofconapp.h"
+i"dcmtk/dcmdata/dcuid.h"
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcerror.h
+c000000004CB7027D0000000000002636
+t1287062141
+s9782
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcitem.h
+c000000004CD02EBA0000000000013607
+t1288711866
+s79367
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dclist.h
+c000000004CB7027D0000000000001A2A
+t1287062141
+s6698
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcmetinf.h
+c000000004CB7027D0000000000003CE2
+t1287062141
+s15586
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcobject.h
+c000000004CCAA88D0000000000009F20
+t1288349837
+s40736
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcpcache.h
+c000000004CB7027D0000000000000EF3
+t1287062141
+s3827
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcstack.h
+c000000004CB7027E00000000000013C7
+t1287062142
+s5063
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dctag.h
+c000000004CB7027E00000000000027D3
+t1287062142
+s10195
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dctagkey.h
+c000000004CBFF1480000000000003169
+t1287647560
+s12649
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dctypes.h
+c000000004CCAA88D00000000000028DB
+t1288349837
+s10459
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcuid.h
+c000000004CD3DBC2000000000000DCEE
+t1288952770
+s56558
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcvr.h
+c000000004CB7027E00000000000028AC
+t1287062142
+s10412
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include/dcmtk/dcmdata/dcxfer.h
+c000000004CB7027F0000000000002E59
+t1287062143
+s11865
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/appender.h
+c000000004BD17ECE0000000000001921
+t1272020686
+s6433
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/config.h
+c000000004BD17ECE0000000000000877
+t1272020686
+s2167
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/config/defines.h
+c000000004BD17ECF00000000000009C8
+t1272020687
+s2504
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/helpers/lloguser.h
+c000000004BD17ECF0000000000000695
+t1272020687
+s1685
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/helpers/pointer.h
+c000000004BD17ECF00000000000012EB
+t1272020687
+s4843
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/helpers/property.h
+c000000004BD17ECF0000000000001040
+t1272020687
+s4160
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/helpers/threadcf.h
+c000000004CD7E36E000000000000163F
+t1289216878
+s5695
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/helpers/threads.h
+c000000004C123A7F0000000000000B28
+t1276263039
+s2856
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/helpers/timehelp.h
+c000000004BD17ECF00000000000013DC
+t1272020687
+s5084
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/layout.h
+c000000004BD17ECE00000000000049E0
+t1272020686
+s18912
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/logger.h
+c000000004CD7C78F0000000000002B2C
+t1289209743
+s11052
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/loglevel.h
+c000000004BD5858600000000000018EB
+t1272284550
+s6379
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/logmacro.h
+c000000004BF26D7D000000000000208D
+t1274178941
+s8333
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/ndc.h
+c000000004CFCB4770000000000002B5F
+t1291629687
+s11103
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/oflog.h
+c000000004CB703B40000000000001ACD
+t1287062452
+s6861
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/spi/apndatch.h
+c000000004BD17ECF0000000000000A60
+t1272020687
+s2656
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/spi/filter.h
+c000000004BD17ECF0000000000002961
+t1272020687
+s10593
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/spi/logevent.h
+c000000004C1F566C0000000000001F1F
+t1277122156
+s7967
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/spi/logfact.h
+c000000004BD17ECF0000000000000649
+t1272020687
+s1609
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/streams.h
+c000000004BF26D7D0000000000000459
+t1274178941
+s1113
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include/dcmtk/oflog/tstring.h
+c000000004BD17ECE00000000000004BD
+t1272020686
+s1213
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofaptr.h
+c000000004CCE8A8B0000000000001682
+t1288604299
+s5762
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcast.h
+c000000004CB702860000000000000643
+t1287062150
+s1603
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcmdln.h
+c000000004CB70286000000000000A75C
+t1287062150
+s42844
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofconapp.h
+c000000004CB702860000000000002736
+t1287062150
+s10038
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofcond.h
+c000000004CB702860000000000003668
+t1287062150
+s13928
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofconsol.h
+c000000004CB702860000000000002D32
+t1287062150
+s11570
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/offile.h
+c000000004D0B40760000000000008495
+t1292583030
+s33941
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofglobal.h
+c000000004CB702860000000000001020
+t1287062150
+s4128
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/oflist.h
+c000000004CB702860000000000005432
+t1287062150
+s21554
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofmap.h
+c000000004CD7C78F0000000000001E43
+t1289209743
+s7747
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstack.h
+c000000004CB702860000000000002387
+t1287062150
+s9095
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstd.h
+c000000004CB702860000000000008C80
+t1287062150
+s35968
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstdinc.h
+c000000004CB7028600000000000027EF
+t1287062150
+s10223
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstream.h
+c000000004CB70286000000000000149D
+t1287062150
+s5277
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofstring.h
+c000000004CB70286000000000000BC49
+t1287062150
+s48201
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/ofthread.h
+c000000004D2332ED0000000000005452
+t1294152429
+s21586
+
+N/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include/dcmtk/ofstd/oftypes.h
+c000000004CB702870000000000000E56
+t1287062151
+s3670
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.LinkFileList
+c00000000509C73860000000000000077
+t1352430470
+s119
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o
+t1352430516
+s90264
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh
+c00000000509C738600000000000000BB
+t1352430470
+s187
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest
+t1352430520
+s251488
+
+N/Users/dan/Documents/xcode/alt/dcmtkbin/include/dcmtk/config/osconfig.h
+c00000000509C723C00000000000066DF
+t1352430140
+s26335
+
+CBuild AST from /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb459e959ab4cb641^c493e959ab4cb641^---0#1#0#--18"Check dependencies36"3106DD1D-99BB-4039-B46E-155D63A6A49B-
+
+CCompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374123316.326239
+e374123316.907453
+r1
+xCompileC
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o
+x/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cca8ab5334ab4cb641^0151e834ab4cb641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc0000000000000000^3258"CompileC /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o dcmdata/apps/dcmftest.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -DUSE_NULL_SAFE_OFSTRING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/ofstd/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/oflog/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimgle/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmimage/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg8 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg12 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/libijg16 -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpeg/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmjpls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmnet/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmpstat/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmqrdb/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsign/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmsr/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmtls/include -I/Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmwlm/include -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/DerivedSources/x86_64 -I/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug -D_XOPEN_SOURCE_EXTENDED -D_BSD_SOURCE -D_BSD_COMPAT -D_OSF_SOURCE -D_DARWIN_C_SOURCE -DDEBUG -MMD -MT dependencies -MF /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.d --serialize-diagnostics /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.dia -c /Users/dan/Documents/xcode/alt/dcmtk-3.6.0/dcmdata/apps/dcmftest.cc -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.o36"7E12BBE4-728A-42D4-A955-BE7B3616180E-
+
+CLd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest normal x86_64
+s374123319.920970
+e374123320.085928
+r1
+xLd
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'
+old: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Link /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest15e0eb37ab4cb641^0c071638ab4cb641^-302"ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'ld: warning: directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'3(21%IDEActivityLogMessage2@88"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug'-374123319#0#102#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug'-374123319#102#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@86"Directory not found for option '-L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug'-374123319#202#100#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1213"Ld /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest normal x86_64    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/ofstd -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog/Debug -L/Users/dan/Documents/xcode/alt/dcmtkbin/oflog -F/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug -filelist /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Objects-normal/x86_64/dcmftest.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/dan/Documents/xcode/alt/dcmtkbin/ofstd/libsrc/Debug/libofstd.a /usr/lib/libz.dylib -o /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/Debug/dcmftest36"C670B71C-6244-4424-9C24-A129DFE13393-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh
+s374123354.007098
+e374123354.149810
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmftest.Debug
+omake[1]: Nothing to be done for `PostBuild.dcmftest.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmftest.Debug
+omake[1]: Nothing to be done for `PostBuild.dcmftest.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'9b75025aab4cb641^4e9a2e5aab4cb641^-650"echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmftest.Debugmake[1]: Nothing to be done for `PostBuild.dcmftest.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmftest.Debugmake[1]: Nothing to be done for `PostBuild.dcmftest.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-374123354#0#30#-0#-----2@23"Depend check for xcode-374123354#30#23#-0#-----2@200"cd /Users/dan/Documents/xcode/alt/dcmtkbin && make -C /Users/dan/Documents/xcode/alt/dcmtkbin -f /Users/dan/Documents/xcode/alt/dcmtkbin/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmftest.Debug-374123354#53#200#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.dcmftest.Debug'.-374123354#253#60#-0#-----2@30"echo "Depend check for xcode"-374123354#313#30#-0#-----2@23"Depend check for xcode-374123354#343#23#-0#-----2@224"cd /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata && make -C /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata -f /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.dcmftest.Debug-374123354#366#224#-0#-----2@60"make[1]: Nothing to be done for `PostBuild.dcmftest.Debug'.-374123354#590#60#-0#-----0#0#0#--352"PhaseScriptExecution "CMake PostBuild Rules" /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh    cd /Users/dan/Documents/xcode/alt/dcmtk-3.6.0    /bin/sh -c /Users/dan/Documents/xcode/alt/dcmtkbin/dcmdata/apps/DCMTK.build/Debug/dcmftest.build/Script-A01E57B6587E4EB6A0CA2046.sh36"8754974C-7E08-49AA-B2FF-E5143F65416C-
+
